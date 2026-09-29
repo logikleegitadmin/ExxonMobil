@@ -1,0 +1,58 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "global-settings_uiConfig",
+      "name": "global-settings",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-08-19T01:51:57.525-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "global-settings"
+            },
+            "jsonData": {
+              "config": {
+                "environmentIndicator": {
+                  "indicatorVisible": false,
+                  "showTenantType": false,
+                  "color": "blue",
+                  "envName": "Tenant Label"
+                },
+                "dataDefaults": {
+                  "entityTypes": {
+                    "thing": [
+                      "emequipmenttag",
+                      "empr",
+                      "emrspl",
+                      "emrspllineitem",
+                      "emspir",
+                      "emspiritem",
+                      "embillofmaterials",
+                      "emfieldlocation",
+                      "emprlineitem",
+                      "emplantitem"
+                    ],
+                    "party": [
+                      "emprtsupplier",
+                      "emprtequipmentpo"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

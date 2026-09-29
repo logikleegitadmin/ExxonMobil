@@ -1,0 +1,151 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository_uiConfig",
+      "name": "app-repository",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-11T01:49:18.239-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "app-repository"
+            },
+            "jsonData": {
+              "config": {
+                "download-template": {
+                  "title": "{[DwnTemTxt]}",
+                  "dataRoute": "download-template",
+                  "icon": "pebble-icon:text",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-business-function",
+                    "path": "../app-business-function/app-business-function.js",
+                    "properties": {
+                      "name": "rock-wizard-template-download"
+                    }
+                  }
+                },
+                "search-party": {
+                  "title": "{[SeaTxt]}",
+                  "subtitle": "{[ParSRAppTit]}",
+                  "dataRoute": "search-party",
+                  "icon": "pebble-icon:party-search",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "nonSharable": true,
+                  "noSettings": false,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-entity-discovery",
+                    "path": "../app-entity-discovery/app-entity-discovery.js",
+                    "properties": {
+                      "domain": "party"
+                    }
+                  }
+                },
+                "basemodel-party-dashboard": {
+                  "title": "{[BasParDasAppTit]}",
+                  "dataRoute": "basemodel-party-dashboard",
+                  "icon": "pebble-icon:dashboard-data",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "nonSharable": true,
+                  "noSettings": true,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-dashboard",
+                    "path": "../app-dashboard/app-dashboard.js",
+                    "properties": {
+                      "mode": "edit"
+                    }
+                  }
+                },
+                "search-digitalasset": {
+                  "enabled": false
+                },
+                "exxon-mobil": {
+                  "enabled": true
+                },
+                "syndicationDashboard": {
+                  "enabled": false
+                },
+                "search": {
+                  "enabled": false
+                },
+                "visualizations": {
+                  "enabled": true
+                },
+                "visualization-dashboard": {
+                  "title": "{[RepsTxt]}",
+                  "dataRoute": "visualization-dashboard",
+                  "icon": "pebble-icon:dashboard-pie-chart",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "nonSharable": true,
+                  "noSettings": true,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-entity-discovery",
+                    "path": "../app-entity-discovery/app-entity-discovery.js",
+                    "properties": {
+                      "app-name": "app-visualization-dashboard",
+                      "domain": "visualization"
+                    }
+                  }
+                },
+                "visualization-manage-dashboard": {
+                  "title": "{[MngRepsTxt]}",
+                  "dataRoute": "visualization-manage-dashboard",
+                  "icon": "pebble-icon:dashboard-pie-chart-manage",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "nonSharable": true,
+                  "noSettings": true,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-dashboard",
+                    "path": "../app-dashboard/app-dashboard.js",
+                    "properties": {
+                      "app-name": "app-visualization-manage-dashboard",
+                      "mode": "edit"
+                    }
+                  }
+                },
+                "visualization-designer": {
+                  "title": "{[DgnTxt]}",
+                  "dataRoute": "visualization-designer",
+                  "icon": "pebble-icon:dashboard-pie-chart-design",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "nonSharable": true,
+                  "noSettings": true,
+                  "refreshable": true,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-visualization",
+                    "path": "../app-visualization/app-visualization.js",
+                    "properties": {
+                      "mode": "designer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
