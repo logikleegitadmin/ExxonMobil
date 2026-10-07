@@ -1,0 +1,73 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_thing_marketingeditor_uiConfig",
+      "name": "rock-entity-search-result_thing_marketingeditor",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.460-0500",
+        "modifiedDate": "2026-08-17T07:26:13.460-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "role": "marketingeditor"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "thumbnail": {
+                        "visible": true
+                      },
+                      "pstdcolor": {
+                        "visible": true,
+                        "displaySequence": 34,
+                        "name": "pstdcolor",
+                        "header": "Color",
+                        "sortable": true
+                      },
+                      "name": {
+                        "visible": true,
+                        "displaySequence": 25,
+                        "header": "Identifier",
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "id": {
+                        "visible": false
+                      },
+                      "pstdmarketingdatascore": {
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 47,
+                        "name": "pstdmarketingdatascore",
+                        "header": "Marketing Data Score",
+                        "sortable": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

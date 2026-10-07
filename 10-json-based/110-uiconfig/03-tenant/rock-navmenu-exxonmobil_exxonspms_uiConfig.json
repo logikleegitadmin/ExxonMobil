@@ -1,0 +1,44 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu-exxonmobil_exxonspms_uiConfig",
+      "name": "rock-navmenu-exxonmobil_exxonspms",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdByService": "system",
+        "createdBy": "system",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "system_user",
+        "modifiedDate": "2026-08-28T01:20:59.667-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "exxonspms",
+              "component": "rock-navmenu"
+            },
+            "jsonData": {
+              "config": {
+                "exxon-mobil-app": {
+                  "name": "exxon-mobil-app",
+                  "title": "Exxon Mobil App",
+                  "dataRoute": "exxon-mobil-app",
+                  "icon": "pebble-icon:dashboard-context",
+                  "visible": true,
+                  "displaySequence": 130
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

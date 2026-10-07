@@ -1,0 +1,74 @@
+{
+    "entityModels": [
+        {
+            "id": "emrspllineitem_emrelbelongstoplantitem_emplantitem_graphProcessModel",
+            "name": "emrspllineitem_emrelbelongstoplantitem_emplantitem",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-08-12T06:46:14.152-0500",
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emrspllineitem_emrelbelongstoplantitem_emplantitem",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrmaterialserial": "emattrmaterialserial"
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedDate": "2026-08-12T06:58:43.191-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattrmmnumber": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

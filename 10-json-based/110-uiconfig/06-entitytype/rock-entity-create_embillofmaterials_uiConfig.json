@@ -1,0 +1,44 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-create_embillofmaterials_uiConfig",
+      "name": "rock-entity-create_embillofmaterials",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-22T01:09:15.488-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-create",
+              "entityType": "embillofmaterials"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "emattrdescription",
+                    "emattrmaterilbomnumber",
+                    "emattrequipmenttag"
+                  ],
+                  "matchConfig": {
+                    "enable-match-step": true,
+                    "match-type": "deterministic"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

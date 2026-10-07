@@ -1,0 +1,388 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu_systemadmin_uiConfig",
+      "name": "rock-navmenu_systemadmin",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-22T01:22:49.787-0500",
+        "modifiedDate": "2026-09-22T01:22:49.787-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-navmenu",
+              "role": "systemadmin"
+            },
+            "jsonData": {
+              "config": {
+                "ml-data-provisioning": {
+                  "visible": false,
+                  "subNavMenu": {
+                    "data-provisioning": {
+                      "visible": true,
+                      "actions": {
+                        "search-labeled-data": {
+                          "visible": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "configurations": {
+                  "visible": true,
+                  "subNavMenu": {
+                    "dataModels": {
+                      "visible": true,
+                      "actions": {
+                        "basemodel-uomdata-dashboard": {
+                          "visible": true
+                        },
+                        "basemodel-digitalasset-dashboard": {
+                          "visible": true
+                        },
+                        "basemodel-thing-dashboard": {
+                          "visible": true
+                        },
+                        "basemodel-referencedata-dashboard": {
+                          "visible": true
+                        },
+                        "instancedatamodel-dashboard": {
+                          "visible": false
+                        }
+                      }
+                    },
+                    "systemReferenceData": {
+                      "actions": {
+                        "taxonomymodel-dashboard": {
+                          "visible": true
+                        },
+                        "search-uomdata": {
+                          "visible": true
+                        }
+                      }
+                    },
+                    "governance": {
+                      "visible": true,
+                      "actions": {
+                        "govmodel-dashboard": {
+                          "visible": true
+                        },
+                        "authmodel-dashboard": {
+                          "visible": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "quick-actions": {
+                  "visible": true,
+                  "subNavMenu": {
+                    "upload": {
+                      "visible": true,
+                      "actions": {
+                        "uploadEntities": {
+                          "dataRoute": "upload-excel",
+                          "visible": true,
+                          "displaySequence": 10,
+                          "name": "uploadEntities",
+                          "icon": "pebble-icon:publish",
+                          "text": "Upload Excel",
+                          "contextData": {}
+                        }
+                      }
+                    },
+                    "create": {
+                      "actions": {
+                        "createProduct": {
+                          "dataRoute": "entity-create",
+                          "visible": false,
+                          "displaySequence": 10,
+                          "name": "createProduct",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "Product",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "pstdproduct"
+                            }
+                          }
+                        },
+                        "createBusinessRule": {
+                          "visible": false
+                        },
+                        "createSku": {
+                          "dataRoute": "entity-create",
+                          "visible": false,
+                          "displaySequence": 12,
+                          "name": "createSku",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "SKU",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "pstdsku"
+                            }
+                          }
+                        },
+                        "createEntity": {
+                          "dataRoute": "entity-create",
+                          "visible": false,
+                          "displaySequence": 10,
+                          "name": "createEntity",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "{[EntTxt]}",
+                          "contextData": {}
+                        },
+                        "createembillofmaterials": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 15,
+                          "name": "createembillofmaterials",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "BOM",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "embillofmaterials"
+                            }
+                          }
+                        },
+                        "createEmequipmentTag": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 10,
+                          "name": "createEmequipmentTag",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "Equipment Tag",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "emequipmenttag"
+                            }
+                          }
+                        },
+                        "createEmRspl": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 15,
+                          "name": "createEmRspl",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "RSPL",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "emrspl"
+                            }
+                          }
+                        },
+                        "createEmRsplLineItem": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 20,
+                          "name": "createEmRsplLineItem",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "RSPL Line Item",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "emrspllineitem"
+                            }
+                          }
+                        },
+                        "createEmSpir": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 25,
+                          "name": "createEmSpir",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "SPIR",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "emspir"
+                            }
+                          }
+                        },
+                        "createEmSpirItem": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 30,
+                          "name": "createEmSpirItem",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "SPIR Item",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "emspiritem"
+                            }
+                          }
+                        },
+                        "createEmPr": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 35,
+                          "name": "createEmPr",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "PR",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "empr"
+                            }
+                          }
+                        },
+                        "createEmPrLineItem": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 40,
+                          "name": "createEmPrLineItem",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "PR Line Item",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "emprlineitem"
+                            }
+                          }
+                        },
+                        "createEmPlantItem": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 40,
+                          "name": "createEmPPlantItem",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "Plant Item",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "emplantitem"
+                            }
+                          }
+                        },
+                        "createPocEmRspl": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 45,
+                          "name": "createPocEmRspl",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "POC RSPL",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "pocemrspl"
+                            }
+                          }
+                        },
+                        "createPocEmRsplLineItem": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 50,
+                          "name": "createPocEmRsplLineItem",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "POC RSPL Line Item",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "pocemrspllineitem"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "system-administration": {
+                  "visible": true,
+                  "subNavMenu": {
+                    "administration": {
+                      "visible": true,
+                      "actions": {
+                        "application-log-viewer": {
+                          "visible": true
+                        },
+                        "search-schedulejobs": {
+                          "visible": true
+                        },
+                        "context-model-dashboard": {
+                          "visible": true
+                        },
+                        "system-settings": {
+                          "visible": true
+                        },
+                        "email-config-search": {
+                          "visible": true
+                        },
+                        "search-graph-process-model": {
+                          "visible": true
+                        },
+                        "search-generic-object": {
+                          "visible": true
+                        },
+                        "search-addon-app": {
+                          "visible": true
+                        },
+                        "system-monitoring-dashboard": {
+                          "visible": false
+                        },
+                        "authmodel-setup": {
+                          "visible": true
+                        },
+                        "applicationmonitoring-dashboard": {
+                          "visible": true
+                        },
+                        "plugin-dashboard": {
+                          "visible": false
+                        },
+                        "policy-dashboard": {
+                          "visible": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "search-thing": {
+                  "dataRoute": "search-thing",
+                  "visible": true,
+                  "displaySequence": 60,
+                  "name": "search-thing",
+                  "icon": "pebble-icon:thing-search",
+                  "title": "Products"
+                },
+                "search": {
+                  "dataRoute": "",
+                  "visible": false
+                },
+                "search-digitalasset": {
+                  "dataRoute": "search-digitalasset",
+                  "visible": false,
+                  "displaySequence": 70,
+                  "name": "search-digitalasset",
+                  "icon": "pebble-icon:asset-library",
+                  "title": "Assets"
+                },
+                "search-referencedata": {
+                  "dataRoute": "search-referencedata",
+                  "visible": true,
+                  "displaySequence": 80,
+                  "name": "search-referencedata",
+                  "icon": "pebble-icon:referencedata-library",
+                  "title": "Reference Data"
+                },
+                "syndicationDashboard": {
+                  "name": "syndication-dashboard",
+                  "title": "Syndication",
+                  "dataRoute": "syndication-dashboard",
+                  "icon": "pebble-icon:{{TENANT}}-syndicationDashboard-icon",
+                  "visible": false,
+                  "displaySequence": 170
+                },
+                "exxon-mobil-app": {
+                  "visible": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

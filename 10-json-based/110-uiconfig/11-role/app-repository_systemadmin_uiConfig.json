@@ -1,0 +1,57 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository_systemadmin_uiConfig",
+      "name": "app-repository_systemadmin",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-17T13:05:58.807-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "app-repository",
+              "role": "systemadmin"
+            },
+            "jsonData": {
+              "config": {
+                "search-digitalasset": {
+                  "enabled": false
+                },
+                "exxon-mobil-app": {
+                  "enabled": false
+                },
+                "syndicationDashboard": {
+                  "enabled": false
+                },
+                "visualizations": {
+                  "enabled": true
+                },
+                "visualization-dashboard": {
+                  "enabled": true
+                },
+                "visualization-manage-dashboard": {
+                  "enabled": true
+                },
+                "visualization-designer": {
+                  "enabled": true
+                },
+                "visualization-report": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

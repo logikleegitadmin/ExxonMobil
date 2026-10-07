@@ -1,0 +1,58 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs_thing_emspir_uiConfig",
+      "name": "rock-entity-detail-tabs_thing_emspir",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.229-0500",
+        "modifiedDate": "2026-08-17T07:26:13.229-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-detail-tabs",
+              "domain": "thing",
+              "entityType": "emspir"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "relationships": {
+                    "selected": true,
+                    "component": {
+                      "properties": {
+                        "config-context": {
+                          "relationshipNames": [
+                            "emrelhasspiritems"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "summary": {
+                    "selected": false
+                  },
+                  "assets": {
+                    "selected": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

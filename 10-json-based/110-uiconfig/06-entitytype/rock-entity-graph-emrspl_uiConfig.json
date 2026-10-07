@@ -1,0 +1,51 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-graph-emrspl_uiConfig",
+      "name": "rock-entity-graph-emrspl",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-15T08:27:20.534-0500",
+        "modifiedDate": "2026-09-15T08:27:20.534-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-graph",
+              "entityType": "emrspl"
+            },
+            "jsonData": {
+              "config": {
+                "entityGraphTreeConfig": {
+                  "treeNodeTitle": "attribute:emattrrspl",
+                  "pageSize": 10,
+                  "relationships": [
+                    {
+                      "relationshipName": "emrelhasrsplitems",
+                      "treeNodeTitle": "attribute:emattrno"
+                    },
+                    {
+                      "relationshipName": "emrelbelongstorspl",
+                      "treeNodeTitle": "attribute:emattrspir"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

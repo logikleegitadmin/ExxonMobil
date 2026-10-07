@@ -1,0 +1,110 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrelassociatedrspllineitem_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrelassociatedrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-22T07:23:22.617-0500",
+        "modifiedDate": "2026-09-22T07:23:22.617-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "emrelassociatedrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": true
+                      },
+                      "name": {
+                        "visible": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {
+                    "visible": true,
+                    "actions": {
+                      "add": {
+                        "visible": true,
+                        "name": "add",
+                        "icon": "pebble-icon:link",
+                        "eventName": "relationship-action-add",
+                        "text": "{[AddTxt]}",
+                        "intent": "write"
+                      },
+                      "create-and-add": {
+                        "visible": true,
+                        "name": "create-add",
+                        "icon": "pebble-icon:add-link",
+                        "eventName": "relationship-action-create",
+                        "hideStepper": true,
+                        "text": "{[AddNewBtn]}",
+                        "intent": "write"
+                      }
+                    }
+                  }
+                },
+                "upDirectionConfig": {
+                  "visible": true,
+                  "gridConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": true
+                      },
+                      "name": {
+                        "visible": true
+                      }
+                    }
+                  },
+                  "businessActions": {
+                    "basic": {
+                      "visible": true,
+                      "actions": {
+                        "add": {
+                          "visible": true,
+                          "name": "add",
+                          "icon": "pebble-icon:link",
+                          "eventName": "relationship-action-add",
+                          "text": "{[AddTxt]}",
+                          "intent": "write"
+                        },
+                        "create-and-add": {
+                          "visible": true,
+                          "name": "create-add",
+                          "icon": "pebble-icon:add-link",
+                          "eventName": "relationship-action-create",
+                          "hideStepper": true,
+                          "text": "{[AddNewBtn]}",
+                          "intent": "write"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

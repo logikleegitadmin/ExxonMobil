@@ -1,0 +1,42 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_thing_emrspllineitem_emrelassociatedrspllineitem_uiConfig",
+      "name": "rock-entity-relationship-search-result_thing_emrspllineitem_emrelassociatedrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-22T06:19:45.514-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "domain": "thing",
+              "entityType": "emrspllineitem",
+              "relationship": "emrelassociatedrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {},
+                  "viewConfig": {}
+                },
+                "upDirectionConfig": {
+                  "visible": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

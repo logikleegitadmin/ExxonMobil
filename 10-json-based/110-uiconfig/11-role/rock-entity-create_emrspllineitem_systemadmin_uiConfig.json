@@ -1,0 +1,45 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-create_emrspllineitem_systemadmin_uiConfig",
+      "name": "rock-entity-create_emrspllineitem_systemadmin",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-28T01:05:47.954-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-create",
+              "entityType": "emrspllineitem",
+              "role": "systemadmin"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "emattroemmodel",
+                    "emattroemname",
+                    "emattroemnumber",
+                    "emattrunitpriceusd",
+                    "emattrsupplierpn",
+                    "emattrsupplier",
+                    "emattrdeliverydays"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

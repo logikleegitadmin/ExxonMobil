@@ -1,0 +1,243 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-home-widgets_media_uiConfig",
+      "name": "rock-home-widgets_media",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.481-0500",
+        "modifiedDate": "2026-08-17T07:26:13.481-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-home-widgets",
+              "role": "media"
+            },
+            "jsonData": {
+              "config": {
+                "widgetRow": 16,
+                "widgets": {
+                  "rock-my-todos": {
+                    "visible": false,
+                    "nonMaximizable": false,
+                    "nonClosable": true,
+                    "displaySequence": 10,
+                    "name": "rock-my-todos",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "../rock-my-todos/rock-my-todos.js",
+                        "name": "rock-my-todos",
+                        "properties": {
+                          "assignmentFilterValue": "all",
+                          "maximum-number-of-workflows-to-display": 20
+                        }
+                      },
+                      "position-x": 0,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "label": "{[RfsTxt]}",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "{[DWMTHeaLbl]}",
+                      "position-y": 0,
+                      "width": 6,
+                      "height": 6
+                    }
+                  },
+                  "rock-saved-searches": {
+                    "visible": true,
+                    "nonMaximizable": false,
+                    "nonClosable": true,
+                    "displaySequence": 30,
+                    "name": "rock-saved-searches",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "../rock-saved-searches/rock-saved-searches.js",
+                        "name": "rock-saved-searches",
+                        "properties": {
+                          "view-mode": true,
+                          "supportedDomains": [
+                            {
+                              "domain": "digitalAsset",
+                              "icon": "pebble-icon:asset-search"
+                            },
+                            {
+                              "domain": "thing",
+                              "icon": "pebble-icon:sandbox-search"
+                            },
+                            {
+                              "domain": "location",
+                              "icon": "pebble-icon:location-search"
+                            },
+                            {
+                              "domain": "party",
+                              "icon": "pebble-icon:party-search"
+                            },
+                            {
+                              "domain": "referenceData",
+                              "icon": "pebble-icon:tag-search"
+                            }
+                          ]
+                        }
+                      },
+                      "position-x": 0,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "label": "{[RfsTxt]}",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "{[SSTxt]}",
+                      "position-y": 5,
+                      "width": 6,
+                      "height": 5
+                    }
+                  },
+                  "rock-business-condition-search": {
+                    "visible": true,
+                    "nonClosable": true,
+                    "config": {
+                      "heading": "My Work Items - Onboarding",
+                      "position-x": 0,
+                      "position-y": 0,
+                      "width": 6,
+                      "height": 5,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "label": "{[RfsTxt]}",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "component": {
+                        "path": "../rock-business-condition-search/rock-business-condition-search.js",
+                        "name": "rock-business-condition-search",
+                        "properties": {
+                          "itemConfig": {
+                            "fields": {
+                              "thumbnailid": {
+                                "displayType": "image",
+                                "visible": true,
+                                "displaySequence": 5,
+                                "name": "thumbnailid",
+                                "width": 2,
+                                "readOnly": true
+                              },
+                              "pstdskuname": {
+                                "filterable": false,
+                                "visible": true,
+                                "isMetaDataColumn": false,
+                                "displaySequence": 10,
+                                "name": "pstdskuname",
+                                "header": "SKU Name",
+                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                "sortable": true
+                              },
+                              "pstdskunumber": {
+                                "visible": true,
+                                "displaySequence": 40,
+                                "width": 20,
+                                "name": "pstdskunumber",
+                                "header": "SKU Number",
+                                "sortable": true
+                              }
+                            }
+                          },
+                          "workflowActivityName": "pstdmediaenrichment",
+                          "context": {},
+                          "locale": "",
+                          "workflowName": "pstdmediaskuonboardingwf",
+                          "assignTo": ""
+                        }
+                      }
+                    }
+                  },
+                  "rock-business-condition-searchtwo": {
+                    "visible": true,
+                    "nonClosable": true,
+                    "config": {
+                      "heading": "My Work Items - Update",
+                      "position-x": 6,
+                      "position-y": 0,
+                      "width": 6,
+                      "height": 5,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "label": "{[RfsTxt]}",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "component": {
+                        "path": "../rock-business-condition-search/rock-business-condition-search.js",
+                        "name": "rock-business-condition-search",
+                        "properties": {
+                          "itemConfig": {
+                            "fields": {
+                              "thumbnailid": {
+                                "displayType": "image",
+                                "visible": true,
+                                "displaySequence": 5,
+                                "name": "thumbnailid",
+                                "width": 2,
+                                "readOnly": true
+                              },
+                              "pstdskuname": {
+                                "filterable": false,
+                                "visible": true,
+                                "isMetaDataColumn": false,
+                                "displaySequence": 10,
+                                "name": "pstdskuname",
+                                "header": "SKU Name",
+                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                "sortable": true
+                              },
+                              "pstdskunumber": {
+                                "visible": true,
+                                "displaySequence": 40,
+                                "width": 20,
+                                "name": "pstdskunumber",
+                                "header": "SKU Number",
+                                "sortable": true
+                              }
+                            }
+                          },
+                          "workflowActivityName": "pstdmediaenrichment",
+                          "context": {},
+                          "locale": "",
+                          "workflowName": "pstdmediaskuupdatewf",
+                          "assignTo": ""
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

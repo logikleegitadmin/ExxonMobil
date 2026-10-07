@@ -1,0 +1,133 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrelbelongstopo_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrelbelongstopo",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-10T03:53:20.137-0500",
+        "modifiedDate": "2026-09-10T03:53:20.137-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "emrelbelongstopo"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "emattrequipmentpo": {
+                        "name": "emattrequipmentpo",
+                        "visible": true,
+                        "filterable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "sortable": true,
+                        "isMetaDataColumn": false,
+                        "isRelatedEntityAttribute": true,
+                        "displaySequence": 70
+                      },
+                      "emattrequipmenttag": {
+                        "name": "emattrequipmenttag",
+                        "visible": true,
+                        "filterable": false,
+                        "sortable": true,
+                        "isMetaDataColumn": false,
+                        "isRelatedEntityAttribute": true,
+                        "displaySequence": 71
+                      },
+                      "equipmentpostatus": {
+                        "filterable": false,
+                        "visible": true,
+                        "isMetaDataColumn": false,
+                        "displaySequence": "72",
+                        "header": "Equipment PO Status",
+                        "name": "equipmentpostatus",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": false
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {}
+                },
+                "upDirectionConfig": {
+                  "visible": "false",
+                  "excludeNonContextual": false,
+                  "gridConfig": {
+                    "visible": true,
+                    "title": "",
+                    "fields": {
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "emattrequipmenttag": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrequipmenttag",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmentpo": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattrequipmentpo",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttype": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrequipmenttype",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    },
+                    "pageRangeVisible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

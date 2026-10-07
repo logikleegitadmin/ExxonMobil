@@ -1,0 +1,300 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-match-merge_emrspllineitem_uiConfig",
+      "name": "rock-match-merge_emrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.317-0500",
+        "modifiedDate": "2026-08-17T07:26:13.317-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-match-merge",
+              "entityType": "emrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "emattroempn",
+                    "emattroemname",
+                    "emattroemnumber"
+                  ],
+                  "viewSettings": {
+                    "attributes": {
+                      "emattroempn": {
+                        "name": "emattroempn",
+                        "visible": true
+                      },
+                      "emattroemname": {
+                        "name": "emattroemname",
+                        "visible": true
+                      },
+                      "emattroemnumber": {
+                        "name": "emattroemnumber",
+                        "visible": true
+                      },
+                      "emattrxomeqmt": {
+                        "name": "emattrxomeqmt",
+                        "visible": true
+                      },
+                      "emattrunitpriceusd": {
+                        "name": "emattrunitpriceusd",
+                        "visible": true
+                      },
+                      "emattrmtlspecialtools": {
+                        "name": "emattrmtlspecialtools",
+                        "visible": true
+                      },
+                      "emattrremarks": {
+                        "name": "emattrremarks",
+                        "visible": true
+                      },
+                      "emattreqmtdwg": {
+                        "name": "emattreqmtdwg",
+                        "visible": true
+                      },
+                      "emattrsuppliertag": {
+                        "name": "emattrsuppliertag",
+                        "visible": true
+                      },
+                      "emattroqtyperunit": {
+                        "name": "emattroqtyperunit",
+                        "visible": true
+                      },
+                      "emattrdwgitem": {
+                        "name": "emattrdwgitem",
+                        "visible": true
+                      },
+                      "emattrsupplierpart": {
+                        "name": "emattrsupplierpart",
+                        "visible": true
+                      },
+                      "emattrgrandtotal": {
+                        "name": "emattrgrandtotal",
+                        "visible": true
+                      },
+                      "emattrsupplierdwgpartlife": {
+                        "name": "emattrsupplierdwgpartlife",
+                        "visible": true
+                      },
+                      "emattroemmodel": {
+                        "name": "emattroemmodel",
+                        "visible": true
+                      },
+                      "emattrepairable": {
+                        "name": "emattrepairable",
+                        "visible": true
+                      },
+                      "emattrprice2y": {
+                        "name": "emattrprice2y",
+                        "visible": true
+                      },
+                      "emattrdescription": {
+                        "name": "emattrdescription",
+                        "visible": true
+                      },
+                      "emattrxpricecomsu": {
+                        "name": "emattrxpricecomsu",
+                        "visible": true
+                      },
+                      "emattrcomsu": {
+                        "name": "emattrcomsu",
+                        "visible": true
+                      },
+                      "emattr2yoperating": {
+                        "name": "emattr2yoperating",
+                        "visible": true
+                      },
+                      "emattrtotalqty": {
+                        "name": "emattrtotalqty",
+                        "visible": true
+                      },
+                      "emattroempart": {
+                        "name": "emattroempart",
+                        "visible": true
+                      },
+                      "emattroom": {
+                        "name": "emattroom",
+                        "visible": true
+                      },
+                      "emattrdeliverydays": {
+                        "name": "emattrdeliverydays",
+                        "visible": true
+                      },
+                      "emattrequipmenttag": {
+                        "name": "emattrequipmenttag",
+                        "visible": true
+                      },
+                      "emattrsupplier": {
+                        "name": "emattrsupplier",
+                        "visible": true
+                      },
+                      "emattrfieldlocation": {
+                        "name": "emattrfieldlocation",
+                        "visible": true
+                      },
+                      "emattrproject": {
+                        "name": "emattrproject",
+                        "visible": true
+                      },
+                      "emattrorganization": {
+                        "name": "emattrorganization",
+                        "visible": true
+                      },
+                      "emattrsupplierfaxnumber": {
+                        "name": "emattrsupplierfaxnumber",
+                        "visible": true
+                      },
+                      "emattrsupplieremail": {
+                        "name": "emattrsupplieremail",
+                        "visible": true
+                      },
+                      "emattrvendoridwg": {
+                        "name": "emattrvendoridwg",
+                        "visible": true
+                      },
+                      "emattrmaterialsserial": {
+                        "name": "emattrmaterialsserial",
+                        "visible": true
+                      },
+                      "emattrsupplierphno": {
+                        "name": "emattrsupplierphno",
+                        "visible": true
+                      },
+                      "emattrqtyrecommendedbyvendor": {
+                        "name": "emattrqtyrecommendedbyvendor",
+                        "visible": true
+                      },
+                      "emattrcontactphno": {
+                        "name": "emattrcontactphno",
+                        "visible": true
+                      },
+                      "emattrsupplierpn": {
+                        "name": "emattrsupplierpn",
+                        "visible": true
+                      },
+                      "emattrspecialtoolingrequired": {
+                        "name": "emattrspecialtoolingrequired",
+                        "visible": true
+                      },
+                      "emattrsupplieraddress": {
+                        "name": "emattrsupplieraddress",
+                        "visible": true
+                      },
+                      "emattrinstalledqtyperequipmenttag": {
+                        "name": "emattrinstalledqtyperequipmenttag",
+                        "visible": true
+                      },
+                      "emattroempartshorttextdescription": {
+                        "name": "emattroempartshorttextdescription",
+                        "visible": true
+                      },
+                      "emattrvendorpart": {
+                        "name": "emattrvendorpart",
+                        "visible": true
+                      },
+                      "emattrcontactemail": {
+                        "name": "emattrcontactemail",
+                        "visible": true
+                      },
+                      "emattrsuppliercontact": {
+                        "name": "emattrsuppliercontact",
+                        "visible": true
+                      },
+                      "emattroempartlongtextdescription": {
+                        "name": "emattroempartlongtextdescription",
+                        "visible": true
+                      },
+                      "emattrmmnumber": {
+                        "name": "emattrmmnumber",
+                        "visible": true
+                      },
+                      "emattrno": {
+                        "name": "emattrno",
+                        "visible": true
+                      },
+                      "emattrsparepartlifetimeinmonths": {
+                        "name": "emattrsparepartlifetimeinmonths",
+                        "visible": true
+                      },
+                      "emattrnumberoftag": {
+                        "name": "emattrnumberoftag",
+                        "visible": true
+                      },
+                      "emattrcapitalsparepart": {
+                        "name": "emattrcapitalsparepart",
+                        "visible": true
+                      },
+                      "emattrtotalquantityinstalled": {
+                        "name": "emattrtotalquantityinstalled",
+                        "visible": true
+                      },
+                      "emattrpriceperunit": {
+                        "name": "emattrpriceperunit",
+                        "visible": true
+                      },
+                      "emattrsbom": {
+                        "name": "emattrsbom",
+                        "visible": true
+                      },
+                      "emattrdeliverytimeinweeks": {
+                        "name": "emattrdeliverytimeinweeks",
+                        "visible": true
+                      },
+                      "emattrquantityfittedpertag": {
+                        "name": "emattrquantityfittedpertag",
+                        "visible": true
+                      },
+                      "emattrsparepartdrawingreference": {
+                        "name": "emattrsparepartdrawingreference",
+                        "visible": true
+                      },
+                      "emattrsbtmgnumber": {
+                        "name": "emattrsbtmgnumber",
+                        "visible": true
+                      },
+                      "emattrsparepartdescription": {
+                        "name": "emattrsparepartdescription",
+                        "visible": true
+                      },
+                      "emattroperationalsparepart": {
+                        "name": "emattroperationalsparepart",
+                        "visible": true
+                      },
+                      "emattrcommissioningsparepart": {
+                        "name": "emattrcommissioningsparepart",
+                        "visible": true
+                      },
+                      "emattrsbmtagdescription": {
+                        "name": "emattrsbmtagdescription",
+                        "visible": true
+                      },
+                      "emattrdrawingnumber": {
+                        "name": "emattrdrawingnumber",
+                        "visible": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

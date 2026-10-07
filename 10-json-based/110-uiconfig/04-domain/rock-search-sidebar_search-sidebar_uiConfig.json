@@ -1,0 +1,81 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-search-sidebar_search-sidebar_uiConfig",
+      "name": "rock-search-sidebar_search-sidebar",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-08T00:09:29.923-0500",
+        "modifiedDate": "2026-09-08T00:09:29.923-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "search-sidebar",
+              "component": "rock-search-sidebar",
+              "domain": "thing"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "plugin-search-sidebar-emattrguyanafunctionallocationhierarchyclassification-tab": {
+                    "component": {
+                      "path": "/plugin-src/search-sidebar/elements/plugin-search-sidebar/plugin-search-sidebar.js",
+                      "name": "plugin-search-sidebar",
+                      "properties": {
+                        "taxonomyAttribute": "emattrguyanafunctionallocationhierarchyclassification"
+                      }
+                    },
+                    "displaySequence": 10,
+                    "name": "plugin-search-sidebar-emattrguyanafunctionallocationhierarchyclassification-tab",
+                    "title": "Guyana Functional location Hierarchy",
+                    "enableDropdownMenu": false,
+                    "selected": true
+                  },
+                  "plugin-search-sidebar-emattrequipmentclassification-tab": {
+                    "component": {
+                      "path": "/plugin-src/search-sidebar/elements/plugin-search-sidebar/plugin-search-sidebar.js",
+                      "name": "plugin-search-sidebar",
+                      "properties": {
+                        "taxonomyAttribute": "emattrequipmentclassification"
+                      }
+                    },
+                    "displaySequence": 10,
+                    "name": "plugin-search-sidebar-emattrequipmentclassification-tab",
+                    "title": "Equipment Classification",
+                    "enableDropdownMenu": false,
+                    "selected": false
+                  },
+                  "plugin-search-sidebar-emattrmaterialclassification-tab": {
+                    "component": {
+                      "path": "/plugin-src/search-sidebar/elements/plugin-search-sidebar/plugin-search-sidebar.js",
+                      "name": "plugin-search-sidebar",
+                      "properties": {
+                        "taxonomyAttribute": "emattrmaterialclassification"
+                      }
+                    },
+                    "displaySequence": 10,
+                    "name": "plugin-search-sidebar-emattrmaterialclassification-tab",
+                    "title": "Material Classification",
+                    "enableDropdownMenu": false,
+                    "selected": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

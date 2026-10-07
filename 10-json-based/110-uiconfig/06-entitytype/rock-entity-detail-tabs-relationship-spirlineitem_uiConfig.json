@@ -1,0 +1,58 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs-relationship-spirlineitem_uiConfig",
+      "name": "rock-entity-detail-tabs-relationship-spirlineitem",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-28T05:52:44.925-0500",
+        "modifiedDate": "2026-09-28T05:52:44.925-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "exxonspms",
+              "component": "rock-entity-detail-tabs",
+              "domain": "thing",
+              "entityType": "emspir"
+            },
+            "jsonData": {
+              "config": {
+                "scrollable": true,
+                "fitContainer": false,
+                "maxAllowedTabs": 10,
+                "tabItems": {
+                  "spms-spir-lineitem-manage": {
+                    "name": "spms-spir-lineitem-manage",
+                    "title": "SPIR LineItem Relationships",
+                    "selected": false,
+                    "enableDropdownMenu": false,
+                    "visible": true,
+                    "displaySequence": 80,
+                    "component": {
+                      "name": "spms-spir-lineitem-manage",
+                      "path": "/plugin-src/exxonspms/elements/spms-spir-lineitem-manage/spms-spir-lineitem-manage.js",
+                      "properties": {
+                        "view-mode": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

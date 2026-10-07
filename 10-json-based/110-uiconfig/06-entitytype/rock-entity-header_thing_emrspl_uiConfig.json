@@ -1,0 +1,102 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-header_thing_emrspl_uiConfig",
+      "name": "rock-entity-header_thing_emrspl",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.245-0500",
+        "modifiedDate": "2026-08-17T07:26:13.245-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-header",
+              "domain": "thing",
+              "entityType": "emrspl"
+            },
+            "jsonData": {
+              "config": {
+                "headerConfig": {
+                  "emattrproject": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrproject",
+                    "label": "{model.externalName}",
+                    "displaySequence": 100
+                  },
+                  "emattrsubproject": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrsubproject",
+                    "label": "{model.externalName}",
+                    "displaySequence": 101
+                  },
+                  "emattrsupplier": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrsupplier",
+                    "label": "{model.externalName}",
+                    "displaySequence": 102
+                  },
+                  "emattrequipmentpo": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrequipmentpo",
+                    "label": "{model.externalName}",
+                    "displaySequence": 103
+                  },
+                  "emattrpricevaliditydate": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrpricevaliditydate",
+                    "label": "{model.externalName}",
+                    "displaySequence": 104
+                  },
+                  "emattrcurrency": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrcurrency",
+                    "label": "{model.externalName}",
+                    "displaySequence": 105
+                  },
+                  "emattrrspltransitionstatus": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrrspltransitionstatus",
+                    "label": "{model.externalName}",
+                    "displaySequence": 106
+                  },
+                  "emattrrsplstatus": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrrsplstatus",
+                    "label": "{model.externalName}",
+                    "displaySequence": 107
+                  },
+                  "id": {
+                    "visible": false
+                  },
+                  "name": {
+                    "visible": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

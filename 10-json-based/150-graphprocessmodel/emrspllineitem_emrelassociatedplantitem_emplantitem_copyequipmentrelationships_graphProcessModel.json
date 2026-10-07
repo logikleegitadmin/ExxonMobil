@@ -1,0 +1,84 @@
+{
+    "entityModels": [
+        {
+            "id": "emrspllineitem_emrelassociatedplantitem_emplantitem_copyequipmentrelationships_graphProcessModel",
+            "name": "emrspllineitem_emrelassociatedplantitem_emplantitem_copyequipmentrelationships",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "emrspllineitem_emrelassociatedplantitem_emplantitem",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "emrelassociatedplantitem",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "relExists": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-23T04:53:14.008-0500",
+                "modifiedDate": "2026-09-23T04:53:14.008-0500"
+            },
+            "data": {
+                "relationships": {
+                    "emrelbelongstoequipmenttag": [
+                        {
+                            "id": "emrelbelongstoequipmenttag-copy",
+                            "properties": {
+                                "externalName": "1-Equipment Tag",
+                                "strategy": "copy",
+                                "relationshipType": "association",
+                                "relatedEntityInfo": [
+                                    {
+                                        "relEntityType": "emequipmenttag"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

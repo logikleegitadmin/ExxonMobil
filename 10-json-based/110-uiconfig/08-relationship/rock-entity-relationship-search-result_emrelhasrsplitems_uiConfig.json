@@ -1,0 +1,570 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrelhasrsplitems_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrelhasrsplitems",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-28T01:59:08.587-0500",
+        "modifiedDate": "2026-09-28T01:59:08.587-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "emrelhasrsplitems"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "emattrno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 10,
+                        "name": "emattrno",
+                        "header": "No",
+                        "readOnly": true,
+                        "sortable": true,
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrxomeqmt": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 15,
+                        "name": "emattrxomeqmt",
+                        "header": "XOM Equipment",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsuppliertag": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 20,
+                        "name": "emattrsuppliertag",
+                        "header": "Supplier Tag",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrdescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 25,
+                        "name": "emattrdescription",
+                        "header": "Description",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemname": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 30,
+                        "name": "emattroemname",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "OEM Name",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroempn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 35,
+                        "name": "emattroempn",
+                        "header": "OEM P/N",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 37,
+                        "name": "emattroemnumber",
+                        "header": "OEM Number",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmmnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 40,
+                        "name": "emattrmmnumber",
+                        "header": "MM Number",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemmodel": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 45,
+                        "name": "emattroemmodel",
+                        "header": "OEM Model #",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroempart": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 47,
+                        "name": "emattroempart",
+                        "header": "OEM Part",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierpn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 50,
+                        "name": "emattrsupplierpn",
+                        "header": "Supplier P/N",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttag": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 55,
+                        "name": "emattrequipmenttag",
+                        "header": "Eqmt tag",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplier": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 57,
+                        "name": "emattrsupplier",
+                        "header": "Supplier",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrorganization": {
+                        "filterable": false,
+                        "visible": false,
+                        "editable": false,
+                        "displaySequence": 58,
+                        "name": "emattrorganization",
+                        "header": "Organization",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrproject": {
+                        "filterable": false,
+                        "visible": false,
+                        "editable": false,
+                        "displaySequence": 59,
+                        "name": "emattrproject",
+                        "header": "Project",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrunitpriceusd": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 60,
+                        "name": "emattrunitpriceusd",
+                        "header": "Unit Price (USD)",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrpriceperunit": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 62,
+                        "name": "emattrpriceperunit",
+                        "header": "Price per unit",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrqtyperunit": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 65,
+                        "name": "emattrqtyperunit",
+                        "header": "Qty per Unit",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrgrandtotal": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 67,
+                        "name": "emattrgrandtotal",
+                        "header": "Grand Total",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmtlsnspecialtools": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 70,
+                        "name": "emattrmtlsnspecialtools",
+                        "header": "Special Tools",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattreqmtdwg": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 75,
+                        "name": "emattreqmtdwg",
+                        "header": "Equipment Drawing #",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrdwgitem": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 80,
+                        "name": "emattrdwgitem",
+                        "header": "Drawing Item #",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierpart": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 85,
+                        "name": "emattrsupplierpart",
+                        "header": "Supplier Part #",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrrepairable": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 90,
+                        "name": "emattrrepairable",
+                        "header": "Repairable",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcomsu": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 95,
+                        "name": "emattrcomsu",
+                        "header": "COM/SU",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrextpricecomsu": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 97,
+                        "name": "emattrextpricecomsu",
+                        "header": "Extended Price (COM/SU)",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattr2yoperating": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 100,
+                        "name": "emattr2yoperating",
+                        "header": "2-Year Operating",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattruom": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 105,
+                        "name": "emattruom",
+                        "header": "UOM",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrtotalqty": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 107,
+                        "name": "emattrtotalqty",
+                        "header": "Total Quantity",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrdeliverydays": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 110,
+                        "name": "emattrdeliverydays",
+                        "header": "Delivery (Days)",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmaterialserial": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 115,
+                        "name": "emattrmaterialserial",
+                        "header": "Material Serial #",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierdwg": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 120,
+                        "name": "emattrsupplierdwg",
+                        "header": "Supplier Drawing Number",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrestpartlife": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 125,
+                        "name": "emattrestpartlife",
+                        "header": "Estimated Part Life",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrrsplrspllineitemstatus": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 130,
+                        "name": "emattrrsplrspllineitemstatus",
+                        "header": "RSPL / RSPL Line Item Status",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcomments": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 135,
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {
+                    "actions": {
+                      "create-and-add": {
+                        "visible": false
+                      }
+                    }
+                  }
+                },
+                "upDirectionConfig": {
+                  "visible": "false",
+                  "excludeNonContextual": false,
+                  "gridConfig": {
+                    "visible": true,
+                    "title": "",
+                    "fields": {
+                      "typeExternalName": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 10,
+                        "name": "typeExternalName",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "thumbnail": {
+                        "header": "",
+                        "name": "thumbnailid",
+                        "displayType": "image",
+                        "imageSrc": "entityThumbnail",
+                        "visible": false,
+                        "readOnly": true,
+                        "isRelatedEntityAttribute": true,
+                        "displaySequence": 5
+                      },
+                      "entityTypeIcon": {
+                        "filterable": false,
+                        "visible": true,
+                        "isMetaDataColumn": true,
+                        "iconColumn": true,
+                        "displaySequence": 5,
+                        "name": "entityTypeIcon",
+                        "sortable": false
+                      },
+                      "name": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 15,
+                        "name": "name",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "id": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 20,
+                        "name": "id",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrno",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "No",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroempartshorttextdescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattroempartshorttextdescription",
+                        "header": "Short Description",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemname": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattroemname",
+                        "header": "OEM Name",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattroemnumber",
+                        "header": "OEM P/N",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmmnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrmmnumber",
+                        "header": "MM #",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemmodel": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 75,
+                        "name": "emattroemmodel",
+                        "header": "OEM Model",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierpn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 76,
+                        "name": "emattrsupplierpn",
+                        "header": "Supplier P/N",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrrspllineitemvalidtionstatus": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 77,
+                        "name": "emattrrspllineitemvalidtionstatus",
+                        "header": "Status",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcomments": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 78,
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    },
+                    "pageRangeVisible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

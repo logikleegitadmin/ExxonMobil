@@ -1,0 +1,57 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-create_emrspllineitem_uiConfig",
+      "name": "rock-entity-create_emrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.204-0500",
+        "modifiedDate": "2026-08-17T07:26:13.204-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-create",
+              "entityType": "emrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "emattrxomeqmt",
+                    "emattrsuppliertag",
+                    "emattrdescription",
+                    "emattroemmodel",
+                    "emattroemname",
+                    "emattrremarks",
+                    "emattroempart",
+                    "emattrqtyperunit",
+                    "emattrunitpriceusd",
+                    "emattrsupplierpart",
+                    "emattruom",
+                    "emattrdeliverydays"
+                  ],
+                  "matchConfig": {
+                    "enable-match-step": true,
+                    "match-type": "deterministic"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

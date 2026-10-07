@@ -1,0 +1,160 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_emspir_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_emspir",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-28T02:31:11.695-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emspir"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrspir": {
+                        "name": "emattrspir",
+                        "header": "SPIR #",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattrcreatedby": {
+                        "name": "emattrcreatedby",
+                        "header": "Created By",
+                        "visible": false,
+                        "sortable": true,
+                        "displaySequence": 31
+                      },
+                      "emattrcreateddate": {
+                        "name": "emattrcreateddate",
+                        "header": "Created Date",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrpricevaliditydate": {
+                        "name": "emattrpricevaliditydate",
+                        "header": "Price Validity Date",
+                        "displaySequence": 30,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrspirspiritemstatus": {
+                        "name": "emattrspirspiritemstatus",
+                        "header": "SPIR/SPIR Item Status",
+                        "displaySequence": 39,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrcomments": {
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "displaySequence": 45,
+                        "visible": true,
+                        "sortable": false,
+                        "editable": true
+                      },
+                      "emattrdescription": {
+                        "visible": false
+                      },
+                      "emattrrspl": {
+                        "name": "emattrrspl",
+                        "header": "RSPL #",
+                        "displaySequence": 11,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrpackagedescription": {
+                        "name": "emattrpackagedescription",
+                        "header": "Package Description",
+                        "displaySequence": 16,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrproject": {
+                        "name": "emattrproject",
+                        "header": "Project",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattrsubproject": {
+                        "name": "emattrsubproject",
+                        "header": "Sub Project",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrequipmentpo": {
+                        "name": "emattrequipmentpo",
+                        "header": "Equipment PO Number",
+                        "displaySequence": 12,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrprice": {
+                        "name": "emattrprice",
+                        "header": "Price",
+                        "displaySequence": 26,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrsupplier": {
+                        "visible": false
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

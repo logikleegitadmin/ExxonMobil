@@ -1,0 +1,55 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "global-settings_systemadmin_uiConfig",
+      "name": "global-settings_systemadmin",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-18T07:10:01.175-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "global-settings",
+              "role": "systemadmin"
+            },
+            "jsonData": {
+              "config": {
+                "environmentIndicator": {
+                  "color": "blue",
+                  "envName": "Tenant Label"
+                },
+                "dataDefaults": {
+                  "entityTypes": {
+                    "thing": [
+                      "emequipmenttag",
+                      "empr",
+                      "emrspl",
+                      "emrspllineitem",
+                      "emspir",
+                      "emspiritem",
+                      "emprlineitem",
+                      "emplantitem",
+                      "embillofmaterials"
+                    ]
+                  }
+                },
+                "applicationLabel": {
+                  "text": "Enterprise Data Suite"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "entityModels": [
+        {
+            "id": "emrspllineitem_emrelbelongstoplantitem_emplantitem_deleteRel_graphProcessModel",
+            "name": "emrspllineitem_emrelbelongstoplantitem_emplantitem_deleteRel",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "isDeleteConfig": true,
+                "graphProcessPath": "emrspllineitem_emrelbelongstoplantitem_emplantitem",
+                "actionName": "deleterelationship",
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-08-26T06:27:14.874-0500",
+                "modifiedDate": "2026-08-26T06:27:14.874-0500"
+            }
+        }
+    ]
+}

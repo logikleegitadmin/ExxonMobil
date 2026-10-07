@@ -1,0 +1,258 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_emspiritem_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_emspiritem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-16T05:58:47.089-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emspiritem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrno": {
+                        "name": "emattrno",
+                        "header": "No",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattrspirdescription": {
+                        "name": "emattrspirdescription",
+                        "header": "SPIR Description",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattroempn": {
+                        "name": "emattroempn",
+                        "header": "OEM P/N",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrsupplierpn": {
+                        "name": "emattrsupplierpn",
+                        "header": "Supplier P/N",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrmmnumber": {
+                        "name": "emattrmmnumber",
+                        "header": "MM Number",
+                        "displaySequence": 30,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrequipmenttag": {
+                        "name": "emattrequipmenttag",
+                        "header": "Equipment Tag",
+                        "displaySequence": 35,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrleadtimedays": {
+                        "name": "emattrleadtimedays",
+                        "header": "Lead Time (Days)",
+                        "displaySequence": 40,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrinstlqtyspir": {
+                        "name": "emattrinstlqtyspir",
+                        "header": "Installation Qty (SPIR)",
+                        "displaySequence": 45,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattr2yrcapoes": {
+                        "name": "emattr2yrcapoes",
+                        "header": "2YR/CAP (OES)",
+                        "displaySequence": 50,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattr2yrcapepcsme": {
+                        "name": "emattr2yrcapepcsme",
+                        "header": "2YR/CAP (EPC SME)",
+                        "displaySequence": 55,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattr2yrcapemsme": {
+                        "name": "emattr2yrcapemsme",
+                        "header": "2YR/CAP (EM SME)",
+                        "displaySequence": 60,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattr2yrcapspt": {
+                        "name": "emattr2yrcapspt",
+                        "header": "2YR/CAP (SPT)",
+                        "displaySequence": 65,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrcsuoes": {
+                        "name": "emattrcsuoes",
+                        "header": "C/SU (OES)",
+                        "displaySequence": 70,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrcsuepcsme": {
+                        "name": "emattrcsuepcsme",
+                        "header": "C/SU (EPC SME)",
+                        "displaySequence": 75,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrcsuemsme": {
+                        "name": "emattrcsuemsme",
+                        "header": "C/SU (EM SME)",
+                        "displaySequence": 80,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrcsuspt": {
+                        "name": "emattrcsuspt",
+                        "header": "C/SU (SPT)",
+                        "displaySequence": 85,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrspiritemunitpriceusd": {
+                        "name": "emattrspiritemunitpriceusd",
+                        "header": "Unit Price (USD)",
+                        "displaySequence": 90,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattriscapital": {
+                        "name": "emattriscapital",
+                        "header": "Is Capital",
+                        "displaySequence": 95,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrpartcf": {
+                        "name": "emattrpartcf",
+                        "header": "Part CF",
+                        "displaySequence": 100,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattreqmtcf": {
+                        "name": "emattreqmtcf",
+                        "header": "Equipment CF",
+                        "displaySequence": 110,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrisbrownfield": {
+                        "name": "emattrisbrownfield",
+                        "header": "Is Brown Field",
+                        "displaySequence": 115,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrcomments": {
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "displaySequence": 120,
+                        "visible": true,
+                        "sortable": false,
+                        "editable": true
+                      },
+                      "emattrsupplier": {
+                        "visible": false
+                      },
+                      "emattrstatus": {
+                        "visible": false
+                      },
+                      "emattrpricevaliditydate": {
+                        "visible": false
+                      },
+                      "emattrdescription": {
+                        "visible": false
+                      },
+                      "emattrdate": {
+                        "visible": false
+                      },
+                      "emattrcreaterspl": {
+                        "name": "emattrcreaterspl",
+                        "header": "Create RSPL",
+                        "displaySequence": 125,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

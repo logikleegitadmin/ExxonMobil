@@ -1,0 +1,160 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-match-merge_emplantitem_uiConfig",
+      "name": "rock-match-merge_emplantitem",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.310-0500",
+        "modifiedDate": "2026-08-17T07:26:13.310-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-match-merge",
+              "entityType": "emplantitem"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "emattroempn",
+                    "emattroemname",
+                    "emattroemnumber"
+                  ],
+                  "viewSettings": {
+                    "attributes": {
+                      "emattroempn": {
+                        "name": "emattroempn",
+                        "visible": true
+                      },
+                      "emattroemname": {
+                        "name": "emattroemname",
+                        "visible": true
+                      },
+                      "emattroemnumber": {
+                        "name": "emattroemnumber",
+                        "visible": true
+                      },
+                      "emattrisbrownfield": {
+                        "name": "emattrisbrownfield",
+                        "visible": true
+                      },
+                      "emattrspirdescription": {
+                        "name": "emattrspirdescription",
+                        "visible": true
+                      },
+                      "emattrelatedtimedays": {
+                        "name": "emattrelatedtimedays",
+                        "visible": true
+                      },
+                      "emattrcsuoes": {
+                        "name": "emattrcsuoes",
+                        "visible": true
+                      },
+                      "emattrinstlqtyspir": {
+                        "name": "emattrinstlqtyspir",
+                        "visible": true
+                      },
+                      "emattriscapital": {
+                        "name": "emattriscapital",
+                        "visible": true
+                      },
+                      "emattrequipmenttag": {
+                        "name": "emattrequipmenttag",
+                        "visible": true
+                      },
+                      "emattr2yrcapoes": {
+                        "name": "emattr2yrcapoes",
+                        "visible": true
+                      },
+                      "emattrspiritemunitpriceusd": {
+                        "name": "emattrspiritemunitpriceusd",
+                        "visible": true
+                      },
+                      "emattrcomments": {
+                        "name": "emattrcomments",
+                        "visible": true
+                      },
+                      "emattrsupplierpn": {
+                        "name": "emattrsupplierpn",
+                        "visible": true
+                      },
+                      "emattrno": {
+                        "name": "emattrno",
+                        "visible": true
+                      },
+                      "emattr2yrcapemsme": {
+                        "name": "emattr2yrcapemsme",
+                        "visible": true
+                      },
+                      "emattrpartcf": {
+                        "name": "emattrpartcf",
+                        "visible ": true
+                      },
+                      "emattr2yrcapepcsme": {
+                        "name": "emattr2yrcapepcsme",
+                        "visible ": true
+                      },
+                      "emattreqmtcf": {
+                        "name": "emattreqmtcf",
+                        "visible ": true
+                      },
+                      "emattr2yrcapspt": {
+                        "name": "emattr2yrcapspt",
+                        "visible ": true
+                      },
+                      "emattrcsuemsme": {
+                        "name": "emattrcsuemsme",
+                        "visible ": true
+                      },
+                      "emattrsupplier": {
+                        "name": "emattrsupplier",
+                        "visible ": true
+                      },
+                      "emattrfieldlocation": {
+                        "name": "emattrfieldlocation",
+                        "visible ": true
+                      },
+                      "emattrmmnumber": {
+                        "name": "emattrmmnumber",
+                        "visible ": true
+                      },
+                      "emattrcsuepcsme": {
+                        "name": "emattrcsuepcsme",
+                        "visible ": true
+                      },
+                      "emattrproject": {
+                        "name": "emattrproject",
+                        "visible ": true
+                      },
+                      "emattrorganization": {
+                        "name": "emattrorganization",
+                        "visible ": true
+                      },
+                      "emattrcsuspt": {
+                        "name": "emattrcsuspt",
+                        "visible ": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

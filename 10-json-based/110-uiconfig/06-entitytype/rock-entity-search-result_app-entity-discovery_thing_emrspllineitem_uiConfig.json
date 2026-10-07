@@ -1,0 +1,147 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_emrspllineitem_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_emrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-28T05:30:06.383-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrdescription": {
+                        "name": "emattrdescription",
+                        "header": "Description",
+                        "displaySequence": 16,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattroemname": {
+                        "name": "emattroemname",
+                        "header": "OEM Name",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattroemmodel": {
+                        "name": "emattroemmodel",
+                        "header": "OEM Model #",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrsuppliertag": {
+                        "name": "emattrsuppliertag",
+                        "header": "Supplier Tag",
+                        "displaySequence": 25,
+                        "visible": false,
+                        "sortable": true
+                      },
+                      "emattrsupplier": {
+                        "visible": false
+                      },
+                      "emattrequipmenttag": {
+                        "visible": true,
+                        "displaySequence": 35
+                      },
+                      "emattrstatus": {
+                        "displaySequence": 40
+                      },
+                      "emattrpricevaliditydate": {
+                        "visible": false
+                      },
+                      "emattrdate": {
+                        "visible": false
+                      },
+                      "emattrsupplierpn": {
+                        "name": "emattrsupplierpn",
+                        "header": "Supplier P/N",
+                        "displaySequence": 30,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrcomments": {
+                        "displaySequence": 45
+                      },
+                      "emattrmmnumber": {
+                        "name": "emattrmmnumber",
+                        "header": "MM Number",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrno": {
+                        "name": "emattrno",
+                        "header": "No",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattroempn": {
+                        "name": "emattroempn",
+                        "header": "OEM P/N",
+                        "displaySequence": 16,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrproject": {
+                        "displaySequence": 12
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

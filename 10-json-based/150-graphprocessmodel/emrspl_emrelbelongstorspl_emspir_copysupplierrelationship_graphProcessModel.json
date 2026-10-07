@@ -1,0 +1,84 @@
+{
+    "entityModels": [
+        {
+            "id": "emrspl_emrelbelongstorspl_emspir_copysupplierrelationship_graphProcessModel",
+            "name": "emrspl_emrelbelongstorspl_emspir_copysupplierrelationship",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emrspl_emrelbelongstorspl_emspir",
+                "matchRulesOperator": "and",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrspirsystemkey": "emattrspirsystemkey"
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "emattrspirsystemkey"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "spms.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spms.systemadmin@syndigo.com_user",
+                "createdDate": "2026-10-01T02:43:49.981-0500",
+                "modifiedDate": "2026-10-01T02:43:49.981-0500"
+            },
+            "data": {
+                "relationships": {
+                    "emrelassociatedsupplier": [
+                        {
+                            "id": "3_0_0",
+                            "properties": {
+                                "externalName": "Supplier",
+                                "strategy": "copyWhenNotLocal",
+                                "strategyMode": "merge",
+                                "relationshipType": "association",
+                                "relatedEntityInfo": [
+                                    {
+                                        "relEntityType": "emprtsupplier"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

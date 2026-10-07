@@ -1,0 +1,58 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs-relationship-match_uiConfig",
+      "name": "rock-entity-detail-tabs-relationship-match",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdBy": "system_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "system_user",
+        "createdDate": "2026-09-09T00:51:48.284-0500",
+        "modifiedDate": "2026-09-09T00:51:48.284-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "exxonspms",
+              "component": "rock-entity-detail-tabs",
+              "domain": "thing",
+              "entityType": "emrspl"
+            },
+            "jsonData": {
+              "config": {
+                "scrollable": true,
+                "fitContainer": false,
+                "maxAllowedTabs": 10,
+                "tabItems": {
+                  "exxonspms-relationship-match": {
+                    "name": "exxonspms-relationship-match",
+                    "title": "Relationship Match",
+                    "selected": false,
+                    "enableDropdownMenu": false,
+                    "visible": true,
+                    "displaySequence": 80,
+                    "component": {
+                      "name": "exxonspms-relationship-match",
+                      "path": "/plugin-src/exxonspms/elements/exxonspms-relationship-match/exxonspms-relationship-match.js",
+                      "properties": {
+                        "view-mode": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

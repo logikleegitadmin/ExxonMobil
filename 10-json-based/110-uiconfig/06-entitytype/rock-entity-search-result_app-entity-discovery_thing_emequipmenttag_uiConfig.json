@@ -1,0 +1,89 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_emequipmenttag_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_emequipmenttag",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.263-0500",
+        "modifiedDate": "2026-08-17T07:26:13.263-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emequipmenttag"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrequipmenttag": {
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattrsupplier": {
+                        "visible": false
+                      },
+                      "emattrstatus": {
+                        "visible": false
+                      },
+                      "emattrdate": {
+                        "visible": false
+                      },
+                      "emattrpricevaliditydate": {
+                        "visible": false
+                      },
+                      "emattrdescription": {
+                        "visible": false
+                      },
+                      "emattrcomments": {
+                        "visible": false
+                      },
+                      "emattrequipmentshortdescription": {
+                        "visible": true
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

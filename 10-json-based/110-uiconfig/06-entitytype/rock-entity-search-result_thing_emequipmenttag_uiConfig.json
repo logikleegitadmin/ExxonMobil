@@ -1,0 +1,114 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_thing_emequipmenttag_uiConfig",
+      "name": "rock-entity-search-result_thing_emequipmenttag",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.295-0500",
+        "modifiedDate": "2026-08-17T07:26:13.295-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emequipmenttag"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrpackagenumber": {
+                        "name": "emattrpackagenumber",
+                        "header": "Package Number",
+                        "displaySequence": 30,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrequipmenttag": {
+                        "name": "emattrequipmenttag",
+                        "header": "Equipment Tag",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrequipmentpo": {
+                        "name": "emattrequipmentpo",
+                        "header": "Equipment PO #",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "viewassets": {
+                        "displaySequence": 55
+                      },
+                      "emattrequipmentpotype": {
+                        "name": "emattrequipmentpotype",
+                        "header": "Equipment PO Type",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrpackagedescription": {
+                        "name": "emattrpackagedescription",
+                        "header": "Package Description",
+                        "displaySequence": 35,
+                        "visible": true,
+                        "sortable": false,
+                        "editable": true
+                      },
+                      "emattrequipmentshortdescription": {
+                        "name": "emattrequipmentshortdescription",
+                        "header": "Equipment Short Description",
+                        "displaySequence": 40,
+                        "visible": true,
+                        "editable": true
+                      },
+                      "id": {
+                        "displaySequence": 60
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

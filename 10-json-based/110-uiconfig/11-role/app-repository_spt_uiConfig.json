@@ -1,0 +1,68 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository_spt_uiConfig",
+      "name": "app-repository_spt",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-24T07:02:20.619-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "app-repository",
+              "role": "spt"
+            },
+            "jsonData": {
+              "config": {
+                "taxonomymodel-dashboard": {
+                  "title": "{[TCARTit]}",
+                  "dataRoute": "taxonomymodel-dashboard",
+                  "icon": "pebble-icon:dashboard-taxonomy",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "nonSharable": true,
+                  "noSettings": true,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-dashboard",
+                    "path": "../app-dashboard/app-dashboard.js",
+                    "properties": {
+                      "mode": "edit"
+                    }
+                  }
+                },
+                "search-digitalasset": {
+                  "title": "{[SeaTxt]}",
+                  "subtitle": "{[DASRAppTit]}",
+                  "dataRoute": "search-digitalasset",
+                  "icon": "pebble-icon:asset-library",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "nonSharable": true,
+                  "noSettings": false,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-entity-discovery",
+                    "path": "../app-entity-discovery/app-entity-discovery.js",
+                    "properties": {
+                      "domain": "digitalAsset"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

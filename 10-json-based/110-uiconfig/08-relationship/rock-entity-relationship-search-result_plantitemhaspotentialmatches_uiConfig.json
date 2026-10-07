@@ -1,0 +1,209 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_plantitemhaspotentialmatches_uiConfig",
+      "name": "rock-entity-relationship-search-result_plantitemhaspotentialmatches",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-25T04:32:08.994-0500",
+        "modifiedDate": "2026-09-25T04:32:08.994-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "plantitemhaspotentialmatches"
+            },
+            "jsonData": {
+              "config": {
+                "upDirectionConfig": {
+                  "visible": true,
+                  "gridConfig": {
+                    "fields": {
+                      "typeExternalName": {
+                        "visible": true
+                      },
+                      "name": {
+                        "visible": true,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "id": {
+                        "visible": false
+                      }
+                    }
+                  },
+                  "businessActions": {
+                    "basic": {
+                      "visible": true,
+                      "actions": {
+                        "add": {
+                          "visible": true,
+                          "name": "add",
+                          "icon": "pebble-icon:link",
+                          "eventName": "relationship-action-add",
+                          "text": "{[AddTxt]}",
+                          "intent": "write"
+                        },
+                        "create-and-add": {
+                          "visible": false,
+                          "name": "create-add",
+                          "icon": "pebble-icon:add-link",
+                          "eventName": "relationship-action-create",
+                          "hideStepper": true,
+                          "text": "{[AddNewBtn]}",
+                          "intent": "write"
+                        }
+                      }
+                    }
+                  }
+                },
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "typeExternalName": {
+                        "visible": true
+                      },
+                      "name": {
+                        "visible": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "id": {
+                        "visible": false
+                      },
+                      "emrelattraccept": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 18,
+                        "name": "emrelattraccept",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": false
+                      },
+                      "emattroempartshorttextdescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 20,
+                        "name": "emattroempartshorttextdescription",
+                        "header": "OEM Description",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 22,
+                        "name": "emattroemnumber",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemname": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 24,
+                        "name": "emattroemname",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierpn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 25,
+                        "name": "emattrsupplierpn",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrplantitemname": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 30,
+                        "name": "emattrplantitemname",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmmnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 35,
+                        "name": "emattrmmnumber",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsubproject": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 40,
+                        "name": "emattrsubproject",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "attrrelmatchscore": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": true,
+                        "displaySequence": 50,
+                        "name": "attrrelmatchscore",
+                        "readOnly": false,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": false
+                      }
+                    }
+                  }
+                },
+                "businessActions": {
+                  "basic": {
+                    "visible": true,
+                    "actions": {
+                      "add": {
+                        "visible": false,
+                        "name": "add",
+                        "icon": "pebble-icon:link",
+                        "eventName": "relationship-action-add",
+                        "text": "{[AddTxt]}",
+                        "intent": "write"
+                      },
+                      "create-and-add": {
+                        "visible": false,
+                        "name": "create-add",
+                        "icon": "pebble-icon:add-link",
+                        "eventName": "relationship-action-create",
+                        "hideStepper": true,
+                        "text": "{[AddNewBtn]}",
+                        "intent": "write"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
