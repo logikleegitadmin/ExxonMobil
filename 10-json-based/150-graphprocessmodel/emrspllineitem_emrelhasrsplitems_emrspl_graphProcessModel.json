@@ -1,0 +1,77 @@
+{
+    "entityModels": [
+        {
+            "id": "emrspllineitem_emrelhasrsplitems_emrspl_graphProcessModel",
+            "name": "emrspllineitem_emrelhasrsplitems_emrspl",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-24T06:48:59.436-0500",
+                "defaultValueLocale": "de-DE",
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emrspllineitem_emrelhasrsplitems_emrspl",
+                "matchRulesOperator": "and",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrrsplsystemkey": "emattrrsplsystemkey"
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "emattrrsplsystemkey"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedDate": "2026-09-24T07:00:51.086-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattrequipmentpo": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

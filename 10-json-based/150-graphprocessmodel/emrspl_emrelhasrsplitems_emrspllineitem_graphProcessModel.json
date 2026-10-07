@@ -1,0 +1,73 @@
+{
+    "entityModels": [
+        {
+            "id": "emrspl_emrelhasrsplitems_emrspllineitem_graphProcessModel",
+            "name": "emrspl_emrelhasrsplitems_emrspllineitem",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emrspl_emrelhasrsplitems_emrspllineitem",
+                "matchRulesOperator": "and",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrrsplsystemkey": "emattrrsplsystemkey"
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-24T04:37:58.588-0500",
+                "modifiedDate": "2026-09-24T04:37:58.588-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattrspirsystemkey": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrrspltransitionstatus": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

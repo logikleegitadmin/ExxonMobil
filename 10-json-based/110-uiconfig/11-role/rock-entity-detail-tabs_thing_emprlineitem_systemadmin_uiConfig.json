@@ -1,0 +1,40 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs_thing_emprlineitem_systemadmin_uiConfig",
+      "name": "rock-entity-detail-tabs_thing_emprlineitem_systemadmin",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-02T05:28:24.373-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-detail-tabs",
+              "domain": "thing",
+              "entityType": "emprlineitem",
+              "role": "systemadmin"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "graph": {
+                    "visible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

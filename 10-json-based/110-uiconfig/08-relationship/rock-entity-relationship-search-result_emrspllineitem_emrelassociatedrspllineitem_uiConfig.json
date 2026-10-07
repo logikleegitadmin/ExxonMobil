@@ -1,0 +1,58 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrspllineitem_emrelassociatedrspllineitem_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrspllineitem_emrelassociatedrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-22T07:37:51.818-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "entityType": "emrspllineitem",
+              "relationship": "emrelassociatedrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {},
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {
+                    "actions": {
+                      "create-and-add": {
+                        "visible": false
+                      }
+                    }
+                  }
+                },
+                "upDirectionConfig": {
+                  "businessActions": {
+                    "basic": {
+                      "actions": {
+                        "create-and-add": {
+                          "visible": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+    "entityModels": [
+        {
+            "id": "emprlineitem_emrelbelongstopr_empr_cusqtystring_graphProcessModel",
+            "name": "emprlineitem_emrelbelongstopr_empr_cusqtystring",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "createdService": "entityManageModelService",
+                "createdBy": "spms.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-24T04:39:43.571-0500",
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emprlineitem_emrelbelongstopr_empr_cusqtystring",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrcsuqtystring": "emattrcsuqtystring"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spms.systemadmin@syndigo.com_user",
+                "modifiedDate": "2026-09-24T12:29:55.023-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattroemnumber": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattroemname": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrorganization": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrproject": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrsubproject": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrsupplier": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrpricevaliditydate": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrcomments": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrrspl": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrspir": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrcusqtystring": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrcsuqtystring": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

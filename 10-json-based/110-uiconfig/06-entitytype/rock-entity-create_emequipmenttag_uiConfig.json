@@ -1,0 +1,48 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-create_emequipmenttag_uiConfig",
+      "name": "rock-entity-create_emequipmenttag",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-28T00:41:02.151-0500",
+        "modifiedDate": "2026-09-28T00:41:02.151-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-create",
+              "entityType": "emequipmenttag"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "emattrequipmentpo",
+                    "emattrequipmentshortdescription",
+                    "emattrequipmenttag"
+                  ],
+                  "matchConfig": {
+                    "enable-match-step": true,
+                    "match-type": "deterministic"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

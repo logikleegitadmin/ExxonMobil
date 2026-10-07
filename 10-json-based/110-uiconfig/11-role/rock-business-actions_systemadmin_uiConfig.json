@@ -1,0 +1,270 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-business-actions_systemadmin_uiConfig",
+      "name": "rock-business-actions_systemadmin",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.432-0500",
+        "modifiedDate": "2026-08-17T07:26:13.432-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-business-actions",
+              "domain": "thing",
+              "role": "systemadmin"
+            },
+            "jsonData": {
+              "config": {
+                "actionGroups": {
+                  "connectors": {
+                    "visible": true,
+                    "title": "{[BAConTit]}",
+                    "actions": {
+                      "re-publish": {
+                        "visible": true,
+                        "cop-context": {
+                          "subtype": "System",
+                          "service": "ENTITY_EXPORT",
+                          "channel": "EventHub",
+                          "format": "JSON",
+                          "source": "internal"
+                        }
+                      }
+                    }
+                  },
+                  "assignments": {
+                    "visible": true,
+                    "isWorkflowActions": true,
+                    "title": "{[BAAssTit]}",
+                    "actions": {
+                      "reassignTask": {
+                        "visible": true,
+                        "name": "reassignTask",
+                        "icon": "pebble-icon:reassign-task-filled",
+                        "eventName": "action-reassignTask",
+                        "text": "{[RsgTskTxt]}",
+                        "componentName": "rock-wizard-workflow-assignment",
+                        "intent": "read"
+                      },
+                      "releaseTask": {
+                        "visible": true,
+                        "name": "releaseTask",
+                        "icon": "pebble-icon:release-task-filled",
+                        "eventName": "action-releaseTask",
+                        "text": "{[RlsTskTxt]}",
+                        "componentName": "rock-wizard-workflow-assignment",
+                        "intent": "read"
+                      },
+                      "takeTask": {
+                        "visible": true,
+                        "name": "takeTask",
+                        "icon": "pebble-icon:take-task-filled",
+                        "eventName": "action-takeTask",
+                        "text": "{[TakTskTxt]}",
+                        "componentName": "rock-wizard-workflow-assignment",
+                        "intent": "read"
+                      }
+                    }
+                  },
+                  "reviews": {
+                    "visible": false,
+                    "title": "{[BARevLbl]}",
+                    "actions": {
+                      "matchandmerge": {
+                        "dataRoute": "match-merge",
+                        "visible": false,
+                        "name": "matchandmerge",
+                        "icon": "pebble-icon:action-take-task",
+                        "eventName": "action-matchandmerge",
+                        "threshold": 20,
+                        "text": "{[MatMerRevTxt]}",
+                        "componentName": "rock-wizard-match-merge",
+                        "intent": "read"
+                      }
+                    }
+                  },
+                  "downloads": {
+                    "visible": true,
+                    "title": "{[BADwnTit]}",
+                    "actions": {
+                      "download-in-excel": {
+                        "visible": true,
+                        "cop-context": {
+                          "subtype": "User",
+                          "service": "ENTITY_EXPORT",
+                          "channel": "UI",
+                          "format": "Excel",
+                          "source": "internal",
+                          "order": 10
+                        },
+                        "name": "download in Excel",
+                        "icon": "pebble-icon:download-excel",
+                        "eventName": "action-download",
+                        "text": "{[BADELbl]}",
+                        "componentName": "rock-wizard-entity-download",
+                        "intent": "read"
+                      },
+                      "download-in-csv": {
+                        "visible": true,
+                        "cop-context": {
+                          "subtype": "User",
+                          "service": "ENTITY_EXPORT",
+                          "channel": "UI",
+                          "format": "DSV",
+                          "source": "internal",
+                          "order": 10
+                        },
+                        "name": "download in CSV",
+                        "icon": "pebble-icon:file-type-text",
+                        "eventName": "action-download",
+                        "text": "{[BADCLbl]}",
+                        "componentName": "rock-wizard-entity-download",
+                        "intent": "read"
+                      }
+                    }
+                  },
+                  "context": {
+                    "visible": false,
+                    "title": "{[BACMTit]}",
+                    "actions": {
+                      "add-context": {
+                        "visible": true,
+                        "name": "add-context",
+                        "icon": "pebble-icon:globe",
+                        "eventName": "action-add-context",
+                        "text": "{[MngCtxTxt]}",
+                        "componentName": "rock-wizard-entity-context-manage",
+                        "intent": "write"
+                      }
+                    }
+                  },
+                  "variants": {
+                    "visible": false,
+                    "title": "{[BAVarTit]}",
+                    "actions": {
+                      "variant-configurator": {
+                        "dataRoute": "variant-configurator",
+                        "visible": false,
+                        "name": "variant",
+                        "icon": "pebble-icon:Variants",
+                        "eventName": "action-variant-configurator",
+                        "text": "{[BAVCLbl]}",
+                        "intent": "write"
+                      }
+                    }
+                  },
+                  "basic": {
+                    "visible": true,
+                    "title": "{[BABasTit]}",
+                    "actions": {
+                      "snapshots": {
+                        "visible": true,
+                        "name": "snapshots",
+                        "icon": "pebble-icon:history",
+                        "eventName": "action-view-snapshot",
+                        "text": "{[VerTxt]}",
+                        "componentName": "rock-wizard-entity-snapshot",
+                        "intent": "read",
+                        "properties": {
+                          "context": {
+                            "entityType": ""
+                          }
+                        }
+                      },
+                      "compare": {
+                        "dataRoute": "compare-entities",
+                        "visible": true,
+                        "name": "compare",
+                        "icon": "pebble-icon:action-compare",
+                        "eventName": "action-compare-entities",
+                        "threshold": 5,
+                        "text": "{[CmpTxt]}",
+                        "intent": "read"
+                      },
+                      "copy": {
+                        "visible": true,
+                        "name": "copy",
+                        "icon": "pebble-icon:action-copy",
+                        "eventName": "action-copy",
+                        "text": "{[BACopLbl]}",
+                        "intent": "read"
+                      },
+                      "paste": {
+                        "visible": true,
+                        "name": "paste",
+                        "icon": "pebble-icon:action-paste",
+                        "eventName": "action-paste",
+                        "text": "{[PasTxt]}",
+                        "componentName": "rock-wizard-entity-paste",
+                        "intent": "write"
+                      },
+                      "roll-up": {
+                        "visible": false,
+                        "name": "roll-up",
+                        "icon": "pebble-icon:group",
+                        "eventName": "action-rollup",
+                        "text": "{[BARULbl]}",
+                        "componentName": "rock-wizard-roll-up",
+                        "intent": "write",
+                        "properties": {
+                          "context": {
+                            "entityType": ""
+                          }
+                        },
+                        "subComponentName": "roll-up"
+                      }
+                    }
+                  },
+                  "transitions": {
+                    "visible": true,
+                    "isWorkflowActions": true,
+                    "title": "{[BATraLbl]}",
+                    "actions": {
+                      "wfTransition": {
+                        "visible": true,
+                        "name": "wfTransition",
+                        "icon": "pebble-icon:take-task-filled",
+                        "eventName": "action-wfTransitions",
+                        "text": "{[WfTraTxt]}",
+                        "componentName": "rock-wizard-workflow-transition",
+                        "intent": "read"
+                      }
+                    }
+                  },
+                  "uploads": {
+                    "visible": false,
+                    "title": "{[BAUplTit]}",
+                    "actions": {
+                      "upload-from-excel": {
+                        "visible": false,
+                        "name": "upload from Excel",
+                        "icon": "pebble-icon:upload-excel",
+                        "eventName": "action-upload",
+                        "text": "{[BAUELbl]}",
+                        "componentName": "rock-wizard-cloud-upload",
+                        "intent": "write"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

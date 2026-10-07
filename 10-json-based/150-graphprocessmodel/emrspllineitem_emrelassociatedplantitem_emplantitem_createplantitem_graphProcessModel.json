@@ -1,0 +1,90 @@
+{
+    "entityModels": [
+        {
+            "id": "emrspllineitem_emrelassociatedplantitem_emplantitem_createplantitem_graphProcessModel",
+            "name": "emrspllineitem_emrelassociatedplantitem_emplantitem_createplantitem",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "emrspllineitem_emrelassociatedplantitem_emplantitem",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattroemnumber": "emattroemnumber"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "spms.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spms.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-25T00:30:13.339-0500",
+                "modifiedDate": "2026-09-25T00:30:13.339-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattrsubproject": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattroemname": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattroempartshorttextdescription": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattroemnumber": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

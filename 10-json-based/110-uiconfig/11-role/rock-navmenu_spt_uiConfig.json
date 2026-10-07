@@ -1,0 +1,59 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu_spt_uiConfig",
+      "name": "rock-navmenu_spt",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-24T07:02:20.639-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-navmenu",
+              "role": "spt"
+            },
+            "jsonData": {
+              "config": {
+                "configurations": {
+                  "subNavMenu": {
+                    "systemReferenceData": {
+                      "actions": {
+                        "taxonomymodel-dashboard": {
+                          "name": "taxonomymodel-dashboard",
+                          "title": "{[TCARTit]}",
+                          "dataRoute": "taxonomymodel-dashboard",
+                          "icon": "pebble-icon:dashboard-taxonomy",
+                          "visible": true,
+                          "displaySequence": 10
+                        }
+                      },
+                      "visible": true
+                    }
+                  },
+                  "visible": true
+                },
+                "search-digitalasset": {
+                  "name": "search-digitalasset",
+                  "title": "Assets",
+                  "dataRoute": "search-digitalasset",
+                  "icon": "pebble-icon:asset-library",
+                  "visible": true,
+                  "displaySequence": 75
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

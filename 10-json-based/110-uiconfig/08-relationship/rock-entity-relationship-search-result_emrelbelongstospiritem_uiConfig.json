@@ -1,0 +1,300 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrelbelongstospiritem_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrelbelongstospiritem",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.365-0500",
+        "modifiedDate": "2026-08-17T07:26:13.365-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "emrelbelongstospiritem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "emattrno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrno",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "No",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroempn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattroempn",
+                        "header": "OEM P/N",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrspirdescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrspirdescription",
+                        "header": "Description",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierpn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrsupplierpn",
+                        "header": "Supplier P/N",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmmnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrmmnumber",
+                        "header": "MM Number",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttag": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 75,
+                        "name": "emattrequipmenttag",
+                        "header": "Eqmt Tag#",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrleadtimedays": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 76,
+                        "name": "emattrleadtimedays",
+                        "header": "Lead Time (Days)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrinstlqtyspir": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 77,
+                        "name": "emattrinstlqtyspir",
+                        "header": "Instl Qty (SPIR)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattr2yrcapoes": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 78,
+                        "name": "emattr2yrcapoes",
+                        "header": "2YR/CAP (OES)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattr2yrcapepcsme": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 79,
+                        "name": "emattr2yrcapepcsme",
+                        "header": "2YR/CAP (EPC SME)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattr2yrcapemsme": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 80,
+                        "name": "emattr2yrcapemsme",
+                        "header": "2YR/CAP (EM SME)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattr2yrcapspt": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 81,
+                        "name": "emattr2yrcapspt",
+                        "header": "2YR/CAP (SPT)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcsuoes": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 82,
+                        "name": "emattrcsuoes",
+                        "header": "C/SU (OES)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcsuepcsme": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 83,
+                        "name": "emattrcsuepcsme",
+                        "header": "C/SU (EPC SME)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcsuemsme": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 84,
+                        "name": "emattrcsuemsme",
+                        "header": "C/SU (EM SME)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcsuspt": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 85,
+                        "name": "emattrcsuspt",
+                        "header": "C/SU (SPT)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrspiritemunitpriceusd": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 86,
+                        "name": "emattrspiritemunitpriceusd",
+                        "header": "Unit Price (USD)",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattriscapital": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 87,
+                        "name": "emattriscapital",
+                        "header": "Is Capital",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrpartcf": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 88,
+                        "name": "emattrpartcf",
+                        "header": "Part CF",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattreqmtcf": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 89,
+                        "name": "emattreqmtcf",
+                        "header": "Eqmt CF",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrisbrownfield": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 90,
+                        "name": "emattrisbrownfield",
+                        "header": "Is Brown Field",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcomments": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 91,
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {}
+                },
+                "upDirectionConfig": {
+                  "visible": "false",
+                  "excludeNonContextual": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

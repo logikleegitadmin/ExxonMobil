@@ -1,1 +1,98 @@
-{"entityModels": [{"id":"emrspl_emrelbelongstorspl_emspir_graphProcessModel","name":"emrspl_emrelbelongstorspl_emspir","type":"graphProcessModel","domain":"generic","properties":{"createdService":"entityManageModelService","createdBy":"spmsds.systemadmin@syndigo.com_user","createdDate":"2026-08-28T05:35:07.549-0500","defaultValueSource":"internal","graphProcessPath":"emrspl_emrelbelongstorspl_emspir","matchRulesOperator":"and","matchRules":[{"seq":1,"matchType":"attributeBased","attributeMaps":[{"emattrspirsystemkey":"emattrspirsystemkey"}],"smartIdAttributes":[{"attributeNames":"emattrspirsystemkey","concatDelimiter":"_"}],"noMatchResult":[{"actions":[{"actionName":"Create"},{"actionName":"CopyData"},{"actionName":"AddSourceRelationship"}]}],"singleMatchResult":[{"actions":[{"actionName":"CopyData"},{"actionName":"AddSourceRelationship"}]}],"multiMatchResult":[{"actions":[{"actionName":"Error"}]}]}],"modifiedService":"entityManageModelService","modifiedBy":"spmsds.systemadmin@syndigo.com_user","modifiedDate":"2026-09-16T04:02:26.316-0500"},"data":{"attributes":{"emattrspirsystemkey":{"properties":{"strategy":"copy"}},"emattrproject":{"properties":{"strategy":"copy"}},"emattrorganization":{"properties":{"strategy":"copy"}},"emattrsubproject":{"properties":{"strategy":"copy"}}}}}]}
+{
+    "entityModels": [
+        {
+            "id": "emrspl_emrelbelongstorspl_emspir_graphProcessModel",
+            "name": "emrspl_emrelbelongstorspl_emspir",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emrspl_emrelbelongstorspl_emspir",
+                "matchRulesOperator": "and",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrspirsystemkey": "emattrspirsystemkey"
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "emattrspirsystemkey",
+                                "concatDelimiter": "_"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "spms.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spms.systemadmin@syndigo.com_user",
+                "createdDate": "2026-10-06T00:10:16.993-0500",
+                "modifiedDate": "2026-10-06T00:10:16.993-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattrspirsystemkey": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrproject": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrorganization": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrsubproject": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

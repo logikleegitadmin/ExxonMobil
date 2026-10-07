@@ -1,0 +1,63 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-graph-emrspllineitem_uiConfig",
+      "name": "rock-entity-graph-emrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-23T00:24:11.143-0500",
+        "modifiedDate": "2026-09-23T00:24:11.143-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-graph",
+              "entityType": "emrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "entityGraphTreeConfig": {
+                  "treeNodeTitle": "attribute:emattrno",
+                  "pageSize": 10,
+                  "relationships": [
+                    {
+                      "relationshipName": "emrelbelongstoequipmenttag",
+                      "treeNodeTitle": "attribute:emattrequipmenttag"
+                    },
+                    {
+                      "relationshipName": "emrelassociatedrspllineitem",
+                      "treeNodeTitle": "attribute:emattroempn"
+                    },
+                    {
+                      "relationshipName": "plantitemhaspotentialmatches",
+                      "treeNodeTitle": "attribute:emattroempn"
+                    },
+                    {
+                      "relationshipName": "emrelhasrsplitems",
+                      "treeNodeTitle": "attribute:emattrrspl"
+                    },
+                    {
+                      "relationshipName": "emrelbelongstospiritem",
+                      "treeNodeTitle": "attribute:emattrno"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

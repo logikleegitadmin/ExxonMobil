@@ -1,0 +1,86 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_thing_media_uiConfig",
+      "name": "rock-entity-search-result_thing_media",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.461-0500",
+        "modifiedDate": "2026-08-17T07:26:13.461-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "role": "media"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "viewassets": {
+                        "visible": false
+                      },
+                      "typeExternalName": {
+                        "visible": false,
+                        "displaySequence": 33
+                      },
+                      "name": {
+                        "visible": true,
+                        "displaySequence": 25,
+                        "header": "Identifier",
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "pstdmediadatascore": {
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 47,
+                        "name": "pstdmediadatascore",
+                        "header": "Media Data Score",
+                        "sortable": true
+                      },
+                      "pstddigitalassetscore": {
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 48,
+                        "name": "pstddigitalassetscore",
+                        "header": "Digital Asset Score",
+                        "sortable": true
+                      },
+                      "id": {
+                        "visible": false
+                      },
+                      "pstdmastertaxonomy": {
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 55,
+                        "name": "pstdmastertaxonomy",
+                        "header": "Taxonomy",
+                        "sortable": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

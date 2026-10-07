@@ -1,0 +1,71 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_thing_emrspllineitem_emrelassociatedplantitem_uiConfig",
+      "name": "rock-entity-relationship-search-result_thing_emrspllineitem_emrelassociatedplantitem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-23T05:35:40.711-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "domain": "thing",
+              "entityType": "emrspllineitem",
+              "relationship": "emrelassociatedplantitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {},
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {
+                    "actions": {
+                      "create-and-add": {
+                        "visible": false
+                      }
+                    }
+                  }
+                },
+                "upDirectionConfig": {
+                  "visible": true,
+                  "gridConfig": {
+                    "fields": {
+                      "name": {
+                        "visible": false
+                      },
+                      "id": {
+                        "visible": false
+                      }
+                    }
+                  },
+                  "businessActions": {
+                    "basic": {
+                      "actions": {
+                        "add": {
+                          "visible": false
+                        }
+                      },
+                      "visible": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

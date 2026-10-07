@@ -1,0 +1,203 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrelassociatedsupplier_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrelassociatedsupplier",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-28T06:43:54.996-0500",
+        "modifiedDate": "2026-09-28T06:43:54.996-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "emrelassociatedsupplier"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "prtattrsuppliername": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "prtattrsuppliername",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "prtattrsuppliercontact": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "prtattrsuppliercontact",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "prtattrsupplieremailaddress": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "prtattrsupplieremailaddress",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "prtattrsupplierphoneno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "prtattrsupplierphoneno",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "prtattrsupplierfaxno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "prtattrsupplierfaxno",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "prtattrsupplieraddress": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 75,
+                        "name": "prtattrsupplieraddress",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {}
+                },
+                "upDirectionConfig": {
+                  "visible": "false",
+                  "excludeNonContextual": false,
+                  "gridConfig": {
+                    "visible": true,
+                    "title": "",
+                    "fields": {
+                      "name": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 15,
+                        "name": "name",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "id": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 20,
+                        "name": "id",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttag": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrequipmenttag",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmentpo": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattrequipmentpo",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttype": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrequipmenttype",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsubproject": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrsubproject",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmentstatus": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrequipmentstatus",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    },
+                    "pageRangeVisible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

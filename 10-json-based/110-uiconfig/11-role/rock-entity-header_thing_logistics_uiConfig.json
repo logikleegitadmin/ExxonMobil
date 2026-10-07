@@ -1,0 +1,84 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-header_thing_logistics_uiConfig",
+      "name": "rock-entity-header_thing_logistics",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.444-0500",
+        "modifiedDate": "2026-08-17T07:26:13.444-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-header",
+              "domain": "thing",
+              "role": "logistics"
+            },
+            "jsonData": {
+              "config": {
+                "headerConfig": {
+                  "id": {
+                    "visible": false
+                  },
+                  "name": {
+                    "visible": true
+                  },
+                  "typeExternalName": {
+                    "visible": false
+                  },
+                  "pstdnumberid": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "pstdnumberid",
+                    "displaySequence": 13,
+                    "label": "{model.externalName}"
+                  },
+                  "pstdgtin": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "pstdgtin",
+                    "displaySequence": 100,
+                    "label": "{model.externalName}"
+                  },
+                  "pstdstatus": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "pstdstatus",
+                    "displaySequence": 110,
+                    "label": "{model.externalName}"
+                  },
+                  "pstdlogisticdatascore": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "pstdlogisticdatascore",
+                    "displaySequence": 115,
+                    "label": "{model.externalName}"
+                  },
+                  "pstdmastertaxonomy": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "pstdmastertaxonomy",
+                    "displaySequence": 120,
+                    "label": "{model.externalName}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

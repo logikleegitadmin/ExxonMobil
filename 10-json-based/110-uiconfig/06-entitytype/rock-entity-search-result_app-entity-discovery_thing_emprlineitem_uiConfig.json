@@ -1,0 +1,139 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_emprlineitem_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_emprlineitem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-28T06:43:02.304-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emprlineitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrequipmenttag": {
+                        "visible": false
+                      },
+                      "emattrequipmentpo": {
+                        "visible": true
+                      },
+                      "emattrsupplier": {
+                        "editable": false,
+                        "displaySequence": 14
+                      },
+                      "emattrstatus": {
+                        "visible": false
+                      },
+                      "emattrpricevaliditydate": {
+                        "visible": true,
+                        "displaySequence": 23
+                      },
+                      "emattrdate": {
+                        "visible": false
+                      },
+                      "emattroemmodel": {
+                        "name": "emattroemmodel",
+                        "header": "OEM Model #",
+                        "displaySequence": 15,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattroemname": {
+                        "name": "emattroemname",
+                        "header": "OEM Name",
+                        "displaySequence": 25,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "pstdshortdescription": {
+                        "visible": false
+                      },
+                      "emattrprlineitemno": {
+                        "name": "emattrprlineitemno",
+                        "header": "PR_Line Item No",
+                        "visible": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "displaySequence": 11,
+                        "sortable": true
+                      },
+                      "emattrtwoyrqtystring": {
+                        "name": "emattrtwoyrqtystring",
+                        "header": "2YR Qty String",
+                        "visible": true,
+                        "displaySequence": 21
+                      },
+                      "id": {
+                        "displaySequence": 1
+                      },
+                      "emattrcapqtystring": {
+                        "name": "emattrcapqtystring",
+                        "header": "CAP Qty String",
+                        "displaySequence": 22,
+                        "visible": true
+                      },
+                      "emattrcsuqtystring": {
+                        "name": "emattrcsuqtystring",
+                        "header": "C/SU Qty String",
+                        "visible": true,
+                        "displaySequence": 23
+                      },
+                      "emattrproject": {
+                        "displaySequence": 12
+                      },
+                      "emattrsubproject": {
+                        "displaySequence": 13
+                      },
+                      "emattrcomments": {
+                        "displaySequence": 60
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

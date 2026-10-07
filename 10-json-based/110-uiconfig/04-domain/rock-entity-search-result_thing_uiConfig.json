@@ -1,0 +1,112 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_thing_uiConfig",
+      "name": "rock-entity-search-result_thing",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-28T01:59:08.828-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-search-result",
+              "domain": "thing"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrdescription": {
+                        "name": "emattrdescription",
+                        "header": "Description",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrproject": {
+                        "name": "emattrproject",
+                        "header": "Project",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrsubproject": {
+                        "name": "emattrsubproject",
+                        "header": "Sub Project",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrsupplier": {
+                        "name": "emattrsupplier",
+                        "header": "Supplier",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrstatus": {
+                        "name": "emattrstatus",
+                        "header": "Status",
+                        "displaySequence": 50,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrcomments": {
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "displaySequence": 60,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "id": {
+                        "visible": true,
+                        "displaySequence": 1
+                      },
+                      "name": {
+                        "visible": true,
+                        "displaySequence": 2
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-header_thing_embillofmaterials_uiConfig",
+      "name": "rock-entity-header_thing_embillofmaterials",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.232-0500",
+        "modifiedDate": "2026-08-17T07:26:13.232-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-header",
+              "domain": "thing",
+              "entityType": "embillofmaterials"
+            },
+            "jsonData": {
+              "config": {
+                "headerConfig": {
+                  "emattrpackagenumber": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrpackagenumber",
+                    "label": "{model.externalName}",
+                    "displaySequence": 100
+                  },
+                  "emattrequipmenttype": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrequipmenttype",
+                    "label": "{model.externalName}",
+                    "displaySequence": 110
+                  },
+                  "emattrequipmenttag": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrequipmenttag",
+                    "label": "{model.externalName}",
+                    "displaySequence": 111
+                  },
+                  "emattrorganization": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrorganization",
+                    "label": "{model.externalName}",
+                    "displaySequence": 112
+                  },
+                  "emattrproject": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrproject",
+                    "label": "{model.externalName}",
+                    "displaySequence": 113
+                  },
+                  "emattrfieldlocation": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrfieldlocation",
+                    "label": "{model.externalName}",
+                    "displaySequence": 114
+                  },
+                  "emattrsupplier": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrsupplier",
+                    "label": "{model.externalName}",
+                    "displaySequence": 115
+                  },
+                  "id": {
+                    "visible": false
+                  },
+                  "name": {
+                    "visible": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

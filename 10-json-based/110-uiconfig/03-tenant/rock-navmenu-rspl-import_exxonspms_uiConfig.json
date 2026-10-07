@@ -1,0 +1,61 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu-rspl-import_exxonspms_uiConfig",
+      "name": "rock-navmenu-rspl-import_exxonspms",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdByService": "system",
+        "createdBy": "system",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "_UNASSIGNED",
+        "modifiedDate": "2026-09-25T04:19:52.236-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "exxonspms",
+              "component": "rock-navmenu"
+            },
+            "jsonData": {
+              "config": {
+                "exxon-mobil": {
+                  "name": "exxon-mobil",
+                  "title": "Exxon Mobil App",
+                  "dataRoute": "",
+                  "icon": "pebble-icon:app",
+                  "visible": true,
+                  "displaySequence": 100,
+                  "subNavMenu": {
+                    "app": {
+                      "title": "APP",
+                      "visible": true,
+                      "displaySequence": 10,
+                      "actions": {
+                        "rspl-import-app": {
+                          "name": "rspl-import-app",
+                          "title": "RSPL Import",
+                          "dataRoute": "rspl-import-app",
+                          "icon": "pebble-icon:app",
+                          "visible": true,
+                          "displaySequence": 130
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

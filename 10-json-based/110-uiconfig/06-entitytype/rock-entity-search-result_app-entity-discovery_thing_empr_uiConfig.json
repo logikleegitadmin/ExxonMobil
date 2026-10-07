@@ -1,0 +1,186 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_empr_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_empr",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-28T04:41:02.056-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "empr"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrpr": {
+                        "name": "emattrpr",
+                        "header": "PR #",
+                        "displaySequence": 12,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattrprdate": {
+                        "name": "emattrprdate",
+                        "header": "PR Date",
+                        "displaySequence": 13,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrrequisition": {
+                        "name": "emattrrequisition",
+                        "header": "Requisition #",
+                        "displaySequence": 14,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrrequisitiondate": {
+                        "name": "emattrrequisitiondate",
+                        "header": "Requisition Date",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrpo": {
+                        "name": "emattrpo",
+                        "header": "PO #",
+                        "displaySequence": 16,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrpodate": {
+                        "name": "emattrpodate",
+                        "header": "PO Date",
+                        "displaySequence": 17,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrpricevaliditydate": {
+                        "name": "emattrpricevaliditydate",
+                        "header": "Price Validity Date",
+                        "displaySequence": 40,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrprtype": {
+                        "name": "emattrprtype",
+                        "header": "PR Type",
+                        "displaySequence": 45,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrsupplier": {
+                        "name": "emattrsupplier",
+                        "header": "Supplier",
+                        "displaySequence": 18,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrspirstatus": {
+                        "name": "emattrspirstatus",
+                        "header": "SPIR Status",
+                        "displaySequence": 55,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrcomments": {
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "displaySequence": 60,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrstatus": {
+                        "visible": false
+                      },
+                      "emattrdate": {
+                        "visible": false
+                      },
+                      "emattrdescription": {
+                        "visible": false
+                      },
+                      "pstdstatus": {
+                        "displaySequence": 55,
+                        "visible": false
+                      },
+                      "emattrspir": {
+                        "name": "emattrspir",
+                        "header": "SPIR #",
+                        "displaySequence": 19,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "pstdshortdescription": {
+                        "visible": false
+                      },
+                      "emattrsubproject": {
+                        "displaySequence": 11
+                      },
+                      "emattrprpritemstatus": {
+                        "name": "emattrprpritemstatus",
+                        "header": "PR/PR Line Item Status",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "sortable": false,
+                        "editable": false
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

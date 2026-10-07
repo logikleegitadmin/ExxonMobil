@@ -1,1 +1,109 @@
-{"entityModels": [{"id":"emrspllineitem_emrelhasrsplitems_emrspl_creatersplfromspir_graphProcessModel","name":"emrspllineitem_emrelhasrsplitems_emrspl_creatersplfromspir","type":"graphProcessModel","domain":"generic","properties":{"createdService":"entityManageModelService","createdBy":"spmsds.systemadmin@syndigo.com_user","createdDate":"2026-09-21T04:12:31.393-0500","defaultValueSource":"internal","defaultValueLocale":"en-US","graphProcessPath":"emrspllineitem_emrelhasrsplitems_emrspl","matchRulesOperator":"or","matchRules":[{"seq":1,"matchType":"attributeBased","attributeMaps":[{"emattrrsplsystemkey":"emattrrsplsystemkey"}],"noMatchResult":[{"actions":[{"actionName":"Create"},{"actionName":"AddSourceRelationship"},{"actionName":"CopyData"}]}],"singleMatchResult":[{"actions":[{"actionName":"AddSourceRelationship"},{"actionName":"CopyData"}]}],"multiMatchResult":[{"actions":[{"actionName":"Error"}]}],"smartIdAttributes":[{"attributeNames":"emattrrsplsystemkey","concatDelimiter":"_"}]}],"modifiedService":"entityManageModelService","modifiedBy":"spmsds.systemadmin@syndigo.com_user","modifiedDate":"2026-09-21T06:05:54.581-0500"},"data":{"attributes":{"emattrrsplsystemkey":{"properties":{"strategy":"copyWhenEmpty"}},"emattrsupplier":{"properties":{"strategy":"copyWhenEmpty"}},"emattrproject":{"properties":{"strategy":"copyWhenEmpty"}},"emattrorganization":{"properties":{"strategy":"copyWhenEmpty"}},"emattrsubproject":{"properties":{"strategy":"copyWhenEmpty"}},"emattrequipmentpo":{"properties":{"strategy":"copyWhenEmpty"}}}}}]}
+{
+    "entityModels": [
+        {
+            "id": "emrspllineitem_emrelhasrsplitems_emrspl_creatersplfromspir_graphProcessModel",
+            "name": "emrspllineitem_emrelhasrsplitems_emrspl_creatersplfromspir",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-21T04:12:31.393-0500",
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "emrspllineitem_emrelhasrsplitems_emrspl",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrrsplsystemkey": "emattrrsplsystemkey"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "emattrrsplsystemkey",
+                                "concatDelimiter": "_"
+                            }
+                        ]
+                    }
+                ],
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedDate": "2026-09-21T06:05:54.581-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattrrsplsystemkey": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    },
+                    "emattrsupplier": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    },
+                    "emattrproject": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    },
+                    "emattrorganization": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    },
+                    "emattrsubproject": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    },
+                    "emattrequipmentpo": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

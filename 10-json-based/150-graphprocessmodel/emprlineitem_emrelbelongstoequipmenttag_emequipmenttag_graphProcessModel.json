@@ -1,0 +1,59 @@
+{
+    "entityModels": [
+        {
+            "id": "emprlineitem_emrelbelongstoequipmenttag_emequipmenttag_graphProcessModel",
+            "name": "emprlineitem_emrelbelongstoequipmenttag_emequipmenttag",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emprlineitem_emrelbelongstoequipmenttag_emequipmenttag",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrequipmenttag": "emattrequipmenttag"
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-08-23T05:48:15.648-0500",
+                "modifiedDate": "2026-08-23T05:48:15.648-0500"
+            }
+        }
+    ]
+}

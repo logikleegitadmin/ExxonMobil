@@ -1,0 +1,66 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_thing_emspiritem_emrelbelongstopritem_uiConfig",
+      "name": "rock-entity-relationship-search-result_thing_emspiritem_emrelbelongstopritem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-08-29T03:11:51.140-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "domain": "thing",
+              "entityType": "emspiritem",
+              "relationship": "emrelbelongstopritem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrno": {
+                        "filterable": false
+                      },
+                      "emattrreceivedwhse": {
+                        "visible": false
+                      },
+                      "emattrshippedff": {
+                        "visible": false
+                      },
+                      "emattrreceivedff": {
+                        "visible": false
+                      },
+                      "emattrshippedoes": {
+                        "visible": false
+                      },
+                      "emattrorderqty": {
+                        "visible": false
+                      },
+                      "emattroem": {
+                        "visible": false
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

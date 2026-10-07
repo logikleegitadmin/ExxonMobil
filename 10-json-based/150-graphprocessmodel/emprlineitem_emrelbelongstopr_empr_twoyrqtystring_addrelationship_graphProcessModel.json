@@ -1,0 +1,59 @@
+{
+    "entityModels": [
+        {
+            "id": "emprlineitem_emrelbelongstopr_empr_twoyrqtystring_addrelationship_graphProcessModel",
+            "name": "emprlineitem_emrelbelongstopr_empr_twoyrqtystring_addrelationship",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "createdService": "entityManageModelService",
+                "createdBy": "spms.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-24T04:30:16.030-0500",
+                "defaultValueSource": "internal",
+                "graphProcessPath": "emprlineitem_emrelbelongstopr_empr_twoyrqtystring_addrelationship",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrtwoyrqtystring": "emattrtwoyrqtystring"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spms.systemadmin@syndigo.com_user",
+                "modifiedDate": "2026-09-24T05:11:15.773-0500"
+            }
+        }
+    ]
+}

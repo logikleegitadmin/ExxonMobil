@@ -1,0 +1,95 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu_datasteward_uiConfig",
+      "name": "rock-navmenu_datasteward",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.488-0500",
+        "modifiedDate": "2026-08-17T07:26:13.488-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-navmenu",
+              "role": "datasteward"
+            },
+            "jsonData": {
+              "config": {
+                "quick-actions": {
+                  "visible": true,
+                  "subNavMenu": {
+                    "upload": {
+                      "visible": true,
+                      "actions": {
+                        "uploadEntities": {
+                          "dataRoute": "upload-excel",
+                          "visible": true,
+                          "displaySequence": 10,
+                          "name": "uploadEntities",
+                          "icon": "pebble-icon:publish",
+                          "text": "Upload Excel",
+                          "contextData": {}
+                        }
+                      }
+                    },
+                    "create": {
+                      "actions": {
+                        "createProduct": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 10,
+                          "name": "createProduct",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "Product",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "pstdproduct"
+                            }
+                          }
+                        },
+                        "createSku": {
+                          "dataRoute": "entity-create",
+                          "visible": true,
+                          "displaySequence": 12,
+                          "name": "createSku",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "SKU",
+                          "contextData": {
+                            "itemContext": {
+                              "type": "pstdsku"
+                            }
+                          }
+                        },
+                        "createEntity": {
+                          "dataRoute": "entity-create",
+                          "visible": false,
+                          "displaySequence": 10,
+                          "name": "createEntity",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "{[EntTxt]}",
+                          "contextData": {}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

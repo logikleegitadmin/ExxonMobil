@@ -1,0 +1,63 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-business-actions_thing_admin_uiConfig",
+      "name": "rock-business-actions_thing_admin",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.434-0500",
+        "modifiedDate": "2026-08-17T07:26:13.434-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-business-actions",
+              "domain": "thing",
+              "role": "admin"
+            },
+            "jsonData": {
+              "config": {
+                "actionGroups": {
+                  "reviews": {
+                    "visible": true,
+                    "title": "{[GRMTxt]}",
+                    "actions": {
+                      "matchandmerge": {
+                        "dataRoute": "match-merge-v2",
+                        "visible": true
+                      },
+                      "processsourcerecord": {
+                        "visible": true
+                      },
+                      "processgoldenrecord": {
+                        "visible": true
+                      },
+                      "consolidategoldenrecords": {
+                        "visible": true
+                      },
+                      "bulkprocessing": {
+                        "visible": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

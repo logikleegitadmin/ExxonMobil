@@ -1,0 +1,142 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_emrspl_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_emrspl",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.277-0500",
+        "modifiedDate": "2026-08-17T07:26:13.277-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emrspl"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrrspl": {
+                        "name": "emattrrspl",
+                        "header": "RSPL #",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "sortable": true
+                      },
+                      "emattrproject": {
+                        "name": "emattrproject",
+                        "header": "Project",
+                        "displaySequence": 15,
+                        "visible": false,
+                        "sortable": true
+                      },
+                      "emattrequipmentpo": {
+                        "name": "emattrequipmentpo",
+                        "header": "Equipment PO #",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrsupplier": {
+                        "name": "emattrsupplier",
+                        "header": "Supplier",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrpricevaliditydate": {
+                        "name": "emattrpricevaliditydate",
+                        "header": "Price Validity Date",
+                        "displaySequence": 35,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrdate": {
+                        "name": "emattrdate",
+                        "header": "Date",
+                        "displaySequence": 30,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrstatus": {
+                        "name": "emattrstatus",
+                        "header": "Status",
+                        "displaySequence": 40,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
+                      "emattrcomments": {
+                        "name": "emattrcomments",
+                        "header": "Comments",
+                        "displaySequence": 45,
+                        "visible": true,
+                        "editable": true
+                      },
+                      "pstdstatus": {
+                        "displaySequence": 40
+                      },
+                      "emattrequipmenttag": {
+                        "displaySequence": 10,
+                        "visible": false
+                      },
+                      "emattrdescription": {
+                        "visible": false
+                      },
+                      "emattrrsplsystemkey": {
+                        "name": "emattrrsplsystemkey",
+                        "header": "RSPL System Key",
+                        "displaySequence": 700,
+                        "visible": true
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

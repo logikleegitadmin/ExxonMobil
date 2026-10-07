@@ -1,0 +1,73 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_thing_pricing_uiConfig",
+      "name": "rock-entity-search-result_thing_pricing",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.464-0500",
+        "modifiedDate": "2026-08-17T07:26:13.464-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "role": "pricing"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "thumbnail": {
+                        "visible": true
+                      },
+                      "pstdcolor": {
+                        "visible": true,
+                        "displaySequence": 34,
+                        "name": "pstdcolor",
+                        "header": "Color",
+                        "sortable": true
+                      },
+                      "name": {
+                        "visible": true,
+                        "displaySequence": 25,
+                        "header": "Identifier",
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "id": {
+                        "visible": false
+                      },
+                      "pstdpricingdatascore": {
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 47,
+                        "name": "pstdpricingdatascore",
+                        "header": "Pricing Data Score",
+                        "sortable": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

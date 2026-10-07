@@ -1,0 +1,69 @@
+{
+    "entityModels": [
+        {
+            "id": "embom_emrelrelatedbom_emequipmenttag_graphProcessModel",
+            "name": "embom_emrelrelatedbom_emequipmenttag",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "embom_emrelrelatedbom_emequipmenttag",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrequipmenttag": "emattrequipmenttag"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddTargetRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddTargetRelationship"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "relExists": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "DoNothing"
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "spms.systemadmin@syndigo.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spms.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-24T01:30:59.794-0500",
+                "modifiedDate": "2026-09-24T01:30:59.794-0500"
+            }
+        }
+    ]
+}

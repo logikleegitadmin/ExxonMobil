@@ -1,0 +1,254 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrelspiritembelongstoequipment_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrelspiritembelongstoequipment",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.398-0500",
+        "modifiedDate": "2026-08-17T07:26:13.398-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "emrelspiritembelongstoequipment"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "emattrequipmentpo": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrequipmentpo",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttag": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattrequipmenttag",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmentshortdescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrequipmentshortdescription",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttype": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrequipmenttype",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrpackagenumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrpackagenumber",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmanufacturername": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 75,
+                        "name": "emattrmanufacturername",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {}
+                },
+                "upDirectionConfig": {
+                  "visible": "false",
+                  "excludeNonContextual": false,
+                  "gridConfig": {
+                    "visible": true,
+                    "title": "",
+                    "fields": {
+                      "typeExternalName": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 10,
+                        "name": "typeExternalName",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "thumbnail": {
+                        "header": "",
+                        "name": "thumbnailid",
+                        "displayType": "image",
+                        "imageSrc": "entityThumbnail",
+                        "visible": false,
+                        "readOnly": true,
+                        "isRelatedEntityAttribute": true,
+                        "displaySequence": 5
+                      },
+                      "entityTypeIcon": {
+                        "filterable": false,
+                        "visible": true,
+                        "isMetaDataColumn": true,
+                        "iconColumn": true,
+                        "displaySequence": 5,
+                        "name": "entityTypeIcon",
+                        "sortable": false
+                      },
+                      "name": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 15,
+                        "name": "name",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "id": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 20,
+                        "name": "id",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrno",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroempn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattroempn",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrspirdescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrspirdescription",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierpn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrsupplierpn",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmmnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrmmnumber",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrequipmenttag": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrequipmenttag",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrinstlqtyspir": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 75,
+                        "name": "emattrinstlqtyspir",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    },
+                    "pageRangeVisible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

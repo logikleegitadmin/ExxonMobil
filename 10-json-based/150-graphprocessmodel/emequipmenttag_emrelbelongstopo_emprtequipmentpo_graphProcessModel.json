@@ -1,0 +1,108 @@
+{
+    "entityModels": [
+        {
+            "id": "emequipmenttag_emrelbelongstopo_emprtequipmentpo_graphProcessModel",
+            "name": "emequipmenttag_emrelbelongstopo_emprtequipmentpo",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "createdService": "entityManageModelService",
+                "createdBy": "spmsds.systemadmin@syndigo.com_user",
+                "createdDate": "2026-09-03T02:26:36.488-0500",
+                "relExists": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            }
+                        ]
+                    }
+                ],
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "emequipmenttag_emrelbelongstopo_emprtequipmentpo",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "emattrequipmentpo": "emattrequipmentpo"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "emattrequipmentpo",
+                                "concatDelimiter": "_"
+                            }
+                        ]
+                    }
+                ],
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
+                "modifiedDate": "2026-09-08T07:43:11.030-0500"
+            },
+            "data": {
+                "attributes": {
+                    "emattrequipmentpo": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "emattrequipmenttag": {
+                        "properties": {
+                            "strategy": "aggregate"
+                        }
+                    },
+                    "ematterallothersupplier": {
+                        "properties": {
+                            "strategy": "aggregate"
+                        }
+                    },
+                    "emattrrecentsupplier": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

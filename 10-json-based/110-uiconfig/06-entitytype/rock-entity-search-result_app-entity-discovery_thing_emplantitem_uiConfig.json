@@ -1,0 +1,110 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_emplantitem_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_emplantitem",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-09-25T03:45:59.476-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emplantitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrdescription": {
+                        "header": "Description",
+                        "visible": false
+                      },
+                      "emattrspirdescription": {
+                        "name": "emattrspirdescription",
+                        "header": "SPIR Description",
+                        "displaySequence": 31,
+                        "visible": false,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "emattrsupplier": {
+                        "visible": false
+                      },
+                      "emattrcomments": {
+                        "visible": false
+                      },
+                      "emattrdate": {
+                        "visible": false
+                      },
+                      "emattrpricevaliditydate": {
+                        "visible": false
+                      },
+                      "emattroempartshorttextdescription": {
+                        "name": "emattroempartshorttextdescription",
+                        "header": "OEM Part Short Text Description",
+                        "visible": true
+                      },
+                      "emattrunitpriceusd": {
+                        "name": "emattrunitpriceusd",
+                        "header": "Unit Price (USD)",
+                        "visible": true
+                      },
+                      "emattrmmnumber": {
+                        "name": "emattrmmnumber",
+                        "header": "Material Master Number",
+                        "visible": true
+                      },
+                      "emattroemnumber": {
+                        "name": "emattroemnumber",
+                        "displaySequence": 14,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "OEM P/N"
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

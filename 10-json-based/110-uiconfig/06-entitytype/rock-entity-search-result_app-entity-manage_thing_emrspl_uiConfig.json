@@ -1,0 +1,77 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-manage_thing_emrspl_uiConfig",
+      "name": "rock-entity-search-result_app-entity-manage_thing_emrspl",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.134.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-08-17T07:26:13.289-0500",
+        "modifiedDate": "2026-08-17T07:26:13.289-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-manage",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "emrspl"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrstatus": {
+                        "visible": false
+                      },
+                      "emattrrsplrspllineitemstatus": {
+                        "name": "emattrrsplrspllineitemstatus",
+                        "header": "RSPL / RSPL Line Item Status",
+                        "displaySequence": 27,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "toolbarConfig": {
+                      "buttonItems": {
+                        "basic": {
+                          "buttons": {
+                            "save": {
+                              "visible": true
+                            },
+                            "refresh": {
+                              "visible": true
+                            },
+                            "revert": {
+                              "visible": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "readOnly": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

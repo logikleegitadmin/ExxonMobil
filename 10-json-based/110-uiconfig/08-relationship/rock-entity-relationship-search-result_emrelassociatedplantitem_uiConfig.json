@@ -1,0 +1,226 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_emrelassociatedplantitem_uiConfig",
+      "name": "rock-entity-relationship-search-result_emrelassociatedplantitem",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.136.0.2048",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-09-28T07:15:55.519-0500",
+        "modifiedDate": "2026-09-28T07:15:55.519-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "emrelassociatedplantitem"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "emattrno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrno",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroempn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattroempn",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroempartshorttextdescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattroempartshorttextdescription",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplierpn": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattrsupplierpn",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemname": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattroemname",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemmodel": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattroemmodel",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrmmnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrmmnumber",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrplant": {
+                        "filterable": false,
+                        "visible": false,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrplant",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                },
+                "businessActions": {
+                  "basic": {}
+                },
+                "upDirectionConfig": {
+                  "visible": "false",
+                  "excludeNonContextual": false,
+                  "gridConfig": {
+                    "visible": true,
+                    "title": "",
+                    "fields": {
+                      "name": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 15,
+                        "name": "name",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "id": {
+                        "filterable": false,
+                        "visible": false,
+                        "isMetaDataColumn": true,
+                        "displaySequence": 20,
+                        "name": "id",
+                        "sortable": false,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrno",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrrspl": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattrrspl",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemname": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattroemname",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemnumber": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 73,
+                        "name": "emattroemnumber",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplier": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrsupplier",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      }
+                    },
+                    "pageRangeVisible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
