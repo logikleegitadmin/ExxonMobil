@@ -1,0 +1,88 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-task-message-list_RSPLImport_syndigospms_uiConfig",
+      "name": "rock-task-message-list_RSPLImport_syndigospms",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdBy": "system_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "system_user",
+        "createdDate": "2026-11-13T01:23:09.688-0600",
+        "modifiedDate": "2026-11-13T01:23:09.688-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "syndigospms",
+              "component": "rock-task-message-list",
+              "entityType": "RSPLImport"
+            },
+            "jsonData": {
+              "config": {
+                "dataRequest": {
+                  "eventTypes": [
+                    "LOAD"
+                  ],
+                  "eventEntityTypes": [
+                    "externalevent"
+                  ],
+                  "eventSubTypes": [
+                    "WARNING",
+                    "ERROR",
+                    "INFO"
+                  ]
+                },
+                "gridConfig": {
+                  "itemConfig": {
+                    "sort": {
+                      "default": [
+                        {
+                          "field": "createdOn",
+                          "sortType": "asc"
+                        }
+                      ]
+                    },
+                    "fields": {
+                      "typeExternalName": {
+                        "visible": false
+                      },
+                      "eventSubType": {
+                        "filterable": true,
+                        "visible": true,
+                        "displaySequence": 30,
+                        "name": "eventSubType",
+                        "width": 6,
+                        "header": "{[TypTxt]}",
+                        "sortable": true
+                      },
+                      "createdOn": {
+                        "visible": true
+                      },
+                      "message": {
+                        "filterable": true,
+                        "visible": true,
+                        "displaySequence": 60,
+                        "name": "message",
+                        "width": 40,
+                        "header": "{[MsgTxt]}",
+                        "sortable": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

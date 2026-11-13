@@ -10,9 +10,13 @@
       "name": "app-repository_systemadmin",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-17T13:05:58.807-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-29T07:10:05.262-0500",
+        "modifiedDate": "2026-10-29T07:10:05.262-0500"
       },
       "data": {
         "contexts": [
@@ -24,7 +28,7 @@
             "jsonData": {
               "config": {
                 "search-digitalasset": {
-                  "enabled": false
+                  "enabled": true
                 },
                 "exxon-mobil-app": {
                   "enabled": false
@@ -45,6 +49,12 @@
                   "enabled": true
                 },
                 "visualization-report": {
+                  "enabled": true
+                },
+                "entity-create": {
+                  "enabled": true
+                },
+                "upload-assets": {
                   "enabled": true
                 }
               }

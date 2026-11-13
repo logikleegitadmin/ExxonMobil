@@ -1,0 +1,55 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs-relationship-spirlineitem_syndigospms_uiConfig",
+      "name": "rock-entity-detail-tabs-relationship-spirlineitem_syndigospms",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "_UNASSIGNED",
+        "modifiedDate": "2026-11-13T01:22:09.623-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "syndigospms",
+              "component": "rock-entity-detail-tabs",
+              "domain": "thing",
+              "entityType": "emspir"
+            },
+            "jsonData": {
+              "config": {
+                "scrollable": true,
+                "fitContainer": false,
+                "maxAllowedTabs": 10,
+                "tabItems": {
+                  "syndigospms-spirlineitem": {
+                    "name": "syndigospms-spirlineitem",
+                    "title": "Line Item Management",
+                    "selected": false,
+                    "enableDropdownMenu": false,
+                    "visible": true,
+                    "displaySequence": 80,
+                    "component": {
+                      "name": "syndigospms-spirlineitem",
+                      "path": "/plugin-src/syndigospms/elements/syndigospms-spirlineitem/syndigospms-spirlineitem.js",
+                      "properties": {
+                        "view-mode": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

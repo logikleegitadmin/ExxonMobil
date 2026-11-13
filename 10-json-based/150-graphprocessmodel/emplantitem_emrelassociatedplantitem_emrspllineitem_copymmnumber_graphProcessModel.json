@@ -1,0 +1,55 @@
+{
+    "id": "emplantitem_emrelassociatedplantitem_emrspllineitem_copymmnumber_graphProcessModel",
+    "name": "emplantitem_emrelassociatedplantitem_emrspllineitem_copymmnumber",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "defaultValueLocale": "en-US",
+        "graphProcessPath": "emplantitem_emrelassociatedplantitem_emrspllineitem",
+        "matchRulesOperator": "or",
+        "matchRules": [
+            {
+                "seq": 1,
+                "matchType": "whereUsedRelationshipBased",
+                "relationshipName": "emrelassociatedplantitem",
+                "noMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "DoNothing"
+                            }
+                        ]
+                    }
+                ],
+                "singleMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            }
+                        ]
+                    }
+                ],
+                "multiMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "data": {
+        "attributes": {
+            "emattrmmnumber": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            }
+        }
+    }
+}

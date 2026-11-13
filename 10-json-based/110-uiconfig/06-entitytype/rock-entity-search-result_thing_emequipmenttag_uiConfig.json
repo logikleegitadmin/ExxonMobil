@@ -10,13 +10,9 @@
       "name": "rock-entity-search-result_thing_emequipmenttag",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
-        "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.295-0500",
-        "modifiedDate": "2026-08-17T07:26:13.295-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-11-12T01:45:28.759-0600"
       },
       "data": {
         "contexts": [
@@ -31,6 +27,13 @@
                 "gridConfig": {
                   "itemConfig": {
                     "fields": {
+                      "emattrcreateddate": {
+                        "name": "emattrcreateddate",
+                        "header": "Created Date",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true
+                      },
                       "emattrpackagenumber": {
                         "name": "emattrpackagenumber",
                         "header": "Package Number",
@@ -39,22 +42,12 @@
                         "sortable": true,
                         "editable": false
                       },
-                      "emattrequipmenttag": {
-                        "name": "emattrequipmenttag",
-                        "header": "Equipment Tag",
-                        "displaySequence": 15,
-                        "visible": true,
-                        "sortable": true
-                      },
                       "emattrequipmentpo": {
                         "name": "emattrequipmentpo",
                         "header": "Equipment PO #",
-                        "displaySequence": 20,
+                        "displaySequence": 15,
                         "visible": true,
                         "sortable": true
-                      },
-                      "viewassets": {
-                        "displaySequence": 55
                       },
                       "emattrequipmentpotype": {
                         "name": "emattrequipmentpotype",
@@ -80,6 +73,20 @@
                       },
                       "id": {
                         "displaySequence": 60
+                      },
+                      "emattrrecentsupplier": {
+                        "name": "emattrrecentsupplier",
+                        "header": "Supplier",
+                        "displaySequence": 10,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrsubproject": {
+                        "displaySequence": 10
+                      },
+                      "emattrsupplier": {
+                        "visible": false,
+                        "sortable": false
                       }
                     }
                   },

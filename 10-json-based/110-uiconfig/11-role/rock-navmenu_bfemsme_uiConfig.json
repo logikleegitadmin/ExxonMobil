@@ -1,0 +1,164 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu_bfemsme_uiConfig",
+      "name": "rock-navmenu_bfemsme",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.782-0500",
+        "modifiedDate": "2026-10-22T06:29:53.782-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-navmenu",
+              "role": "bfemsme"
+            },
+            "jsonData": {
+              "config": {
+                "quick-actions": {
+                  "subNavMenu": {
+                    "upload": {
+                      "actions": {
+                        "uploadEntities": {
+                          "name": "uploadEntities",
+                          "icon": "pebble-icon:publish",
+                          "text": "{[UplEntTxt]}",
+                          "visible": true,
+                          "displaySequence": 10,
+                          "dataRoute": "upload-excel",
+                          "contextData": {}
+                        },
+                        "uploadCSV": {
+                          "name": "uploadCSV",
+                          "icon": "pebble-icon:publish",
+                          "text": "{[UplCSVTxt]}",
+                          "visible": false,
+                          "displaySequence": 20,
+                          "dataRoute": "upload-csv",
+                          "contextData": {}
+                        },
+                        "uploadAssets": {
+                          "name": "uploadAssets",
+                          "icon": "pebble-icon:asset-library",
+                          "text": "{[UplAssTxt]}",
+                          "visible": false,
+                          "displaySequence": 30,
+                          "dataRoute": "upload-assets",
+                          "contextData": {}
+                        }
+                      },
+                      "visible": true
+                    },
+                    "create": {
+                      "visible": false,
+                      "actions": {
+                        "createEntity": {
+                          "name": "createEntity",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "{[EntTxt]}",
+                          "visible": false,
+                          "displaySequence": 10,
+                          "dataRoute": "entity-create",
+                          "contextData": {}
+                        }
+                      }
+                    },
+                    "download-template": {
+                      "actions": {
+                        "downloadTemplateForParty": {
+                          "name": "downloadTemplateForParty",
+                          "icon": "pebble-icon:download",
+                          "text": "{[ParSRAppTit]}",
+                          "visible": false,
+                          "displaySequence": 20,
+                          "dataRoute": "download-template",
+                          "contextData": {
+                            "domain": "party"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "visible": true
+                },
+                "search-referencedata": {
+                  "visible": false
+                },
+                "configurations": {
+                  "visible": false
+                },
+                "exxon-mobil-app": {
+                  "visible": false,
+                  "subNavMenu": {
+                    "app": {
+                      "visible": false
+                    }
+                  }
+                },
+                "search-party": {
+                  "visible": false
+                },
+                "search": {
+                  "subNavMenu": {
+                    "search": {
+                      "actions": {
+                        "search-party": {
+                          "name": "search-party",
+                          "title": "{[SPARTit]}",
+                          "dataRoute": "search-party",
+                          "icon": "pebble-icon:party-search",
+                          "visible": false,
+                          "displaySequence": 20
+                        }
+                      },
+                      "visible": true
+                    }
+                  },
+                  "visible": false
+                },
+                "exxon-mobil": {
+                  "visible": false,
+                  "subNavMenu": {
+                    "app": {
+                      "visible": false,
+                      "actions": {
+                        "spir-create-app": {
+                          "name": "spir-create-app",
+                          "title": "SPIR Create",
+                          "dataRoute": "spir-create-app",
+                          "icon": "pebble-icon:app",
+                          "visible": false,
+                          "displaySequence": 130
+                        },
+                        "rspl-import-app": {
+                          "name": "rspl-import-app",
+                          "title": "RSPL Import",
+                          "dataRoute": "rspl-import-app",
+                          "icon": "pebble-icon:app",
+                          "visible": false,
+                          "displaySequence": 130
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

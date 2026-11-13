@@ -1,0 +1,99 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_party_emprtsupplier_uiConfig",
+      "name": "rock-entity-search-result_party_emprtsupplier",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.362-0500",
+        "modifiedDate": "2026-10-22T06:29:53.362-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-search-result",
+              "domain": "party",
+              "entityType": "emprtsupplier"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "name": {
+                        "visible": false
+                      },
+                      "prtattrsuppliername": {
+                        "name": "prtattrsuppliername",
+                        "header": "Supplier Name",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}"
+                      },
+                      "prtattrorganization": {
+                        "name": "prtattrorganization",
+                        "header": "Organization",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "prtattrproject": {
+                        "name": "prtattrproject",
+                        "header": "Project",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "prtattrsubproject": {
+                        "name": "prtattrsubproject",
+                        "header": "Recent Sub Project",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "prtattrallothersubproject": {
+                        "name": "prtattrallothersubproject",
+                        "header": "All other Sub Project",
+                        "displaySequence": 15,
+                        "visible": true
+                      },
+                      "prtattrsuppliercontact": {
+                        "name": "prtattrsuppliercontact",
+                        "header": "Vendor Name",
+                        "displaySequence": 15,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "entityTypeIcon": {
+                        "visible": true,
+                        "displaySequence": 2
+                      },
+                      "typeExternalName": {
+                        "visible": true,
+                        "displaySequence": 1
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": "emspir_emrelhasspiritems_emspiritem_graphProcessModel",
+    "name": "emspir_emrelhasspiritems_emspiritem",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "graphProcessPath": "emspir_emrelhasspiritems_emspiritem",
+        "matchRulesOperator": "and",
+        "matchRules": [
+            {
+                "seq": 1,
+                "matchType": "attributeBased",
+                "attributeMaps": [
+                    {
+                        "emattrspirsystemkey": "emattrspirsystemkey"
+                    }
+                ],
+                "noMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "Error"
+                            }
+                        ]
+                    }
+                ],
+                "singleMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            },
+                            {
+                                "actionName": "AddTargetRelationship"
+                            }
+                        ]
+                    }
+                ],
+                "multiMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "CopyData"
+                            },
+                            {
+                                "actionName": "AddTargetRelationship"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "data": {
+        "attributes": {
+            "emattrrspl": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrspir": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            }
+        }
+    }
+}

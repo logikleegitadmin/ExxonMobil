@@ -10,12 +10,13 @@
       "name": "rock-entity-relationship-search-result_plantitemhaspotentialmatches",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
         "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-25T04:32:08.994-0500",
-        "modifiedDate": "2026-09-25T04:32:08.994-0500"
+        "createdDate": "2026-10-22T06:29:53.523-0500",
+        "modifiedDate": "2026-10-22T06:29:53.523-0500"
       },
       "data": {
         "contexts": [

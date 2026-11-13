@@ -10,13 +10,13 @@
       "name": "rock-navmenu_systemadmin",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.136.0.2048",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-22T01:22:49.787-0500",
-        "modifiedDate": "2026-09-22T01:22:49.787-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-23T10:08:50.352-0500",
+        "modifiedDate": "2026-10-23T10:08:50.352-0500"
       },
       "data": {
         "contexts": [
@@ -99,6 +99,15 @@
                           "name": "uploadEntities",
                           "icon": "pebble-icon:publish",
                           "text": "Upload Excel",
+                          "contextData": {}
+                        },
+                        "uploadAssets": {
+                          "name": "uploadAssets",
+                          "icon": "pebble-icon:asset-library",
+                          "text": "{[UplAssTxt]}",
+                          "visible": true,
+                          "displaySequence": 30,
+                          "dataRoute": "upload-assets",
                           "contextData": {}
                         }
                       }
@@ -262,7 +271,7 @@
                         },
                         "createPocEmRspl": {
                           "dataRoute": "entity-create",
-                          "visible": true,
+                          "visible": false,
                           "displaySequence": 45,
                           "name": "createPocEmRspl",
                           "icon": "pebble-icon:plus-outline",
@@ -275,7 +284,7 @@
                         },
                         "createPocEmRsplLineItem": {
                           "dataRoute": "entity-create",
-                          "visible": true,
+                          "visible": false,
                           "displaySequence": 50,
                           "name": "createPocEmRsplLineItem",
                           "icon": "pebble-icon:plus-outline",
@@ -345,7 +354,7 @@
                   "displaySequence": 60,
                   "name": "search-thing",
                   "icon": "pebble-icon:thing-search",
-                  "title": "Products"
+                  "title": "Item Search"
                 },
                 "search": {
                   "dataRoute": "",
@@ -353,11 +362,11 @@
                 },
                 "search-digitalasset": {
                   "dataRoute": "search-digitalasset",
-                  "visible": false,
+                  "visible": true,
                   "displaySequence": 70,
                   "name": "search-digitalasset",
                   "icon": "pebble-icon:asset-library",
-                  "title": "Assets"
+                  "title": "RSPL Import Templets"
                 },
                 "search-referencedata": {
                   "dataRoute": "search-referencedata",

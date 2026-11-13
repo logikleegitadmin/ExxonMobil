@@ -10,13 +10,9 @@
       "name": "rock-entity-detail-tabs_thing_emspir",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
-        "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.229-0500",
-        "modifiedDate": "2026-08-17T07:26:13.229-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-10-30T05:00:06.733-0500"
       },
       "data": {
         "contexts": [
@@ -30,7 +26,7 @@
               "config": {
                 "tabItems": {
                   "relationships": {
-                    "selected": true,
+                    "selected": false,
                     "component": {
                       "properties": {
                         "config-context": {
@@ -46,6 +42,12 @@
                   },
                   "assets": {
                     "selected": false
+                  },
+                  "errorDetails": {
+                    "selected": false
+                  },
+                  "syndigospms-spirlineitem": {
+                    "selected": true
                   }
                 }
               }

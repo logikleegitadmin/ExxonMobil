@@ -1,90 +1,140 @@
 {
-    "entityModels": [
-        {
-            "id": "emrspllineitem_emrelassociatedplantitem_emplantitem_createplantitem_graphProcessModel",
-            "name": "emrspllineitem_emrelassociatedplantitem_emplantitem_createplantitem",
-            "type": "graphProcessModel",
-            "domain": "generic",
-            "properties": {
-                "defaultValueSource": "internal",
-                "defaultValueLocale": "en-US",
-                "graphProcessPath": "emrspllineitem_emrelassociatedplantitem_emplantitem",
-                "matchRulesOperator": "or",
-                "matchRules": [
+    "id": "emrspllineitem_emrelassociatedplantitem_emplantitem_createplantitem_graphProcessModel",
+    "name": "emrspllineitem_emrelassociatedplantitem_emplantitem_createplantitem",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "defaultValueLocale": "en-US",
+        "graphProcessPath": "emrspllineitem_emrelassociatedplantitem_emplantitem",
+        "matchRulesOperator": "and",
+        "matchRules": [
+            {
+                "seq": 1,
+                "matchType": "attributeBased",
+                "attributeMaps": [
                     {
-                        "seq": 1,
-                        "matchType": "attributeBased",
-                        "attributeMaps": [
-                            {
-                                "emattroemnumber": "emattroemnumber"
-                            }
+                        "emattroemnumber": "emattroemnumber",
+                        "emattrno": "emattrno"
+                    }
+                ],
+                "smartIdAttributes": [
+                    {
+                        "attributeNames": [
+                            "emattroemnumber",
+                            "emattrno"
                         ],
-                        "noMatchResult": [
+                        "concatDelimiter": "_"
+                    }
+                ],
+                "noMatchResult": [
+                    {
+                        "actions": [
                             {
-                                "actions": [
-                                    {
-                                        "actionName": "Create"
-                                    },
-                                    {
-                                        "actionName": "AddSourceRelationship"
-                                    },
-                                    {
-                                        "actionName": "CopyData"
-                                    }
-                                ]
-                            }
-                        ],
-                        "singleMatchResult": [
+                                "actionName": "Create"
+                            },
                             {
-                                "actions": [
-                                    {
-                                        "actionName": "DoNothing"
-                                    }
-                                ]
-                            }
-                        ],
-                        "multiMatchResult": [
+                                "actionName": "AddSourceRelationship"
+                            },
                             {
-                                "actions": [
-                                    {
-                                        "actionName": "DoNothing"
-                                    }
-                                ]
+                                "actionName": "CopyData"
                             }
                         ]
                     }
                 ],
-                "createdService": "entityManageModelService",
-                "createdBy": "spms.systemadmin@syndigo.com_user",
-                "modifiedService": "entityManageModelService",
-                "modifiedBy": "spms.systemadmin@syndigo.com_user",
-                "createdDate": "2026-09-25T00:30:13.339-0500",
-                "modifiedDate": "2026-09-25T00:30:13.339-0500"
-            },
-            "data": {
-                "attributes": {
-                    "emattrsubproject": {
-                        "properties": {
-                            "strategy": "copy"
-                        }
-                    },
-                    "emattroemname": {
-                        "properties": {
-                            "strategy": "copy"
-                        }
-                    },
-                    "emattroempartshorttextdescription": {
-                        "properties": {
-                            "strategy": "copy"
-                        }
-                    },
-                    "emattroemnumber": {
-                        "properties": {
-                            "strategy": "copy"
-                        }
+                "singleMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "DoNothing"
+                            }
+                        ]
                     }
+                ],
+                "multiMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "DoNothing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "data": {
+        "attributes": {
+            "emattrsubproject": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattroemname": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattroempartshorttextdescription": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattroemnumber": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrproject": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrdeliverytimeinweeks": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattroempartlongtextdescription": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattroemmodel": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattruom": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrunitpriceusd": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrdeliverydays": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrsupplierpn": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrequipmentpo": {
+                "properties": {
+                    "strategy": "copy"
+                }
+            },
+            "emattrno": {
+                "properties": {
+                    "strategy": "copy"
                 }
             }
         }
-    ]
+    }
 }

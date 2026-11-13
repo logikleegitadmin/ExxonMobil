@@ -10,13 +10,13 @@
       "name": "rock-entity-header_thing_emplantitem",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.237-0500",
-        "modifiedDate": "2026-08-17T07:26:13.237-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-04T05:59:08.395-0600",
+        "modifiedDate": "2026-11-04T05:59:08.395-0600"
       },
       "data": {
         "contexts": [
@@ -31,8 +31,15 @@
                 "headerConfig": {
                   "emattrno": {
                     "isUserAction": true,
-                    "visible": true,
+                    "visible": false,
                     "attributeName": "emattrno",
+                    "label": "{model.externalName}",
+                    "displaySequence": 100
+                  },
+                  "emattrplantitemno": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrplantitemno",
                     "label": "{model.externalName}",
                     "displaySequence": 100
                   },

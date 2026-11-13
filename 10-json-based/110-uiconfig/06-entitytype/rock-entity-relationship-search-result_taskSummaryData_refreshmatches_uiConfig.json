@@ -1,0 +1,103 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_taskSummaryData_refreshmatches_uiConfig",
+      "name": "rock-entity-relationship-search-result_taskSummaryData_refreshmatches",
+      "type": "uiConfig",
+      "properties": {
+        "createdByService": "system",
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.324-0500",
+        "modifiedDate": "2026-10-22T06:29:53.324-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "grmapp",
+              "component": "rock-entity-relationship-search-result",
+              "domain": "taskSummaryData",
+              "entityType": "refreshmatches"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "linkTemplate": "task-detail?id={id}",
+                    "fields": {
+                      "id": {
+                        "linkTemplate": "task-detail?id={id}"
+                      },
+                      "typeExternalName": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "taskType": {
+                        "header": "{[TskTypTxt]}",
+                        "name": "taskType",
+                        "sortable": true,
+                        "filterable": false,
+                        "editType": "",
+                        "readOnly": true,
+                        "isRelatedEntityAttribute": true,
+                        "visible": true
+                      },
+                      "taskName": {
+                        "visible": false
+                      }
+                    }
+                  }
+                },
+                "businessActions": {
+                  "visible": false
+                },
+                "upDirectionConfig": {
+                  "gridConfig": {
+                    "fields": {
+                      "id": {
+                        "linkTemplate": "task-detail?id={id}"
+                      },
+                      "typeExternalName": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "taskType": {
+                        "header": "{[TskTypTxt]}",
+                        "name": "taskType",
+                        "sortable": true,
+                        "filterable": false,
+                        "editType": "",
+                        "readOnly": true,
+                        "isRelatedEntityAttribute": true,
+                        "visible": true
+                      },
+                      "taskName": {
+                        "visible": false
+                      }
+                    }
+                  },
+                  "businessActions": {
+                    "visible": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -10,13 +10,13 @@
       "name": "rock-home-widgets_systemadmin",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.486-0500",
-        "modifiedDate": "2026-08-17T07:26:13.486-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.778-0500",
+        "modifiedDate": "2026-10-22T06:29:53.778-0500"
       },
       "data": {
         "contexts": [
@@ -158,6 +158,70 @@
                       "position-y": 0,
                       "width": 6,
                       "height": 5
+                    }
+                  },
+                  "rock-analytics-widget": {
+                    "visible": true,
+                    "nonMaximizable": true,
+                    "nonClosable": true,
+                    "displaySequence": 60,
+                    "name": "rock-analytics-widget",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "/src/elements/rock-analytics-widget/rock-analytics-widget.html",
+                        "name": "rock-analytics-widget",
+                        "properties": {
+                          "url-path": "?widgetId={{TENANT}}-bf6856f3-b674-40d5-93e6-5c02052dbf4f",
+                          "timeout": 30000,
+                          "url": "/extdashboard"
+                        }
+                      },
+                      "position-x": 0,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "Sum of Control Total by PR Type",
+                      "position-y": 10,
+                      "width": 6,
+                      "headerIcon": "pebble-icon:integration",
+                      "height": 8
+                    }
+                  },
+                  "rock-analytics-widget2": {
+                    "visible": true,
+                    "nonMaximizable": true,
+                    "nonClosable": true,
+                    "displaySequence": 60,
+                    "name": "rock-analytics-widget",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "/src/elements/rock-analytics-widget/rock-analytics-widget.html",
+                        "name": "rock-analytics-widget",
+                        "properties": {
+                          "url-path": "?widgetId={{TENANT}}-77f1ed67-198c-48dc-857a-a9b1ef73e751",
+                          "timeout": 30000,
+                          "url": "/extdashboard"
+                        }
+                      },
+                      "position-x": 6,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "PR Item's Status Summary",
+                      "position-y": 10,
+                      "width": 6,
+                      "headerIcon": "pebble-icon:integration",
+                      "height": 8
                     }
                   }
                 }

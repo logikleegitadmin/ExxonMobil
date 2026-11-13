@@ -10,13 +10,9 @@
       "name": "rock-entity-relationship-search-result_emrelhasrspls",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
-        "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.384-0500",
-        "modifiedDate": "2026-08-17T07:26:13.384-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-11-03T23:17:25.964-0600"
       },
       "data": {
         "contexts": [
@@ -121,13 +117,29 @@
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
+                      },
+                      "entityTypeIcon": {
+                        "visible": false
+                      },
+                      "typeExternalName": {
+                        "visible": false
                       }
                     }
                   },
                   "viewConfig": {}
                 },
                 "businessActions": {
-                  "basic": {}
+                  "basic": {
+                    "actions": {
+                      "create-and-add": {
+                        "visible": false
+                      },
+                      "add": {
+                        "visible": false
+                      }
+                    },
+                    "visible": false
+                  }
                 },
                 "upDirectionConfig": {
                   "visible": "false",

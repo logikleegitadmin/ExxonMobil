@@ -1,68 +1,58 @@
 {
-    "entityModels": [
-        {
-            "id": "emprlineitem_emrelbelongstoplantitem_emplantitem_graphProcessModel",
-            "name": "emprlineitem_emrelbelongstoplantitem_emplantitem",
-            "type": "graphProcessModel",
-            "domain": "generic",
-            "properties": {
-                "createdService": "entityManageModelService",
-                "createdBy": "spmsds.systemadmin@syndigo.com_user",
-                "createdDate": "2026-08-23T05:57:51.931-0500",
-                "defaultValueSource": "internal",
-                "graphProcessPath": "emprlineitem_emrelbelongstoplantitem_emplantitem",
-                "matchRulesOperator": "or",
-                "matchRules": [
+    "id": "emprlineitem_emrelbelongstoplantitem_emplantitem_graphProcessModel",
+    "name": "emprlineitem_emrelbelongstoplantitem_emplantitem",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "graphProcessPath": "emprlineitem_emrelbelongstoplantitem_emplantitem",
+        "matchRulesOperator": "or",
+        "matchRules": [
+            {
+                "seq": 1,
+                "matchType": "attributeBased",
+                "attributeMaps": [
                     {
-                        "seq": 1,
-                        "matchType": "attributeBased",
-                        "attributeMaps": [
+                        "emattrmmnumber": "emattrmmnumber"
+                    }
+                ],
+                "singleMatchResult": [
+                    {
+                        "actions": [
                             {
-                                "emattrmmnumber": "emattrmmnumber"
-                            }
-                        ],
-                        "singleMatchResult": [
-                            {
-                                "actions": [
-                                    {
-                                        "actionName": "AddSourceRelationship"
-                                    }
-                                ]
-                            }
-                        ],
-                        "noMatchResult": [
-                            {
-                                "actions": [
-                                    {
-                                        "actionName": "Error"
-                                    }
-                                ]
-                            }
-                        ],
-                        "multiMatchResult": [
-                            {
-                                "actions": [
-                                    {
-                                        "actionName": "AddSourceRelationship"
-                                    }
-                                ]
+                                "actionName": "AddSourceRelationship"
                             }
                         ]
                     }
                 ],
-                "modifiedService": "entityManageModelService",
-                "modifiedBy": "spmsds.systemadmin@syndigo.com_user",
-                "modifiedDate": "2026-09-02T00:36:30.440-0500"
-            },
-            "data": {
-                "attributes": {
-                    "emattrmmnumber": {
-                        "properties": {
-                            "strategy": "copy"
-                        }
+                "noMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "Error"
+                            }
+                        ]
                     }
+                ],
+                "multiMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "AddSourceRelationship"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "data": {
+        "attributes": {
+            "emattrmmnumber": {
+                "properties": {
+                    "strategy": "copy"
                 }
             }
         }
-    ]
+    }
 }

@@ -10,13 +10,13 @@
       "name": "rock-entity-header_thing_emequipmenttag",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.233-0500",
-        "modifiedDate": "2026-08-17T07:26:13.233-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-03T00:44:26.690-0600",
+        "modifiedDate": "2026-11-03T00:44:26.690-0600"
       },
       "data": {
         "contexts": [
@@ -29,52 +29,52 @@
             "jsonData": {
               "config": {
                 "headerConfig": {
-                  "emattrpackagenumber": {
+                  "emattrsubproject": {
                     "isUserAction": true,
                     "visible": true,
-                    "attributeName": "emattrpackagenumber",
+                    "attributeName": "emattrsubproject",
                     "label": "{model.externalName}",
                     "displaySequence": 100
-                  },
-                  "emattrequipmenttype": {
-                    "isUserAction": true,
-                    "visible": true,
-                    "attributeName": "emattrequipmenttype",
-                    "label": "{model.externalName}",
-                    "displaySequence": 110
                   },
                   "emattrequipmenttag": {
                     "isUserAction": true,
                     "visible": true,
                     "attributeName": "emattrequipmenttag",
                     "label": "{model.externalName}",
-                    "displaySequence": 111
+                    "displaySequence": 110
                   },
-                  "emattrorganization": {
+                  "emattrequipmentpo": {
                     "isUserAction": true,
                     "visible": true,
-                    "attributeName": "emattrorganization",
+                    "attributeName": "emattrequipmentpo",
+                    "label": "{model.externalName}",
+                    "displaySequence": 111
+                  },
+                  "emattrguyanafunctionallocationhierarchyclassification": {
+                    "isUserAction": true,
+                    "visible": true,
+                    "attributeName": "emattrguyanafunctionallocationhierarchyclassification",
                     "label": "{model.externalName}",
                     "displaySequence": 112
                   },
-                  "emattrproject": {
+                  "emattrequipmentclassification": {
                     "isUserAction": true,
                     "visible": true,
-                    "attributeName": "emattrproject",
+                    "attributeName": "emattrequipmentclassification",
                     "label": "{model.externalName}",
                     "displaySequence": 113
                   },
-                  "emattrfieldlocation": {
+                  "emattrequipmenttype": {
                     "isUserAction": true,
                     "visible": true,
-                    "attributeName": "emattrfieldlocation",
+                    "attributeName": "emattrequipmenttype",
                     "label": "{model.externalName}",
                     "displaySequence": 114
                   },
-                  "emattrsupplier": {
+                  "ematterallothersupplier": {
                     "isUserAction": true,
                     "visible": true,
-                    "attributeName": "emattrsupplier",
+                    "attributeName": "ematterallothersupplier",
                     "label": "{model.externalName}",
                     "displaySequence": 115
                   },

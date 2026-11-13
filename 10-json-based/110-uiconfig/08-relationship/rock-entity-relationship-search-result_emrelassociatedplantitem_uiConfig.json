@@ -10,13 +10,13 @@
       "name": "rock-entity-relationship-search-result_emrelassociatedplantitem",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.136.0.2048",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
         "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-28T07:15:55.519-0500",
-        "modifiedDate": "2026-09-28T07:15:55.519-0500"
+        "createdDate": "2026-11-04T06:01:47.704-0600",
+        "modifiedDate": "2026-11-04T06:01:47.704-0600"
       },
       "data": {
         "contexts": [
@@ -38,23 +38,35 @@
                       },
                       "emattrno": {
                         "filterable": false,
-                        "visible": true,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 70,
                         "name": "emattrno",
                         "linkTemplate": "entity-manage?id={id}&type={type}",
-                        "header": "",
+                        "header": "Mapped RSPL Line Item No",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattroempn": {
+                      "emattrplantitemno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrplantitemno",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "Plant Item No",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattroemnumber": {
                         "filterable": false,
                         "visible": true,
                         "editable": false,
                         "displaySequence": 71,
-                        "name": "emattroempn",
-                        "header": "",
+                        "name": "emattroemnumber",
+                        "header": "OEM P/N",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
@@ -139,6 +151,11 @@
                     "visible": true,
                     "title": "",
                     "fields": {
+                      "typeExternalName": {
+                        "visible": true,
+                        "sortable": true,
+                        "header": "Item Type"
+                      },
                       "name": {
                         "filterable": false,
                         "visible": false,
@@ -157,25 +174,25 @@
                         "sortable": false,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrno": {
+                      "emattroemnumber": {
                         "filterable": false,
                         "visible": true,
                         "editable": false,
                         "displaySequence": 70,
-                        "name": "emattrno",
+                        "name": "emattroemnumber",
                         "linkTemplate": "entity-manage?id={id}&type={type}",
                         "header": "",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrrspl": {
+                      "emattroempartshorttextdescription": {
                         "filterable": false,
                         "visible": true,
                         "editable": false,
                         "displaySequence": 71,
-                        "name": "emattrrspl",
-                        "header": "",
+                        "name": "emattroempartshorttextdescription",
+                        "header": "Description",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
@@ -186,28 +203,84 @@
                         "editable": false,
                         "displaySequence": 72,
                         "name": "emattroemname",
-                        "header": "",
+                        "header": "OEM",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattroemnumber": {
+                      "emattrmmnumber": {
                         "filterable": false,
                         "visible": true,
                         "editable": false,
                         "displaySequence": 73,
-                        "name": "emattroemnumber",
-                        "header": "",
+                        "name": "emattrmmnumber",
+                        "header": "MM #",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrsupplier": {
+                      "emattrrspl": {
                         "filterable": false,
                         "visible": true,
                         "editable": false,
-                        "displaySequence": 72,
-                        "name": "emattrsupplier",
+                        "displaySequence": 74,
+                        "name": "emattrrspl",
+                        "header": "RSPL",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrno",
+                        "header": "RSPL Line Item #",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrspir": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrspir",
+                        "header": "SPIR",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrspirlineitemno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrspirlineitemno",
+                        "header": "SPIR Line Item #",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrpr": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrpr",
+                        "header": "PR",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrprlineitemno": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrprlineitemno",
+                        "header": "PR Line Item #",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true

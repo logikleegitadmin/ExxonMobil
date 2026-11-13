@@ -12,7 +12,7 @@
       "properties": {
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-28T02:31:11.695-0500"
+        "modifiedDate": "2026-11-12T01:58:18.072-0600"
       },
       "data": {
         "contexts": [
@@ -28,6 +28,18 @@
                 "gridConfig": {
                   "itemConfig": {
                     "fields": {
+                      "typeExternalName": {
+                        "visible": false
+                      },
+                      "entityTypeIcon": {
+                        "visible": false
+                      },
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
                       "emattrspir": {
                         "name": "emattrspir",
                         "header": "SPIR #",
@@ -46,8 +58,8 @@
                       },
                       "emattrcreateddate": {
                         "name": "emattrcreateddate",
-                        "header": "Created Date",
-                        "displaySequence": 25,
+                        "header": "SPIR Date",
+                        "displaySequence": 33,
                         "visible": true,
                         "sortable": true,
                         "editable": false
@@ -55,7 +67,7 @@
                       "emattrpricevaliditydate": {
                         "name": "emattrpricevaliditydate",
                         "header": "Price Validity Date",
-                        "displaySequence": 30,
+                        "displaySequence": 35,
                         "visible": true,
                         "sortable": true,
                         "editable": false

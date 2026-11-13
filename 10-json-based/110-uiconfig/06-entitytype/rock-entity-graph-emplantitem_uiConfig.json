@@ -10,13 +10,13 @@
       "name": "rock-entity-graph-emplantitem",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.136.0.2048",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
         "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-24T00:46:20.925-0500",
-        "modifiedDate": "2026-09-24T00:46:20.925-0500"
+        "createdDate": "2026-10-22T06:29:53.274-0500",
+        "modifiedDate": "2026-10-22T06:29:53.274-0500"
       },
       "data": {
         "contexts": [
@@ -32,20 +32,12 @@
                   "pageSize": 10,
                   "relationships": [
                     {
-                      "relationshipName": "emrelassociatedrspllineitem",
-                      "treeNodeTitle": "attribute:emattrno"
-                    },
-                    {
-                      "relationshipName": "emrelbelongstoplantitem",
-                      "treeNodeTitle": "attribute:emattrno"
-                    },
-                    {
-                      "relationshipName": "emrelhaspritems",
-                      "treeNodeTitle": "attribute:emattrprlineitemno"
-                    },
-                    {
                       "relationshipName": "emrelbelongstoequipmenttag",
                       "treeNodeTitle": "attribute:emattrequipmenttag"
+                    },
+                    {
+                      "relationshipName": "emrelbelongstobom",
+                      "treeNodeTitle": "attribute:emattrmaterilbomnumber"
                     }
                   ]
                 }

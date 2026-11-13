@@ -10,12 +10,13 @@
       "name": "rock-entity-header_thing_emspiritem",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-12T09:29:48.526-0500",
-        "modifiedDate": "2026-09-12T09:29:48.526-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.308-0500",
+        "modifiedDate": "2026-10-22T06:29:53.308-0500"
       },
       "data": {
         "contexts": [
@@ -77,10 +78,10 @@
                     "label": "{model.externalName}",
                     "displaySequence": 120
                   },
-                  "emattrstatus": {
+                  "emattrspirspiritemstatus": {
                     "isUserAction": true,
                     "visible": true,
-                    "attributeName": "emattrstatus",
+                    "attributeName": "emattrspirspiritemstatus",
                     "label": "{model.externalName}",
                     "displaySequence": 121
                   },

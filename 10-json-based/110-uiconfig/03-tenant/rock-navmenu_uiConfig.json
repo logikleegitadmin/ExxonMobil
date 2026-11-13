@@ -1,0 +1,210 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu_uiConfig",
+      "name": "rock-navmenu",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-10-28T05:04:08.057-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-navmenu"
+            },
+            "jsonData": {
+              "config": {
+                "search": {
+                  "dataRoute": "",
+                  "visible": false,
+                  "subNavMenu": {
+                    "search": {
+                      "actions": {
+                        "search-party": {
+                          "name": "search-party",
+                          "title": "{[SPARTit]}",
+                          "dataRoute": "search-party",
+                          "icon": "pebble-icon:party-search",
+                          "visible": true,
+                          "displaySequence": 20
+                        }
+                      },
+                      "visible": true
+                    }
+                  }
+                },
+                "search-thing": {
+                  "name": "search-thing",
+                  "title": "Item Search",
+                  "dataRoute": "search-thing",
+                  "icon": "pebble-icon:thing-search",
+                  "visible": true,
+                  "displaySequence": 60
+                },
+                "search-party": {
+                  "name": "search-party",
+                  "title": "Supplier Search",
+                  "dataRoute": "search-party",
+                  "icon": "pebble-icon:party-search",
+                  "visible": true,
+                  "displaySequence": 70
+                },
+                "search-referencedata": {
+                  "dataRoute": "search-referencedata",
+                  "visible": true,
+                  "displaySequence": 80,
+                  "name": "search-referencedata",
+                  "icon": "pebble-icon:referencedata-library",
+                  "title": "Reference Data"
+                },
+                "search-digitalasset": {
+                  "dataRoute": "search-digitalasset",
+                  "visible": false,
+                  "displaySequence": 75,
+                  "name": "search-digitalasset",
+                  "icon": "pebble-icon:asset-library",
+                  "title": "RSPL Import Templets"
+                },
+                "syndicationDashboard": {
+                  "name": "syndication-dashboard",
+                  "title": "Syndication",
+                  "dataRoute": "syndication-dashboard",
+                  "icon": "pebble-icon:{{TENANT}}-syndicationDashboard-icon",
+                  "visible": false,
+                  "displaySequence": 170
+                },
+                "quick-actions": {
+                  "subNavMenu": {
+                    "download-template": {
+                      "visible": true,
+                      "actions": {
+                        "downloadTemplateForThing": {
+                          "name": "downloadTemplateForThing",
+                          "icon": "pebble-icon:download",
+                          "text": "{[ThiDomTit]}",
+                          "visible": true,
+                          "displaySequence": 10,
+                          "dataRoute": "download-template",
+                          "contextData": {
+                            "domain": "thing"
+                          }
+                        },
+                        "downloadTemplateForParty": {
+                          "name": "downloadTemplateForParty",
+                          "icon": "pebble-icon:download",
+                          "text": "{[ParSRAppTit]}",
+                          "visible": true,
+                          "displaySequence": 20,
+                          "dataRoute": "download-template",
+                          "contextData": {
+                            "domain": "party"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "visible": true
+                },
+                "configurations": {
+                  "subNavMenu": {
+                    "dataModels": {
+                      "actions": {
+                        "basemodel-party-dashboard": {
+                          "name": "basemodel-party-dashboard",
+                          "title": "{[BasParDasAppTit]}",
+                          "dataRoute": "basemodel-party-dashboard",
+                          "icon": "pebble-icon:model-party-domain",
+                          "visible": true,
+                          "displaySequence": 20
+                        }
+                      },
+                      "visible": true
+                    },
+                    "governance": {
+                      "visible": true
+                    }
+                  },
+                  "visible": true
+                },
+                "exxon-mobil": {
+                  "visible": false
+                },
+                "visualizations": {
+                  "visible": true,
+                  "subNavMenu": {
+                    "visualization": {
+                      "visible": true,
+                      "actions": {
+                        "visualization-dashboard": {
+                          "name": "visualization-dashboard",
+                          "title": "{[RepsTxt]}",
+                          "dataRoute": "visualization-dashboard",
+                          "icon": "pebble-icon:dashboard-pie-chart",
+                          "visible": true,
+                          "displaySequence": 10
+                        },
+                        "visualization-manage-dashboard": {
+                          "dataRoute": "visualization-manage-dashboard",
+                          "visible": true,
+                          "displaySequence": 20,
+                          "name": "visualization-manage-dashboard",
+                          "icon": "pebble-icon:dashboard-pie-chart-manage",
+                          "title": "{[MngRepsTxt]}"
+                        },
+                        "visualization-designer": {
+                          "dataRoute": "visualization-designer",
+                          "visible": true,
+                          "displaySequence": 30,
+                          "name": "visualization-designer",
+                          "icon": "pebble-icon:dashboard-pie-chart-design",
+                          "title": "{[DgnTxt]}"
+                        }
+                      }
+                    }
+                  }
+                },
+                "exxon-mobil-app": {
+                  "visible": true
+                },
+                "insights": {
+                  "visible": false,
+                  "subNavMenu": {
+                    "integrity-check": {
+                      "visible": false,
+                      "actions": {
+                        "deduplication-dashboard": {
+                          "name": "deduplication-dashboard",
+                          "title": "{[DedDasTxt]}",
+                          "dataRoute": "deduplication-dashboard",
+                          "icon": "pebble-icon:merge",
+                          "visible": false,
+                          "displaySequence": 10
+                        },
+                        "run-deduplication": {
+                          "name": "run-deduplication",
+                          "title": "{[RunDedTxt]}",
+                          "dataRoute": "run-deduplication",
+                          "icon": "pebble-icon:merge",
+                          "visible": false,
+                          "displaySequence": 20
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

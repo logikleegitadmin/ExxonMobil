@@ -1,0 +1,56 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs_taskAuditHistoryDownload_uiConfig",
+      "name": "rock-entity-detail-tabs_taskAxSemanticContGen_uiConfig",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.250-0500",
+        "modifiedDate": "2026-10-22T06:29:53.250-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "audt-hist-downld",
+              "component": "rock-entity-detail-tabs",
+              "entityType": "taskAuditHistoryDownload"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "summary": {
+                    "visible": false
+                  },
+                  "successDetails": {
+                    "visible": false
+                  },
+                  "errorDetails": {
+                    "component": {
+                      "properties": {
+                        "showSystemErrors": false,
+                        "showExternalErrors": true,
+                        "status": "error"
+                      }
+                    },
+                    "selected": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

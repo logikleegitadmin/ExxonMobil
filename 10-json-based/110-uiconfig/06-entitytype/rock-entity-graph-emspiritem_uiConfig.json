@@ -10,13 +10,13 @@
       "name": "rock-entity-graph-emspiritem",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.136.0.2048",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-15T08:40:06.025-0500",
-        "modifiedDate": "2026-09-15T08:40:06.025-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-03T06:39:47.736-0600",
+        "modifiedDate": "2026-11-03T06:39:47.736-0600"
       },
       "data": {
         "contexts": [
@@ -28,7 +28,7 @@
             "jsonData": {
               "config": {
                 "entityGraphTreeConfig": {
-                  "treeNodeTitle": "attribute:emattrspirlineitemno",
+                  "treeNodeTitle": "attribute:emattrno",
                   "pageSize": 10,
                   "relationships": [
                     {
@@ -36,8 +36,8 @@
                       "treeNodeTitle": "attribute:emattrequipmenttag"
                     },
                     {
-                      "relationshipName": "emrelbelongstoplantitem",
-                      "treeNodeTitle": "attribute:emattroempn"
+                      "relationshipName": "emrelassociatedplantitem",
+                      "treeNodeTitle": "attribute:emattrplantiteminfo"
                     },
                     {
                       "relationshipName": "emrelhasspiritems",
@@ -45,11 +45,27 @@
                     },
                     {
                       "relationshipName": "emrelbelongstospiritem",
-                      "treeNodeTitle": "attribute:emattrno"
+                      "treeNodeTitle": "attribute:emattrno",
+                      "relationships": [
+                        {
+                          "relationshipName": "emrelhasrsplitems",
+                          "treeNodeTitle": "attribute:emattrrspl"
+                        }
+                      ]
                     },
                     {
                       "relationshipName": "emrelhaspritems",
-                      "treeNodeTitle": "attribute:emattrprlineitemno"
+                      "treeNodeTitle": "attribute:emattrprlineitemno",
+                      "relationships": [
+                        {
+                          "relationshipName": "emrelbelongstopr",
+                          "treeNodeTitle": "attribute:emattrpr"
+                        }
+                      ]
+                    },
+                    {
+                      "relationshipName": "emrelassociatedsupplier",
+                      "treeNodeTitle": "attribute:prtattrsuppliername"
                     }
                   ]
                 }

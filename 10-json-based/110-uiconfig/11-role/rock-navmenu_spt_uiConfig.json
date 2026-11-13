@@ -12,7 +12,7 @@
       "properties": {
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-24T07:02:20.639-0500"
+        "modifiedDate": "2026-10-28T05:07:05.198-0500"
       },
       "data": {
         "contexts": [
@@ -32,22 +32,119 @@
                           "title": "{[TCARTit]}",
                           "dataRoute": "taxonomymodel-dashboard",
                           "icon": "pebble-icon:dashboard-taxonomy",
-                          "visible": true,
+                          "visible": false,
                           "displaySequence": 10
                         }
                       },
-                      "visible": true
+                      "visible": false
+                    },
+                    "governance": {
+                      "visible": false
+                    },
+                    "dataModels": {
+                      "visible": false,
+                      "actions": {
+                        "basemodel-party-dashboard": {
+                          "name": "basemodel-party-dashboard",
+                          "title": "{[BasParDasAppTit]}",
+                          "dataRoute": "basemodel-party-dashboard",
+                          "icon": "pebble-icon:model-party-domain",
+                          "visible": false,
+                          "displaySequence": 20
+                        }
+                      }
                     }
                   },
-                  "visible": true
+                  "visible": false
                 },
                 "search-digitalasset": {
                   "name": "search-digitalasset",
-                  "title": "Assets",
+                  "title": "RSPL Import Templets",
                   "dataRoute": "search-digitalasset",
                   "icon": "pebble-icon:asset-library",
                   "visible": true,
                   "displaySequence": 75
+                },
+                "quick-actions": {
+                  "subNavMenu": {
+                    "upload": {
+                      "actions": {
+                        "uploadEntities": {
+                          "name": "uploadEntities",
+                          "icon": "pebble-icon:publish",
+                          "text": "{[UplEntTxt]}",
+                          "visible": true,
+                          "displaySequence": 10,
+                          "dataRoute": "upload-excel",
+                          "contextData": {}
+                        },
+                        "uploadCSV": {
+                          "name": "uploadCSV",
+                          "icon": "pebble-icon:publish",
+                          "text": "{[UplCSVTxt]}",
+                          "visible": false,
+                          "displaySequence": 20,
+                          "dataRoute": "upload-csv",
+                          "contextData": {}
+                        },
+                        "uploadAssets": {
+                          "name": "uploadAssets",
+                          "icon": "pebble-icon:asset-library",
+                          "text": "{[UplAssTxt]}",
+                          "visible": false,
+                          "displaySequence": 30,
+                          "dataRoute": "upload-assets",
+                          "contextData": {}
+                        }
+                      },
+                      "visible": true
+                    },
+                    "create": {
+                      "visible": false,
+                      "actions": {
+                        "createEntity": {
+                          "name": "createEntity",
+                          "icon": "pebble-icon:plus-outline",
+                          "text": "{[EntTxt]}",
+                          "visible": false,
+                          "displaySequence": 10,
+                          "dataRoute": "entity-create",
+                          "contextData": {}
+                        }
+                      }
+                    },
+                    "download-template": {
+                      "actions": {
+                        "downloadTemplateForThing": {
+                          "name": "downloadTemplateForThing",
+                          "icon": "pebble-icon:download",
+                          "text": "{[ThiDomTit]}",
+                          "visible": false,
+                          "displaySequence": 10,
+                          "dataRoute": "download-template",
+                          "contextData": {
+                            "domain": "thing"
+                          }
+                        },
+                        "downloadTemplateForParty": {
+                          "name": "downloadTemplateForParty",
+                          "icon": "pebble-icon:download",
+                          "text": "{[ParSRAppTit]}",
+                          "visible": false,
+                          "displaySequence": 20,
+                          "dataRoute": "download-template",
+                          "contextData": {
+                            "domain": "party"
+                          }
+                        }
+                      },
+                      "visible": false
+                    }
+                  },
+                  "visible": true
+                },
+                "exxon-mobil-app": {
+                  "visible": false
                 }
               }
             }

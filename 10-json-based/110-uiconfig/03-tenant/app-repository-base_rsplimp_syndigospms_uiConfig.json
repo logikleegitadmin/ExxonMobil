@@ -1,0 +1,51 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository-base_rsplimp_syndigospms_uiConfig",
+      "name": "app-repository_rsplimp_syndigospms",
+      "type": "uiConfig",
+      "properties": {
+        "createdByService": "system",
+        "createdBy": "system",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "_UNASSIGNED",
+        "modifiedDate": "2026-11-13T01:22:09.592-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "syndigospms",
+              "component": "app-repository"
+            },
+            "jsonData": {
+              "config": {
+                "rspl-imp-app": {
+                  "title": "RSPL Import App",
+                  "dataRoute": "rspl-imp-app",
+                  "icon": "pebble-icon:dashboard-context",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "visible": true,
+                  "enabled": true,
+                  "component": {
+                    "path": "/plugin-src/syndigospms/elements/syndigospms-rsplimp/syndigospms-rsplimp.js",
+                    "name": "syndigospms-rsplimp",
+                    "properties": {
+                      "mode": "edit"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

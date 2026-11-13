@@ -10,13 +10,13 @@
       "name": "rock-entity-graph-emequipmenttag",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.136.0.2048",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-15T08:27:20.524-0500",
-        "modifiedDate": "2026-09-15T08:27:20.524-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-03T06:39:47.725-0600",
+        "modifiedDate": "2026-11-03T06:39:47.725-0600"
       },
       "data": {
         "contexts": [
@@ -32,24 +32,16 @@
                   "pageSize": 10,
                   "relationships": [
                     {
-                      "relationshipName": "emrelhasrsplitems",
-                      "treeNodeTitle": "attribute:emattrno"
-                    },
-                    {
-                      "relationshipName": "emrelhasspiritems",
-                      "treeNodeTitle": "attribute:emattrno"
-                    },
-                    {
-                      "relationshipName": "emrelhaspritems",
-                      "treeNodeTitle": "attribute:emattrprlineitemno"
-                    },
-                    {
-                      "relationshipName": "emrelhasplantitems",
-                      "treeNodeTitle": "attribute:emattroempn"
-                    },
-                    {
                       "relationshipName": "emrelrelatedbom",
-                      "treeNodeTitle": "attribute:emattrequipmentpo"
+                      "treeNodeTitle": "attribute:emattrmaterilbomnumber"
+                    },
+                    {
+                      "relationshipName": "emrelbelongstoequipmenttag",
+                      "treeNodeTitle": "attribute:emattrplantiteminfo"
+                    },
+                    {
+                      "relationshipName": "emrelassociatedsupplier",
+                      "treeNodeTitle": "attribute:prtattrsuppliername"
                     }
                   ]
                 }

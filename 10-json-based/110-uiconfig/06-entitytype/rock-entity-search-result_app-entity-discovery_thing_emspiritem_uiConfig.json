@@ -11,8 +11,8 @@
       "type": "uiConfig",
       "properties": {
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-16T05:58:47.089-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-11-12T02:08:33.211-0600"
       },
       "data": {
         "contexts": [
@@ -224,6 +224,10 @@
                         "visible": true,
                         "sortable": true,
                         "editable": true
+                      },
+                      "name": {
+                        "visible": false,
+                        "sortable": false
                       }
                     }
                   },

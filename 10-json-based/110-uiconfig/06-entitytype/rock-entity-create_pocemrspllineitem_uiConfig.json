@@ -1,0 +1,55 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-create_pocemrspllineitem_uiConfig",
+      "name": "rock-entity-create_pocemrspllineitem",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.230-0500",
+        "modifiedDate": "2026-10-22T06:29:53.230-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-create",
+              "entityType": "pocemrspllineitem"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "pocemattrsuppliertag",
+                    "pocemattrdescription",
+                    "pocemattroemmodel",
+                    "pocemattroemname",
+                    "pocemattrremarks",
+                    "pocemattrqtyperunit",
+                    "pocemattrunitpriceusd",
+                    "pocemattrsupplierpart",
+                    "pocemattruom",
+                    "pocemattrdeliverydays"
+                  ],
+                  "matchConfig": {
+                    "enable-match-step": true,
+                    "match-type": "deterministic"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

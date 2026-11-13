@@ -10,9 +10,13 @@
       "name": "rock-entity-detail-tabs_thing_emrspl_systemadmin",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-02T05:28:45.625-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-03T06:25:08.251-0600",
+        "modifiedDate": "2026-11-03T06:25:08.251-0600"
       },
       "data": {
         "contexts": [
@@ -27,6 +31,17 @@
               "config": {
                 "tabItems": {
                   "graph": {
+                    "visible": true,
+                    "selected": false
+                  },
+                  "relationships": {
+                    "selected": true
+                  },
+                  "errorDetails": {
+                    "selected": false
+                  },
+                  "syndigospms-relationship-match": {
+                    "selected": false,
                     "visible": true
                   }
                 }

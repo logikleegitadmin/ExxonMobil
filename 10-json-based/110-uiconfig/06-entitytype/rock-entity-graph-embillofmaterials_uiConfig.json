@@ -1,0 +1,51 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-graph-embillofmaterials_uiConfig",
+      "name": "rock-entity-graph-embillofmaterials",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-03T06:39:47.722-0600",
+        "modifiedDate": "2026-11-03T06:39:47.722-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-graph",
+              "entityType": "embillofmaterials"
+            },
+            "jsonData": {
+              "config": {
+                "entityGraphTreeConfig": {
+                  "treeNodeTitle": "attribute:emattrmaterilbomnumber",
+                  "pageSize": 10,
+                  "relationships": [
+                    {
+                      "relationshipName": "emrelrelatedbom",
+                      "treeNodeTitle": "attribute:emattrequipmenttag"
+                    },
+                    {
+                      "relationshipName": "emrelbelongstobom",
+                      "treeNodeTitle": "attribute:emattrplantiteminfo"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

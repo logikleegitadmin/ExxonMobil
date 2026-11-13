@@ -1,0 +1,89 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-task-message-list_taskPdfGen_uiConfig",
+      "name": "rock-task-message-list_taskPdfGen",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.392-0500",
+        "modifiedDate": "2026-10-22T06:29:53.392-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-task-message-list",
+              "entityType": "taskPdfGen"
+            },
+            "jsonData": {
+              "config": {
+                "dataRequest": {
+                  "eventTypes": [
+                    "LOAD"
+                  ],
+                  "eventEntityTypes": [
+                    "externalevent"
+                  ],
+                  "eventSubTypes": [
+                    "WARNING",
+                    "ERROR",
+                    "INFO"
+                  ]
+                },
+                "gridConfig": {
+                  "itemConfig": {
+                    "sort": {
+                      "default": [
+                        {
+                          "field": "createdOn",
+                          "sortType": "asc"
+                        }
+                      ]
+                    },
+                    "fields": {
+                      "typeExternalName": {
+                        "visible": false
+                      },
+                      "eventSubType": {
+                        "filterable": true,
+                        "visible": true,
+                        "displaySequence": 30,
+                        "name": "eventSubType",
+                        "width": 6,
+                        "header": "{[TypTxt]}",
+                        "sortable": true
+                      },
+                      "createdOn": {
+                        "visible": true,
+                        "width": 30
+                      },
+                      "message": {
+                        "filterable": true,
+                        "visible": true,
+                        "displaySequence": 50,
+                        "name": "message",
+                        "width": 50,
+                        "header": "{[MsgTxt]}",
+                        "sortable": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

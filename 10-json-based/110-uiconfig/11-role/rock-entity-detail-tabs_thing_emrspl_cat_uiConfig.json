@@ -1,0 +1,51 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs_thing_emrspl_cat_uiConfig",
+      "name": "rock-entity-detail-tabs_thing_emrspl_cat",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-03T06:25:08.247-0600",
+        "modifiedDate": "2026-11-03T06:25:08.247-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-detail-tabs",
+              "domain": "thing",
+              "entityType": "emrspl",
+              "role": "cat"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "relationships": {
+                    "selected": false
+                  },
+                  "errorDetails": {
+                    "selected": false
+                  },
+                  "syndigospms-relationship-match": {
+                    "selected": true,
+                    "visible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

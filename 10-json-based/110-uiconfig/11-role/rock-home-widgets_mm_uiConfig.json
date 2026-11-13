@@ -1,0 +1,235 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-home-widgets_mm_uiConfig",
+      "name": "rock-home-widgets_mm",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-01T22:24:16.865-0600",
+        "modifiedDate": "2026-11-01T22:24:16.865-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-home-widgets",
+              "role": "mm"
+            },
+            "jsonData": {
+              "config": {
+                "widgetRow": 16,
+                "widgets": {
+                  "rock-my-todos": {
+                    "visible": true,
+                    "nonMaximizable": false,
+                    "nonClosable": true,
+                    "displaySequence": 10,
+                    "name": "rock-my-todos",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "../rock-my-todos/rock-my-todos.js",
+                        "name": "rock-my-todos",
+                        "properties": {
+                          "assignmentFilterValue": "all",
+                          "maximum-number-of-workflows-to-display": 20
+                        }
+                      },
+                      "position-x": 0,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "label": "{[RfsTxt]}",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "{[DWMTHeaLbl]}",
+                      "position-y": 0,
+                      "width": 6,
+                      "height": 5
+                    }
+                  },
+                  "rock-saved-searches": {
+                    "visible": true,
+                    "nonMaximizable": false,
+                    "nonClosable": true,
+                    "displaySequence": 30,
+                    "name": "rock-saved-searches",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "../rock-saved-searches/rock-saved-searches.js",
+                        "name": "rock-saved-searches",
+                        "properties": {
+                          "view-mode": true,
+                          "supportedDomains": [
+                            {
+                              "domain": "digitalAsset",
+                              "icon": "pebble-icon:asset-search"
+                            },
+                            {
+                              "domain": "thing",
+                              "icon": "pebble-icon:sandbox-search"
+                            },
+                            {
+                              "domain": "location",
+                              "icon": "pebble-icon:location-search"
+                            },
+                            {
+                              "domain": "party",
+                              "icon": "pebble-icon:party-search"
+                            },
+                            {
+                              "domain": "referenceData",
+                              "icon": "pebble-icon:tag-search"
+                            }
+                          ]
+                        }
+                      },
+                      "position-x": 0,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "label": "{[RfsTxt]}",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "{[SSTxt]}",
+                      "position-y": 5,
+                      "width": 6,
+                      "height": 5
+                    }
+                  },
+                  "rock-business-conditions-summary": {
+                    "nonMaximizable": false,
+                    "visible": true,
+                    "nonClosable": true,
+                    "displaySequence": 50,
+                    "name": "rock-business-conditions-summary",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "../rock-business-conditions-summary/rock-business-conditions-summary.js",
+                        "name": "rock-business-conditions-summary",
+                        "properties": {
+                          "max-business-conditions-to-display": 20
+                        }
+                      },
+                      "iconButtons": {
+                        "context": {
+                          "clickHandler": "onContextClick",
+                          "displaySequence": 10,
+                          "name": "context",
+                          "icon": "pebble-icon:globe",
+                          "label": "{[CSConTit]}",
+                          "showInMoreActions": false
+                        },
+                        "refresh": {
+                          "displaySequence": 30,
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "label": "{[RfsTxt]}",
+                          "showInMoreActions": false
+                        },
+                        "sort": {
+                          "clickHandler": "onSortClick",
+                          "displaySequence": 20,
+                          "name": "sort",
+                          "icon": "pebble-icon:alphabet-sort",
+                          "sortBy": "name",
+                          "label": "{[SorByNamTxt]}",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "{[DWBCHeaLbl]}",
+                      "position-x": 6,
+                      "position-y": 0,
+                      "width": 6,
+                      "height": 5
+                    }
+                  },
+                  "rock-analytics-widget": {
+                    "visible": true,
+                    "nonMaximizable": true,
+                    "nonClosable": true,
+                    "displaySequence": 60,
+                    "name": "rock-analytics-widget",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "/src/elements/rock-analytics-widget/rock-analytics-widget.html",
+                        "name": "rock-analytics-widget",
+                        "properties": {
+                          "url-path": "?widgetId={{TENANT}}-bf6856f3-b674-40d5-93e6-5c02052dbf4f",
+                          "timeout": 30000,
+                          "url": "/extdashboard"
+                        }
+                      },
+                      "position-x": 0,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "Sum of Control Total by PR Type",
+                      "position-y": 10,
+                      "width": 6,
+                      "headerIcon": "pebble-icon:integration",
+                      "height": 8
+                    }
+                  },
+                  "rock-analytics-widget2": {
+                    "visible": true,
+                    "nonMaximizable": true,
+                    "nonClosable": true,
+                    "displaySequence": 60,
+                    "name": "rock-analytics-widget",
+                    "nonDraggable": false,
+                    "config": {
+                      "component": {
+                        "path": "/src/elements/rock-analytics-widget/rock-analytics-widget.html",
+                        "name": "rock-analytics-widget",
+                        "properties": {
+                          "url-path": "?widgetId={{TENANT}}-77f1ed67-198c-48dc-857a-a9b1ef73e751",
+                          "timeout": 30000,
+                          "url": "/extdashboard"
+                        }
+                      },
+                      "position-x": 6,
+                      "iconButtons": {
+                        "refresh": {
+                          "name": "refresh",
+                          "icon": "pebble-icon:refresh",
+                          "showInMoreActions": false
+                        }
+                      },
+                      "heading": "PR Item's Status Summary",
+                      "position-y": 10,
+                      "width": 6,
+                      "headerIcon": "pebble-icon:integration",
+                      "height": 8
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

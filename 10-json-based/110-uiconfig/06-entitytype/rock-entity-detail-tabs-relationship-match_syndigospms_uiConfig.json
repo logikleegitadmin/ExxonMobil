@@ -1,0 +1,55 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs-relationship-match_syndigospms_uiConfig",
+      "name": "rock-entity-detail-tabs-relationship-match_syndigospms",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "_UNASSIGNED",
+        "modifiedDate": "2026-11-13T01:22:09.609-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "syndigospms",
+              "component": "rock-entity-detail-tabs",
+              "domain": "thing",
+              "entityType": "emrspl"
+            },
+            "jsonData": {
+              "config": {
+                "scrollable": true,
+                "fitContainer": false,
+                "maxAllowedTabs": 10,
+                "tabItems": {
+                  "syndigospms-relationship-match": {
+                    "name": "syndigospms-relationship-match",
+                    "title": "Matching Plant Items",
+                    "selected": false,
+                    "enableDropdownMenu": false,
+                    "visible": true,
+                    "displaySequence": 80,
+                    "component": {
+                      "name": "syndigospms-relationship-match",
+                      "path": "/plugin-src/syndigospms/elements/syndigospms-relationship-match/syndigospms-relationship-match.js",
+                      "properties": {
+                        "view-mode": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

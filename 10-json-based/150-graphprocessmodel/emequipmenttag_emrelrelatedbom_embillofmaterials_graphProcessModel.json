@@ -1,0 +1,59 @@
+{
+    "id": "emequipmenttag_emrelrelatedbom_embillofmaterials_graphProcessModel",
+    "name": "emequipmenttag_emrelrelatedbom_embillofmaterials",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "defaultValueLocale": "en-US",
+        "graphProcessPath": "emequipmenttag_emrelrelatedbom_embillofmaterials",
+        "matchRulesOperator": "or",
+        "matchRules": [
+            {
+                "seq": 1,
+                "matchType": "attributeBased",
+                "attributeMaps": [
+                    {
+                        "emattrmaterilbomnumber": "emattrmaterilbomnumber"
+                    }
+                ],
+                "noMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "DoNothing"
+                            }
+                        ]
+                    }
+                ],
+                "singleMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "AddTargetRelationship"
+                            }
+                        ]
+                    }
+                ],
+                "multiMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "AddTargetRelationship"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "relExists": [
+            {
+                "actions": [
+                    {
+                        "actionName": "DoNothing"
+                    }
+                ]
+            }
+        ]
+    }
+}
