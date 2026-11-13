@@ -1,0 +1,71 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_app-entity-discovery_thing_embillofmaterials_uiConfig",
+      "name": "rock-entity-search-result_app-entity-discovery_thing_embillofmaterials",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-11-12T02:14:09.614-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-entity-search-result",
+              "domain": "thing",
+              "entityType": "embillofmaterials"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "emattrdescription": {
+                        "name": "emattrdescription",
+                        "header": "BOM Description",
+                        "displaySequence": 30,
+                        "visible": true,
+                        "sortable": true
+                      },
+                      "emattrcomments": {
+                        "visible": false,
+                        "sortable": false,
+                        "editable": false
+                      },
+                      "name": {
+                        "visible": false,
+                        "sortable": false
+                      },
+                      "emattrmaterilbomnumber": {
+                        "name": "emattrmaterilbomnumber",
+                        "header": "BOM #",
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false,
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "displaySequence": 5
+                      },
+                      "emattrsupplier": {
+                        "visible": false,
+                        "sortable": false
+                      }
+                    }
+                  },
+                  "viewConfig": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

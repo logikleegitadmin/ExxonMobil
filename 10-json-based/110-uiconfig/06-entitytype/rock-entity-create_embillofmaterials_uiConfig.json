@@ -10,9 +10,13 @@
       "name": "rock-entity-create_embillofmaterials",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-22T01:09:15.488-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.209-0500",
+        "modifiedDate": "2026-10-22T06:29:53.209-0500"
       },
       "data": {
         "contexts": [

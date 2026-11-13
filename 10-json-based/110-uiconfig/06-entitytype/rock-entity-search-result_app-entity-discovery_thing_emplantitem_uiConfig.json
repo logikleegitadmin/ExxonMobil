@@ -10,9 +10,13 @@
       "name": "rock-entity-search-result_app-entity-discovery_thing_emplantitem",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-25T03:45:59.476-0500"
+        "createdDate": "2026-10-22T06:29:53.329-0500",
+        "modifiedDate": "2026-10-22T06:29:53.329-0500"
       },
       "data": {
         "contexts": [

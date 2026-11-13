@@ -1,0 +1,122 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result-actions_emrelhasspiritems_uiConfig",
+      "name": "rock-entity-relationship-search-result-actions_emrelhasspiritems",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-04T01:20:43.710-0600",
+        "modifiedDate": "2026-11-04T01:20:43.710-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result-actions",
+              "relationship": "emrelhasspiritems"
+            },
+            "jsonData": {
+              "config": {
+                "toolbarConfig": {
+                  "buttonItems": {
+                    "basic": {
+                      "buttons": {
+                        "edit": {
+                          "visible": false
+                        },
+                        "refreshmatches": {
+                          "visible": false
+                        },
+                        "inlinebulkedit": {
+                          "visible": false
+                        },
+                        "bulkrelationshipedit": {
+                          "visible": false
+                        },
+                        "bulkedit": {
+                          "visible": false
+                        },
+                        "quickmanage": {
+                          "visible": false
+                        },
+                        "delete": {
+                          "visible": false
+                        },
+                        "upload": {
+                          "visible": false
+                        },
+                        "download": {
+                          "visible": true
+                        },
+                        "originalAssetDownload": {
+                          "visible": false
+                        },
+                        "refresh": {
+                          "visible": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "upDirectionConfig": {
+                  "visible": "true",
+                  "toolbarConfig": {
+                    "buttonItems": {
+                      "basic": {
+                        "buttons": {
+                          "edit": {
+                            "visible": false
+                          },
+                          "refreshmatches": {
+                            "visible": false
+                          },
+                          "inlinebulkedit": {
+                            "visible": true
+                          },
+                          "bulkrelationshipedit": {
+                            "visible": false
+                          },
+                          "bulkedit": {
+                            "visible": true
+                          },
+                          "quickmanage": {
+                            "visible": false
+                          },
+                          "delete": {
+                            "visible": false
+                          },
+                          "upload": {
+                            "visible": false
+                          },
+                          "download": {
+                            "visible": true
+                          },
+                          "originalAssetDownload": {
+                            "visible": false
+                          },
+                          "refresh": {
+                            "visible": true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

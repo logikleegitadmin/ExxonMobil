@@ -10,9 +10,13 @@
       "name": "rock-entity-search-result_app-entity-discovery_thing_empr",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-28T04:41:02.056-0500"
+        "createdDate": "2026-11-05T02:32:28.679-0600",
+        "modifiedDate": "2026-11-05T02:32:28.679-0600"
       },
       "data": {
         "contexts": [
@@ -28,6 +32,18 @@
                 "gridConfig": {
                   "itemConfig": {
                     "fields": {
+                      "typeExternalName": {
+                        "visible": false
+                      },
+                      "entityTypeIcon": {
+                        "visible": false
+                      },
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
                       "emattrpr": {
                         "name": "emattrpr",
                         "header": "PR #",
@@ -36,14 +52,6 @@
                         "sortable": true,
                         "editable": false,
                         "linkTemplate": "entity-manage?id={id}&type={type}"
-                      },
-                      "emattrprdate": {
-                        "name": "emattrprdate",
-                        "header": "PR Date",
-                        "displaySequence": 13,
-                        "visible": true,
-                        "sortable": true,
-                        "editable": true
                       },
                       "emattrrequisition": {
                         "name": "emattrrequisition",
@@ -77,10 +85,18 @@
                         "sortable": true,
                         "editable": true
                       },
+                      "emattrcreateddate": {
+                        "name": "emattrcreateddate",
+                        "header": "PR Date",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": true
+                      },
                       "emattrpricevaliditydate": {
                         "name": "emattrpricevaliditydate",
                         "header": "Price Validity Date",
-                        "displaySequence": 40,
+                        "displaySequence": 22,
                         "visible": false,
                         "sortable": true,
                         "editable": true

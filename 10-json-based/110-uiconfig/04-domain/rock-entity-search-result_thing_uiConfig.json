@@ -11,8 +11,8 @@
       "type": "uiConfig",
       "properties": {
         "modifiedService": "configurationManageService",
-        "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-28T01:59:08.828-0500"
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-11-12T04:35:02.730-0600"
       },
       "data": {
         "contexts": [
@@ -29,14 +29,14 @@
                       "emattrdescription": {
                         "name": "emattrdescription",
                         "header": "Description",
-                        "displaySequence": 25,
+                        "displaySequence": 30,
                         "visible": true,
                         "sortable": true
                       },
                       "emattrproject": {
                         "name": "emattrproject",
                         "header": "Project",
-                        "displaySequence": 10,
+                        "displaySequence": 15,
                         "visible": true,
                         "sortable": true,
                         "editable": false
@@ -56,10 +56,10 @@
                         "visible": true,
                         "sortable": true
                       },
-                      "emattrstatus": {
-                        "name": "emattrstatus",
-                        "header": "Status",
-                        "displaySequence": 50,
+                      "emattrcreateddate": {
+                        "name": "emattrcreateddate",
+                        "header": "Created Date",
+                        "displaySequence": 25,
                         "visible": true,
                         "sortable": true
                       },
@@ -72,12 +72,19 @@
                         "editable": true
                       },
                       "id": {
-                        "visible": true,
+                        "visible": false,
                         "displaySequence": 1
                       },
                       "name": {
                         "visible": true,
-                        "displaySequence": 2
+                        "displaySequence": 10,
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "sortable": true,
+                        "header": "name"
+                      },
+                      "typeExternalName": {
+                        "visible": true,
+                        "displaySequence": 5
                       }
                     }
                   },

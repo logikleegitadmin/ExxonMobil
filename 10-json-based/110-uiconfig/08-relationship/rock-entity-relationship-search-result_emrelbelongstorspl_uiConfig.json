@@ -10,13 +10,13 @@
       "name": "rock-entity-relationship-search-result_emrelbelongstorspl",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.363-0500",
-        "modifiedDate": "2026-08-17T07:26:13.363-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-09T03:28:22.947-0600",
+        "modifiedDate": "2026-11-09T03:28:22.947-0600"
       },
       "data": {
         "contexts": [
@@ -38,7 +38,7 @@
                       },
                       "emattrrspl": {
                         "filterable": false,
-                        "visible": true,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 70,
                         "name": "emattrrspl",
@@ -48,9 +48,43 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrproject": {
+                      "emattrequipmentpo": {
+                        "filterable": false,
+                        "visible": false,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrequipmentpo",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrdate": {
+                        "filterable": false,
+                        "visible": false,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrdate",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrspir": {
                         "filterable": false,
                         "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrspir",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrproject": {
+                        "filterable": false,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 71,
                         "name": "emattrproject",
@@ -59,13 +93,12 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrequipmentpo": {
+                      "emattrequipmenttag": {
                         "filterable": false,
-                        "visible": true,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 72,
-                        "name": "emattrequipmentpo",
-                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "name": "emattrequipmenttag",
                         "header": "",
                         "readOnly": true,
                         "sortable": true,
@@ -82,21 +115,11 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrdate": {
-                        "filterable": false,
-                        "visible": true,
-                        "editable": false,
-                        "displaySequence": 72,
-                        "name": "emattrdate",
-                        "readOnly": true,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
                       "emattrpricevaliditydate": {
                         "filterable": false,
-                        "visible": true,
+                        "visible": false,
                         "editable": false,
-                        "displaySequence": 73,
+                        "displaySequence": 72,
                         "name": "emattrpricevaliditydate",
                         "readOnly": true,
                         "sortable": true,
@@ -104,10 +127,30 @@
                       },
                       "emattrstatus": {
                         "filterable": false,
-                        "visible": true,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 75,
                         "name": "emattrstatus",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrpackagedescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrpackagedescription",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrspirspiritemstatus": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 75,
+                        "name": "emattrspirspiritemstatus",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
@@ -185,7 +228,7 @@
                       },
                       "emattrspir": {
                         "filterable": false,
-                        "visible": true,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 70,
                         "name": "emattrspir",
@@ -195,9 +238,32 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrproject": {
+                      "emattrequipmenttag": {
+                        "filterable": false,
+                        "visible": false,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrequipmenttag",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrrspl": {
                         "filterable": false,
                         "visible": true,
+                        "editable": false,
+                        "displaySequence": 70,
+                        "name": "emattrrspl",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                        "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrproject": {
+                        "filterable": false,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 71,
                         "name": "emattrproject",
@@ -206,12 +272,13 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrequipmenttag": {
+                      "emattrequipmentpo": {
                         "filterable": false,
                         "visible": true,
                         "editable": false,
-                        "displaySequence": 72,
-                        "name": "emattrequipmenttag",
+                        "displaySequence": 73,
+                        "name": "emattrequipmentpo",
+                        "linkTemplate": "entity-manage?id={id}&type={type}",
                         "header": "",
                         "readOnly": true,
                         "sortable": true,
@@ -221,9 +288,19 @@
                         "filterable": false,
                         "visible": true,
                         "editable": false,
-                        "displaySequence": 73,
+                        "displaySequence": 72,
                         "name": "emattrsupplier",
                         "header": "",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrdate": {
+                        "filterable": false,
+                        "visible": false,
+                        "editable": false,
+                        "displaySequence": 72,
+                        "name": "emattrdate",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
@@ -232,7 +309,7 @@
                         "filterable": false,
                         "visible": true,
                         "editable": false,
-                        "displaySequence": 72,
+                        "displaySequence": 74,
                         "name": "emattrpricevaliditydate",
                         "readOnly": true,
                         "sortable": true,
@@ -240,10 +317,30 @@
                       },
                       "emattrstatus": {
                         "filterable": false,
-                        "visible": true,
+                        "visible": false,
                         "editable": false,
                         "displaySequence": 75,
                         "name": "emattrstatus",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrpackagedescription": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 75,
+                        "name": "emattrpackagedescription",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrcurrency": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 76,
+                        "name": "emattrcurrency",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
@@ -252,7 +349,7 @@
                         "filterable": false,
                         "visible": true,
                         "editable": false,
-                        "displaySequence": 76,
+                        "displaySequence": 77,
                         "name": "emattrcomments",
                         "readOnly": true,
                         "sortable": true,

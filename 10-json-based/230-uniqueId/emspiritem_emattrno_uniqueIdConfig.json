@@ -1,0 +1,20 @@
+{
+    "configObject": {
+        "id": "emspiritem_emattrno_uniqueIdConfig",
+        "type": "uniqueIdConfig",
+        "properties": {
+            "entitytype": "emspiritem",
+            "context": "",
+            "additionalcontext": "",
+            "relationshiptype": "",
+            "prefix": "",
+            "suffix": "",
+            "paddirection": "left",
+            "padcharacter": "0",
+            "totalwidth": "7",
+            "startupseed": "0",
+            "increment": "1",
+            "lastgeneratedid": ""
+        }
+    }
+}

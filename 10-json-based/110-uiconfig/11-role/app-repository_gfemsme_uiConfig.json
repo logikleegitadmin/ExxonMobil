@@ -1,0 +1,80 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository_gfemsme_uiConfig",
+      "name": "app-repository_gfemsme",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.594-0500",
+        "modifiedDate": "2026-10-22T06:29:53.594-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "app-repository",
+              "role": "gfemsme"
+            },
+            "jsonData": {
+              "config": {
+                "upload-excel": {
+                  "title": "{[UplEntTxt]}",
+                  "dataRoute": "upload-excel",
+                  "icon": "pebble-icon:entities",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-business-function",
+                    "path": "../app-business-function/app-business-function.js",
+                    "properties": {
+                      "name": "rock-wizard-entity-upload",
+                      "shared-data": {}
+                    }
+                  }
+                },
+                "entity-create": {
+                  "enabled": false
+                },
+                "upload-csv": {
+                  "enabled": false
+                },
+                "upload-assets": {
+                  "enabled": false
+                },
+                "download-template": {
+                  "enabled": false
+                },
+                "exxon-mobil": {
+                  "enabled": false
+                },
+                "search-referencedata": {
+                  "enabled": false
+                },
+                "configurations": {
+                  "enabled": false
+                },
+                "search-party": {
+                  "enabled": false
+                },
+                "exxon-mobil-app": {
+                  "enabled": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -10,9 +10,13 @@
       "name": "rock-wizard-entity-create_emequipmenttag",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-28T00:33:37.457-0500"
+        "createdDate": "2026-10-22T06:29:53.405-0500",
+        "modifiedDate": "2026-10-22T06:29:53.405-0500"
       },
       "data": {
         "contexts": [

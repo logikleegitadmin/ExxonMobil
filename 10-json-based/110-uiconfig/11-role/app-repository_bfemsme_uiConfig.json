@@ -1,0 +1,89 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository_bfemsme_uiConfig",
+      "name": "app-repository_bfemsme",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.582-0500",
+        "modifiedDate": "2026-10-22T06:29:53.582-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "app-repository",
+              "role": "bfemsme"
+            },
+            "jsonData": {
+              "config": {
+                "upload-excel": {
+                  "title": "{[UplEntTxt]}",
+                  "dataRoute": "upload-excel",
+                  "icon": "pebble-icon:entities",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-business-function",
+                    "path": "../app-business-function/app-business-function.js",
+                    "properties": {
+                      "name": "rock-wizard-entity-upload",
+                      "shared-data": {}
+                    }
+                  }
+                },
+                "entity-create": {
+                  "enabled": false
+                },
+                "upload-csv": {
+                  "enabled": false
+                },
+                "upload-assets": {
+                  "enabled": false
+                },
+                "download-template": {
+                  "enabled": false
+                },
+                "search-referencedata": {
+                  "enabled": false
+                },
+                "configurations": {
+                  "enabled": false
+                },
+                "exxon-mobil-app": {
+                  "enabled": false
+                },
+                "search-party": {
+                  "enabled": false
+                },
+                "exxon-mobil": {
+                  "enabled": false
+                },
+                "spir-create-app": {
+                  "enabled": false
+                },
+                "rspl-import-app": {
+                  "enabled": false
+                },
+                "search": {
+                  "enabled": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

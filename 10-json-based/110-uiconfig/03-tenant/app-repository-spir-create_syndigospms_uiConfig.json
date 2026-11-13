@@ -1,0 +1,51 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository-spir-create_syndigospms_uiConfig",
+      "name": "app-repository-spir-create_syndigospms",
+      "type": "uiConfig",
+      "properties": {
+        "createdByService": "system",
+        "createdBy": "system",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "_UNASSIGNED",
+        "modifiedDate": "2026-11-13T01:22:09.567-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "syndigospms",
+              "component": "app-repository"
+            },
+            "jsonData": {
+              "config": {
+                "spir-create-app": {
+                  "title": "SPIR Create App",
+                  "dataRoute": "spir-create-app",
+                  "icon": "pebble-icon:app",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "visible": true,
+                  "enabled": true,
+                  "component": {
+                    "path": "/plugin-src/syndigospms/elements/syndigospms-spir-create/syndigospms-spir-create.js",
+                    "name": "syndigospms-spir-create",
+                    "properties": {
+                      "mode": "edit"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

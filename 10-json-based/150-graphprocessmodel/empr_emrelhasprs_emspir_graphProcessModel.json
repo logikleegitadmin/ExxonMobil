@@ -1,0 +1,49 @@
+{
+    "id": "empr_emrelhasprs_emspir_graphProcessModel",
+    "name": "empr_emrelhasprs_emspir",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "graphProcessPath": "empr_emrelhasprs_emspir",
+        "matchRulesOperator": "and",
+        "matchRules": [
+            {
+                "seq": 1,
+                "matchType": "attributeBased",
+                "attributeMaps": [
+                    {
+                        "emattrspir": "emattrspir"
+                    }
+                ],
+                "noMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "Error"
+                            }
+                        ]
+                    }
+                ],
+                "singleMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "AddTargetRelationship"
+                            }
+                        ]
+                    }
+                ],
+                "multiMatchResult": [
+                    {
+                        "actions": [
+                            {
+                                "actionName": "AddTargetRelationship"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-detail-tabs_taskFamilyClone_uiConfig",
+      "name": "rock-entity-detail-tabs_taskFamilyClone_uiConfig",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.254-0500",
+        "modifiedDate": "2026-10-22T06:29:53.254-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "familyclone",
+              "component": "rock-entity-detail-tabs",
+              "entityType": "taskFamilyClone"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "summary": {
+                    "visible": true
+                  },
+                  "successDetails": {
+                    "visible": true
+                  },
+                  "errorDetails": {
+                    "component": {
+                      "properties": {
+                        "showSystemErrors": false,
+                        "showExternalErrors": true,
+                        "status": "error"
+                      }
+                    },
+                    "selected": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

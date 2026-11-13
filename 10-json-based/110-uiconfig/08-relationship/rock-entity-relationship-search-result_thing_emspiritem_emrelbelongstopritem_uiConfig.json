@@ -10,9 +10,13 @@
       "name": "rock-entity-relationship-search-result_thing_emspiritem_emrelbelongstopritem",
       "type": "uiConfig",
       "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-08-29T03:11:51.140-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-10-22T06:29:53.580-0500",
+        "modifiedDate": "2026-10-22T06:29:53.580-0500"
       },
       "data": {
         "contexts": [

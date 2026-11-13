@@ -10,13 +10,13 @@
       "name": "rock-entity-search-result_thing_emrspl",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.134.0.2045",
+        "buildVersion": "1.138.0.2039",
         "createdService": "configurationManageService",
-        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "createdDate": "2026-08-17T07:26:13.297-0500",
-        "modifiedDate": "2026-08-17T07:26:13.297-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-05T02:32:28.688-0600",
+        "modifiedDate": "2026-11-05T02:32:28.688-0600"
       },
       "data": {
         "contexts": [
@@ -40,31 +40,98 @@
                         "editable": false,
                         "linkTemplate": "entity-manage?id={id}&type={type}"
                       },
-                      "emattrproject": {
-                        "name": "emattrproject",
-                        "header": "Project",
+                      "emattrsubproject": {
+                        "name": "emattrsubproject",
+                        "header": "Sub Project",
                         "displaySequence": 15,
                         "visible": true,
                         "sortable": true,
                         "editable": false
                       },
                       "emattrequipmentpo": {
-                        "displaySequence": 20
+                        "name": "emattrequipmentpo",
+                        "header": "Equipment Po #",
+                        "displaySequence": 20,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrpackagedescription": {
+                        "name": "emattrpackagedescription",
+                        "header": "Package Description",
+                        "displaySequence": 25,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
                       },
                       "emattrsupplier": {
-                        "displaySequence": 25
+                        "name": "emattrsupplier",
+                        "header": "Supplier",
+                        "displaySequence": 30,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
                       },
-                      "emattrdate": {
-                        "displaySequence": 26
+                      "emattrcreateddate": {
+                        "name": "emattrcreateddate",
+                        "header": "RSPL Date",
+                        "displaySequence": 33,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrpricevaliditydate": {
+                        "name": "emattrpricevaliditydate",
+                        "header": "Validity date",
+                        "displaySequence": 35,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrrspltransitionstatus": {
+                        "name": "emattrrspltransitionstatus",
+                        "header": "RSPL transition status",
+                        "displaySequence": 35,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "emattrrsplstatus": {
+                        "name": "emattrrsplstatus",
+                        "header": "RSPL status",
+                        "displaySequence": 35,
+                        "visible": true,
+                        "sortable": true,
+                        "editable": false
+                      },
+                      "typeExternalName": {
+                        "visible": false
+                      },
+                      "entityTypeIcon": {
+                        "visible": false
+                      },
+                      "id": {
+                        "visible": false
+                      },
+                      "name": {
+                        "visible": false
+                      },
+                      "emattrproject": {
+                        "visible": false,
+                        "sortable": false
                       },
                       "emattrdescription": {
-                        "displaySequence": 22
+                        "visible": false,
+                        "sortable": false
                       },
                       "emattrstatus": {
-                        "displaySequence": 27
+                        "visible": false,
+                        "sortable": false
                       },
-                      "emattrequipmenttag": {
-                        "visible": false
+                      "emattrcomments": {
+                        "visible": false,
+                        "sortable": false,
+                        "editable": false
                       }
                     }
                   },

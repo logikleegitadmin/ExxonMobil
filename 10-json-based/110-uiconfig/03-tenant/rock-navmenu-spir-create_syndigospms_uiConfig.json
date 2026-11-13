@@ -1,0 +1,69 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu-spir-create_syndigospms_uiConfig",
+      "name": "rock-navmenu-spir-create_syndigospms",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdByService": "system",
+        "createdBy": "system",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "_UNASSIGNED",
+        "modifiedDate": "2026-11-13T01:22:09.638-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "addOnApp": "syndigospms",
+              "component": "rock-navmenu"
+            },
+            "jsonData": {
+              "config": {
+                "spms": {
+                  "name": "spms",
+                  "title": "SPMS App",
+                  "dataRoute": "",
+                  "icon": "pebble-icon:app",
+                  "visible": true,
+                  "displaySequence": 100,
+                  "subNavMenu": {
+                    "app": {
+                      "title": "APP",
+                      "visible": true,
+                      "displaySequence": 10,
+                      "actions": {
+                        "spir-create-app": {
+                          "name": "spir-create-app",
+                          "title": "SPIR Create",
+                          "dataRoute": "spir-create-app",
+                          "icon": "pebble-icon:app",
+                          "visible": true,
+                          "displaySequence": 130
+                        },
+                        "rspl-imp-app": {
+                          "name": "rspl-imp-app",
+                          "title": "RSPL Import",
+                          "dataRoute": "rspl-imp-app",
+                          "icon": "pebble-icon:app",
+                          "visible": true,
+                          "displaySequence": 130
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

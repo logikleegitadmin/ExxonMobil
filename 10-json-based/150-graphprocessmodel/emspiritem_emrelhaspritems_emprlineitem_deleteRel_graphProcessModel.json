@@ -1,0 +1,13 @@
+{
+    "id": "emspiritem_emrelhaspritems_emprlineitem_deleteRel_graphProcessModel",
+    "name": "emspiritem_emrelhaspritems_emprlineitem_deleteRel",
+    "type": "graphProcessModel",
+    "domain": "generic",
+    "properties": {
+        "defaultValueSource": "internal",
+        "defaultValueLocale": "en-US",
+        "isDeleteConfig": true,
+        "graphProcessPath": "emspiritem_emrelhaspritems_emprlineitem",
+        "actionName": "deleterelationship"
+    }
+}

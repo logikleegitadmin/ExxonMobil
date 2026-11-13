@@ -1,0 +1,48 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-business-actions_app-entity-discovery_empr_uiConfig",
+      "name": "rock-business-actions_app-entity-discovery_empr",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.138.0.2039",
+        "createdService": "configurationManageService",
+        "createdBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "createdDate": "2026-11-04T06:11:20.463-0600",
+        "modifiedDate": "2026-11-04T06:11:20.463-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "app-entity-discovery",
+              "component": "rock-business-actions",
+              "role": "empr"
+            },
+            "jsonData": {
+              "config": {
+                "actionGroups": {
+                  "transitions": {
+                    "actions": {
+                      "wfTransition": {
+                        "visible": true
+                      }
+                    },
+                    "visible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

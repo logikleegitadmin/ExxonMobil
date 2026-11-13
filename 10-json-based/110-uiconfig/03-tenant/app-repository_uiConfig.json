@@ -11,8 +11,8 @@
       "type": "uiConfig",
       "properties": {
         "modifiedService": "configurationManageService",
-        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-11T01:49:18.239-0500"
+        "modifiedBy": "spms.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-10-28T05:04:08.042-0500"
       },
       "data": {
         "contexts": [
@@ -76,7 +76,7 @@
                   "enabled": false
                 },
                 "exxon-mobil": {
-                  "enabled": true
+                  "enabled": false
                 },
                 "syndicationDashboard": {
                   "enabled": false
@@ -140,6 +140,12 @@
                       "mode": "designer"
                     }
                   }
+                },
+                "run-deduplication": {
+                  "enabled": false
+                },
+                "insights": {
+                  "enabled": false
                 }
               }
             }

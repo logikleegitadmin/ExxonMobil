@@ -12,7 +12,7 @@
       "properties": {
         "modifiedService": "configurationManageService",
         "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "modifiedDate": "2026-09-24T07:02:20.619-0500"
+        "modifiedDate": "2026-10-28T05:07:05.193-0500"
       },
       "data": {
         "contexts": [
@@ -31,7 +31,7 @@
                   "nonMinimizable": false,
                   "nonSharable": true,
                   "noSettings": true,
-                  "enabled": true,
+                  "enabled": false,
                   "component": {
                     "name": "app-dashboard",
                     "path": "../app-dashboard/app-dashboard.js",
@@ -57,6 +57,43 @@
                       "domain": "digitalAsset"
                     }
                   }
+                },
+                "upload-excel": {
+                  "title": "{[UplEntTxt]}",
+                  "dataRoute": "upload-excel",
+                  "icon": "pebble-icon:entities",
+                  "nonClosable": false,
+                  "nonMinimizable": false,
+                  "enabled": true,
+                  "component": {
+                    "name": "app-business-function",
+                    "path": "../app-business-function/app-business-function.js",
+                    "properties": {
+                      "name": "rock-wizard-entity-upload",
+                      "shared-data": {}
+                    }
+                  }
+                },
+                "basemodel-party-dashboard": {
+                  "enabled": false
+                },
+                "configurations": {
+                  "enabled": false
+                },
+                "entity-create": {
+                  "enabled": false
+                },
+                "upload-csv": {
+                  "enabled": false
+                },
+                "upload-assets": {
+                  "enabled": false
+                },
+                "exxon-mobil-app": {
+                  "enabled": false
+                },
+                "download-template": {
+                  "enabled": false
                 }
               }
             }

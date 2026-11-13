@@ -10,13 +10,9 @@
       "name": "rock-entity-relationship-search-result_emrelhasspiritems",
       "type": "uiConfig",
       "properties": {
-        "buildVersion": "1.136.0.2048",
-        "createdService": "configurationManageService",
-        "createdBy": "spms.systemadmin@syndigo.com_user",
         "modifiedService": "configurationManageService",
-        "modifiedBy": "spms.systemadmin@syndigo.com_user",
-        "createdDate": "2026-09-28T05:21:58.021-0500",
-        "modifiedDate": "2026-09-28T05:21:58.021-0500"
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-11-12T06:21:46.644-0600"
       },
       "data": {
         "contexts": [
@@ -219,6 +215,16 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
+                      "emattrcreateddate": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 71,
+                        "name": "emattrcreateddate",
+                        "header": "Created Date",
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
                       "emattroempartshorttextdescription": {
                         "filterable": false,
                         "visible": true,
@@ -248,6 +254,17 @@
                         "displaySequence": 74,
                         "name": "emattrsupplierpn",
                         "header": "Supplier P/N",
+                        "readOnly": true,
+                        "sortable": true,
+                        "isRelatedEntityAttribute": true
+                      },
+                      "emattrsupplier": {
+                        "filterable": false,
+                        "visible": true,
+                        "editable": false,
+                        "displaySequence": 74,
+                        "name": "emattrsupplier",
+                        "header": "Supplier",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
@@ -322,7 +339,7 @@
                         "filterable": false,
                         "visible": true,
                         "editable": true,
-                        "displaySequence": 79,
+                        "displaySequence": 78,
                         "name": "emattrmaxratedcurrent",
                         "header": "Current Max",
                         "readOnly": false,
@@ -340,45 +357,45 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattropsqtysupplier": {
+                      "emattrtotaltwoyroesqty": {
                         "filterable": false,
                         "visible": true,
                         "editable": true,
                         "displaySequence": 81,
-                        "name": "emattropsqtysupplier",
+                        "name": "emattrtotaltwoyroesqty",
                         "header": "Ops Qty (Supplier)",
                         "readOnly": false,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattropsqtyepcsme": {
+                      "emattrtwoyrepcsmeqty": {
                         "filterable": false,
                         "visible": true,
                         "editable": true,
                         "displaySequence": 82,
-                        "name": "emattropsqtyepcsme",
+                        "name": "emattrtwoyrepcsmeqty",
                         "header": "Ops Qty (EPC SME)",
                         "readOnly": false,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattropsqtycompanysme": {
+                      "emattrtwoyremsmeqty": {
                         "filterable": false,
                         "visible": true,
                         "editable": true,
                         "displaySequence": 83,
-                        "name": "emattropsqtycompanysme",
+                        "name": "emattrtwoyremsmeqty",
                         "header": "Ops Qty (Company SME)",
                         "readOnly": false,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrcsuqtysupplier": {
+                      "emattrtotalcsuoesqty": {
                         "filterable": false,
                         "visible": true,
                         "editable": true,
                         "displaySequence": 84,
-                        "name": "emattrcsuqtysupplier",
+                        "name": "emattrtotalcsuoesqty",
                         "header": "C/SU Qty (Supplier)",
                         "readOnly": false,
                         "sortable": true,
@@ -395,24 +412,13 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattrcsuqtycompanysme": {
+                      "emattrcsuemsmeqty": {
                         "filterable": false,
                         "visible": true,
                         "editable": true,
                         "displaySequence": 86,
-                        "name": "emattrcsuqtycompanysme",
+                        "name": "emattrcsuemsmeqty",
                         "header": "C/SU Qty (Company SME)",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrprojectorderhistory": {
-                        "filterable": false,
-                        "visible": true,
-                        "editable": true,
-                        "displaySequence": 87,
-                        "name": "emattrprojectorderhistory",
-                        "header": "Project Order History",
                         "readOnly": false,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
@@ -450,167 +456,46 @@
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattr2yrcapoes": {
+                      "emattrrecommendedropmin": {
                         "filterable": false,
-                        "visible": false,
+                        "visible": true,
                         "editable": false,
-                        "displaySequence": 78,
-                        "name": "emattr2yrcapoes",
-                        "header": "2YR/CAP (OES)",
+                        "displaySequence": 79,
+                        "name": "emattrrecommendedropmin",
+                        "header": "Recommended ROP (Min)",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattr2yrcapepcsme": {
+                      "emattrrecommendedropmax": {
                         "filterable": false,
-                        "visible": false,
-                        "editable": true,
+                        "visible": true,
+                        "editable": false,
                         "displaySequence": 79,
-                        "name": "emattr2yrcapepcsme",
-                        "header": "2YR/CAP (EPC SME)",
+                        "name": "emattrrecommendedropmax",
+                        "header": "Recommended ROP (Max)",
                         "readOnly": false,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattr2yrcapemsme": {
+                      "emattrrecommendedservicelevelpercentage": {
                         "filterable": false,
-                        "visible": false,
+                        "visible": true,
                         "editable": false,
                         "displaySequence": 80,
-                        "name": "emattr2yrcapemsme",
-                        "header": "2YR/CAP (EM SME)",
+                        "name": "emattrrecommendedservicelevelpercentage",
+                        "header": "Recommended Service Level (%)",
                         "readOnly": true,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
                       },
-                      "emattr2yrcapspt": {
+                      "emattrcriticalityrating": {
                         "filterable": false,
-                        "visible": false,
-                        "editable": true,
+                        "visible": true,
+                        "editable": false,
                         "displaySequence": 81,
-                        "name": "emattr2yrcapspt",
-                        "header": "2YR/CAP (SPT)",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrcsuoes": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": false,
-                        "displaySequence": 82,
-                        "name": "emattrcsuoes",
-                        "header": "C/SU (OES)",
-                        "readOnly": true,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrcsuepcsme": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 83,
-                        "name": "emattrcsuepcsme",
-                        "header": "C/SU (EPC SME)",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrcsuemsme": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 84,
-                        "name": "emattrcsuemsme",
-                        "header": "C/SU (EM SME)",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrcsuspt": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 85,
-                        "name": "emattrcsuspt",
-                        "header": "C/SU (SPT)",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattriscapital": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 87,
-                        "name": "emattriscapital",
-                        "header": "Is Capital",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrpartcf": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 88,
-                        "name": "emattrpartcf",
-                        "header": "Part CF",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattreqmtcf": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": false,
-                        "displaySequence": 89,
-                        "name": "emattreqmtcf",
-                        "header": "Eqmt CF",
-                        "readOnly": true,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrisbrownfield": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": false,
-                        "displaySequence": 90,
-                        "name": "emattrisbrownfield",
-                        "header": "Is Brown Field",
-                        "readOnly": true,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattroemname": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 91,
-                        "name": "emattroemname",
-                        "header": "OEM Name",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrprice": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 91,
-                        "name": "emattrprice",
-                        "header": "Price",
-                        "readOnly": false,
-                        "sortable": true,
-                        "isRelatedEntityAttribute": true
-                      },
-                      "emattrqty": {
-                        "filterable": false,
-                        "visible": false,
-                        "editable": true,
-                        "displaySequence": 91,
-                        "name": "emattrqty",
-                        "header": "Quantity",
+                        "name": "emattrcriticalityrating",
+                        "header": "Criticality Rating",
                         "readOnly": false,
                         "sortable": true,
                         "isRelatedEntityAttribute": true
